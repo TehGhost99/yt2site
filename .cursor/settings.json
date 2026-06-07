@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "linear": {
+      "enabled": true
+    },
+    "figma": {
+      "enabled": true
+    },
+    "scylladb": {
+      "enabled": true
+    }
+  }
+}

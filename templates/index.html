@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>{{ config.title }}</h1>
+  {% if config.tagline %}<p class="tagline">{{ config.tagline }}</p>{% endif %}
+</section>
+
+<article class="prose">
+  {{ page.html|safe }}
+</article>
+
+{% set other_pages = all_pages | rejectattr('slug', 'equalto', 'index') | list %}
+{% if other_pages %}
+<section class="card-grid">
+  {% for p in other_pages %}
+  <a class="card" href="{{ p.output_name }}">
+    <h3>{{ p.title }}</h3>
+    {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+  </a>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

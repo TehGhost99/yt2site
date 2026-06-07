@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}{{ page.title }} · {{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{{ page.summary or config.description }}" />
+  {% if config.author %}<meta name="author" content="{{ config.author }}" />{% endif %}
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>:root { --accent: {{ config.accent_color }}; }</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">{{ config.title }}</a>
+      <nav class="nav">
+        {% for p in nav_pages %}
+        <a href="{{ p.output_name }}"
+           class="{{ 'active' if p.slug == page.slug else '' }}">{{ p.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      {% if sources %}
+      <details class="sources">
+        <summary>Sources ({{ sources|length }} video{{ 's' if sources|length != 1 else '' }})</summary>
+        <ul>
+          {% for s in sources %}
+          <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.url }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+      <p class="footer-note">{{ config.footer }}</p>
+    </div>
+  </footer>
+</body>
+</html>

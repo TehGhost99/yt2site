@@ -1,0 +1,80 @@
+# Paste one YouTube URL per line. These are the source videos for your site.
+# Lines starting with # are ignored. Blank lines are fine.
+#
+# Supported formats:
+#   https://www.youtube.com/watch?v=VIDEO_ID
+#   https://youtu.be/VIDEO_ID
+#   https://www.youtube.com/shorts/VIDEO_ID
+#   https://www.youtube.com/embed/VIDEO_ID
+#
+# Example (delete this line and add your own):
+https://www.youtube.com/watch?v=okHkUIW46ks 
+https://www.youtube.com/watch?v=1xqerXscTsE 
+https://www.youtube.com/watch?v=bSDprg24pEA
+https://www.youtube.com/watch?v=qOjSJVaBV94
+https://www.youtube.com/watch?v=RMB3NsQotvM
+https://www.youtube.com/watch?v=tGrMjRqQGVY 
+https://www.youtube.com/watch?v=TQXMl4GycD0
+https://www.youtube.com/watch?v=eNu-pEHvZd4 
+https://www.youtube.com/watch?v=TmVsYQ4WSHc 
+https://www.youtube.com/watch?v=q6DnYfLQFCI 
+https://www.youtube.com/watch?v=Mvxbl7Iwep4 
+https://www.youtube.com/watch?v=XNzRIlcsOEQ 
+https://www.youtube.com/watch?v=JilEcEcojR4 
+https://www.youtube.com/watch?v=XeKMjwiF3Pc 
+https://www.youtube.com/watch?v=goHaIfMcfWo
+
+Also, here are some primary sources that you can use for information to pull from as well
+
+Foundational memory & cognitive architecture
+Ebbinghaus, H. (1885). Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie. Duncker & Humblot. — The original "forgetting curve."
+Atkinson, R. C., & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. Psychology of Learning and Motivation, 2, 89–195. — Multi-store memory model.
+Bartlett, F. C. (1932/1995). Remembering: A Study in Experimental and Social Psychology. Cambridge University Press. — Schema theory (knowledge as networks).
+Cognitive Load Theory (the "encoding"/effort framework)
+Sweller, J. (2011). Cognitive load theory. Psychology of Learning and Motivation, 55, 37–76.
+Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. Educational Psychology Review, 31(2), 261–292. https://doi.org/10.1007/s10648-019-09465-5
+Geary, D. C. (2008). An evolutionarily informed education science. Educational Psychologist, 43(4), 179–195. — Biologically primary vs. secondary knowledge.
+"Misinterpreted effort" — why easy studying feels productive but isn't
+Kirk-Johnson, A., Galla, B. M., & Fraundorf, S. H. (2019). Perceiving effort as poor learning: The misinterpreted-effort hypothesis. Cognitive Psychology, 115, 101237. https://doi.org/10.1016/j.cogpsych.2019.101237
+Koriat, A., & Bjork, R. A. (2005). Illusions of competence in monitoring one's knowledge during study. JEP: LMC, 31(2), 187–194. https://doi.org/10.1037/0278-7393.31.2.187
+Bjork, R. A., Dunlosky, J., & Kornell, N. (2013). Self-regulated learning: Beliefs, techniques, and illusions. Annual Review of Psychology, 64, 417–444. https://doi.org/10.1146/annurev-psych-113011-143823
+Retrieval practice / active recall (the "testing effect")
+Roediger, H. L., & Karpicke, J. D. (2006). The power of testing memory. Perspectives on Psychological Science, 1(3), 181–210. https://doi.org/10.1111/j.1745-6916.2006.00012.x
+Karpicke, J. D., & Roediger, H. L. (2008). The critical importance of retrieval for learning. Science, 319(5865), 966–968. https://doi.org/10.1126/science.1152408
+Karpicke, J. D., Butler, A. C., & Roediger, H. L. (2009). Do students practise retrieval when they study on their own? Memory, 17(4), 471–479. https://doi.org/10.1080/09658210802647009
+Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review. Psychological Bulletin, 140(6), 1432.
+Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the use of tests: A meta-analysis of practice testing. Review of Educational Research, 87(3), 659–701.
+Spacing & the forgetting curve
+Cepeda, N. J., et al. (2009). Optimizing distributed practice. Experimental Psychology, 56(4), 236–246. https://doi.org/10.1027/1618-3169.56.4.236
+Latimier, A., Peyre, H., & Ramus, F. (2021). A meta-analytic review of the benefit of spacing out retrieval practice. Educational Psychology Review, 33(3), 959–987. https://doi.org/10.1007/s10648-020-09572-8
+Smith, C. D., & Scarf, D. (2017). Spacing repetitions over long timescales: A review and a reconsolidation explanation. Frontiers in Psychology, 8, 962. https://doi.org/10.3389/fpsyg.2017.00962
+Bahrick, H. P., et al. (1993). Maintenance of foreign language vocabulary and the spacing effect. Psychological Science, 4(5), 316–321.
+"Dangers of flashcards" / interleaving
+Wissman, K. T., Rawson, K. A., & Pyc, M. A. (2012). How and when do students use flashcards? Memory, 20(6), 568–579.
+Taylor, K., & Rohrer, D. (2010). The effects of interleaved practice. Applied Cognitive Psychology, 24(6), 837–848.
+Birnbaum, M. S., Kornell, N., Bjork, E. L., & Bjork, R. A. (2013). Why interleaving enhances inductive learning. Memory & Cognition, 41(3), 392–402.
+"6 Levels of Thinking" — higher-order thinking & Bloom's taxonomy
+Conklin, J. (2005). A taxonomy for learning, teaching, and assessing: A revision of Bloom's taxonomy (Anderson & Krathwohl revision review).
+Zaidi, N. L. B., et al. (2018). Pushing critical thinking skills with multiple-choice questions: Does Bloom's taxonomy work? Academic Medicine, 93(6).
+Lewis, A., & Smith, D. (1993). Defining higher order thinking. Theory Into Practice, 32(3), 131–137.
+Afflerbach, P., Cho, B.-Y., & Kim, J.-Y. (2015). Conceptualizing and assessing higher-order thinking in reading. Theory Into Practice, 54(3), 203–212.
+Note-taking, mapping & generative learning (encoding "the right way")
+Wittrock, M. C. (1989). Generative processes of comprehension. Educational Psychologist, 24(4), 345–376.
+Jansen, R. S., Lakens, D., & IJsselsteijn, W. A. (2017). An integrative review of the cognitive costs and benefits of note-taking. Educational Research Review, 22, 223–233. https://doi.org/10.1016/j.edurev.2017.10.001
+Mueller, P. A., & Oppenheimer, D. M. (2014). The pen is mightier than the keyboard. Psychological Science, 25(6), 1159–1168.
+Morehead, K., Dunlosky, J., & Rawson, K. A. (2019). How much mightier is the pen than the keyboard? (Replication of Mueller & Oppenheimer). Educational Psychology Review, 31(3), 753–780.
+Kiewra, K. A. (1989). A review of note-taking: The encoding-storage paradigm and beyond. Educational Psychology Review, 1(2), 147–172.
+Worked examples (why beginners shouldn't just "problem-solve")
+Sweller, J., & Cooper, G. A. (1985). The use of worked examples as a substitute for problem solving in learning algebra. Cognition and Instruction, 2(1), 59–89.
+Renkl, A. (2014). Toward an instructionally oriented theory of example-based learning. Cognitive Science, 38(1), 1–37. https://doi.org/10.1111/cogs.12086
+Neuroplasticity ("the science behind it")
+Sagi, Y., et al. (2012). Learning in the fast lane: New insights into neuroplasticity. Neuron, 73(6), 1195–1203. https://doi.org/10.1016/j.neuron.2012.01.025
+Bruel-Jungerman, E., Davis, S., & Laroche, S. (2007). Brain plasticity mechanisms and memory: A party of four. The Neuroscientist, 13(5), 492–505.
+Expertise, chunking & schema (becoming a "top 1% learner")
+Ericsson, K. A., & Charness, N. (1994). Expert performance: Its structure and acquisition. American Psychologist, 49(8), 725.
+Gobet, F., et al. (2001). Chunking mechanisms in human learning. Trends in Cognitive Sciences, 5(6), 236–243. https://doi.org/10.1016/S1364-6613(00)01662-4
+Chiesi, H. L., Spilich, G. J., & Voss, J. F. (1979). Acquisition of domain-related information in relation to high and low domain knowledge. Journal of Verbal Learning and Verbal Behavior, 18(3), 257–273.
+Metacognition & self-regulated learning (the overarching framework)
+Dunning, D. (2011). The Dunning–Kruger effect: On being ignorant of one's own ignorance. Advances in Experimental Social Psychology, 44, 247–296.
+McDaniel, M. A., & Einstein, G. O. (2020). Training learning strategies to promote self-regulation and transfer (KBCP framework). Perspectives on Psychological Science, 15(6), 1363–1381.
+Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. — System 1/System 2 thinking

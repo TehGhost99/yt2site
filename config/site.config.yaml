@@ -1,0 +1,13 @@
+# Site-level settings. The agent fills these in from inputs/website-spec.md.
+# Page structure/navigation is driven by the front matter in content/pages/*.md,
+# not here.
+
+title: "The Effective Learner"
+tagline: "Learn how to study the way the science actually says you should."
+description: "A serious, evidence-based course on how to study efficiently and effectively, built for students preparing for med school and any high workload."
+author: ""
+accent_color: "#4f9d8c"   # calm academic teal; used for links, buttons, accents
+footer: "Built by Opus 4.8 from the videos of Dr. Justin Sung (iCanStudy). All teaching credit to Dr. Sung — see Sources."
+
+# Show a small "Sources" section listing the videos the site was built from.
+show_sources: true

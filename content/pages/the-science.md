@@ -78,6 +78,3 @@ strengthens connections — *neuroplasticity*. Two practical consequences:
 | stores knowledge as schemas | build the big picture, then add detail |
 | rewires with sustained effort | stick with hard new methods until they're habits |
 | treats connected info as relevant | always ask "how does this relate to what I know?" |
-
-Next, the beliefs that quietly sabotage almost everyone:
-**[Myths & the Misinterpreted-Effort Trap](myths-mindset.html)**.

@@ -58,6 +58,3 @@ That's what active reading really is.
 When you reach the right level of struggle and organize as you go, you forget far
 less — which means less time wasted relearning. Spending more effort per hour is
 what makes you faster *overall*. That's the exchange.
-
-Next, the framework for *how deeply* to think —
-**[The 6 Levels of Thinking](higher-order-thinking.html)**.

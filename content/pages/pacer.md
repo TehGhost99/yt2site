@@ -59,6 +59,3 @@ digesting keeps you under that limit.
 Analogous info can live *inside* Procedural or Conceptual info — you can build an
 analogy on a process or a concept to make it click. So as you map conceptual
 material, look for analogies to add.
-
-Next, how to digest conceptual material so it forms a strong schema —
-**[Encoding: Build the Big Picture](encoding.html)**.

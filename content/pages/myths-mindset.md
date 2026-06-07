@@ -71,6 +71,3 @@ Across 10,000+ learners, the single biggest predictor of fast improvement was
 **willingness to make mistakes**. The fast improvers tried things, got feedback,
 and corrected every hour or two. The slow ones waited to learn "the one perfect
 method" and barely practiced. Treat mistakes as data, not failure.
-
-Next: how to convert effort into learning on purpose —
-**[The Effort–Time Exchange](effort-struggle.html)**.

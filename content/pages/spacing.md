@@ -62,6 +62,3 @@ some **Evidence** information (see [PACER](pacer.html)). Keep decks small, keep
 cards spaced, vary the cues, and always retrieve before flipping. If you feel
 overwhelmed or can't reach higher mastery, that's the signal to invest in
 encoding, not more cards.
-
-Next, a revision technique that builds the ability to *choose* the right
-approach: **[Interleaving](interleaving.html)**.

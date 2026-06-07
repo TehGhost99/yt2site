@@ -52,6 +52,3 @@ Once you've encoded a few related topics, build mixed review sets: alternate
 problem types, shuffle subjects within a session, and mix the kinds of questions
 you ask yourself. Pair it with [active recall](active-recall.html) at
 [higher-order levels](higher-order-thinking.html) for the strongest effect.
-
-Next, two big-picture skills for learning *anything* —
-**[Learning Skills & Mental Models](theory-overload.html)**.

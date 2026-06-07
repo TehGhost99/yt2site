@@ -73,5 +73,4 @@ high-yield area.
 1. Learn a small chunk (encode it well).
 2. Close everything and **produce** it from memory (free or varied-cue recall).
 3. Check, correct, note the gaps.
-4. Revisit the gaps later — at spaced intervals, which is next:
-   **[Spacing & the Forgetting Curve](spacing.html)**.
+4. Revisit the gaps later — at spaced intervals (see **[Spacing & the Forgetting Curve](spacing.html)**).

@@ -69,6 +69,5 @@ Work through it by simplifying and organizing, not by writing more.
 
 Encoding can't be reduced to one tidy trick, because most of the benefit is *how
 you think*, not the tool. You could read a plain book and, by thinking this way,
-encode far better than someone using a fancy app passively. The technique that
-helps you do it on paper is next:
+encode far better than someone using a fancy app passively. The technique that helps you do it on paper is
 **[Thinking on Paper](notes-on-paper.html)**.

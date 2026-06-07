@@ -60,3 +60,8 @@ lessons reset your foundations and mindset; everything else builds on them.
 One commitment to make now: decide *how many focused minutes a day* you can
 realistically protect. Even **15** is enough to start — you'll build your routine
 around it in the [Study System](motivation-systems.html) lesson.
+
+---
+
+**Ready to begin?** Start with the first lesson: **[How Learning Really Works →](the-science.html)**  
+Or browse the full path in **[Learning Materials](learning-materials.html)**.

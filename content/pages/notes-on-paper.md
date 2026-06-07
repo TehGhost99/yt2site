@@ -76,6 +76,3 @@ As a rule of thumb, prefer **freehand** (a stylus on an infinite canvas). It's
 better at expressing prioritized relationships and, being slower, forces you to
 write less and think more. Typing is fine to start — but set the goal post on the
 *thinking*, keep a scribble pad beside you, and move toward non-linear maps.
-
-Next we switch from putting knowledge *in* to getting it back *out* —
-**[Active Recall, Done Right](active-recall.html)**.

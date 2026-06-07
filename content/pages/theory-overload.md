@@ -57,6 +57,3 @@ model the wrong context or bad data and it confidently leads you off a cliff (a
 data scientist picked the "higher-probability" email campaign from flawed past
 data and lost money). So: pick the right model, question your inputs, and check
 whether the situation actually fits the model's assumptions.
-
-Finally, the part that keeps the whole thing running — staying consistent —
-**[Motivation & Your Study System](motivation-systems.html)**.

@@ -10,15 +10,18 @@
   {{ page.html|safe }}
 </article>
 
-{% set other_pages = all_pages | rejectattr('slug', 'equalto', 'index') | list %}
-{% if other_pages %}
-<section class="card-grid">
-  {% for p in other_pages %}
-  <a class="card" href="{{ p.output_name }}">
-    <h3>{{ p.title }}</h3>
-    {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
-  </a>
-  {% endfor %}
+{% set explore_pages = all_pages | selectattr('nav') | rejectattr('slug', 'equalto', 'index') | sort(attribute='order') | list %}
+{% if explore_pages %}
+<section class="explore">
+  <h2 class="explore-heading">Explore the site</h2>
+  <div class="card-grid">
+    {% for p in explore_pages %}
+    <a class="card" href="{{ p.output_name }}">
+      <h3>{{ p.title }}</h3>
+      {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
 {% endblock %}

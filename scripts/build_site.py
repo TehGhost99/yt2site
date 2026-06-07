@@ -123,6 +123,31 @@ def load_sources() -> list[dict]:
     return sources
 
 
+def lesson_neighbors(slug: str, pages: list[Page]) -> tuple[Page | None, Page | None]:
+    """Return (previous, next) lesson pages in course order."""
+    lesson_slugs = [
+        "the-science",
+        "myths-mindset",
+        "effort-struggle",
+        "higher-order-thinking",
+        "pacer",
+        "encoding",
+        "notes-on-paper",
+        "active-recall",
+        "spacing",
+        "interleaving",
+        "theory-overload",
+        "motivation-systems",
+    ]
+    if slug not in lesson_slugs:
+        return None, None
+    by_slug = {p.slug: p for p in pages}
+    i = lesson_slugs.index(slug)
+    prev_p = by_slug.get(lesson_slugs[i - 1]) if i > 0 else None
+    next_p = by_slug.get(lesson_slugs[i + 1]) if i + 1 < len(lesson_slugs) else None
+    return prev_p, next_p
+
+
 def build() -> int:
     pages = load_pages()
     if not pages:
@@ -162,7 +187,13 @@ def build() -> int:
 
     for page in pages:
         template = index_tpl if page.slug == "index" else page_tpl
-        html = template.render(page=page, **base_ctx)
+        prev_lesson, next_lesson = lesson_neighbors(page.slug, pages)
+        html = template.render(
+            page=page,
+            prev_lesson=prev_lesson,
+            next_lesson=next_lesson,
+            **base_ctx,
+        )
         (OUTPUT_DIR / page.output_name).write_text(html, encoding="utf-8")
         print(f"  built  {page.output_name}")
 

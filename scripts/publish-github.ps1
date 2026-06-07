@@ -78,15 +78,24 @@ if (-not $remote) {
 Write-Host ""
 Write-Host "Enabling GitHub Pages..." -ForegroundColor Yellow
 $user = gh api user --jq ".login"
-gh api "repos/$user/yt2site/pages" -X PUT -f build_type=workflow 2>$null
+$prevEAP = $ErrorActionPreference
+$ErrorActionPreference = "SilentlyContinue"
+gh api "repos/$user/yt2site/pages" -X POST -f build_type=workflow 2>$null | Out-Null
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "If Pages is not enabled yet, open:" -ForegroundColor Yellow
+    gh api "repos/$user/yt2site/pages" -X PUT -f build_type=workflow 2>$null | Out-Null
+}
+$ErrorActionPreference = $prevEAP
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Enable Pages manually (one time):" -ForegroundColor Yellow
     Write-Host "  https://github.com/$user/yt2site/settings/pages" -ForegroundColor White
-    Write-Host "  Set Source to 'GitHub Actions', then re-run this script or push again." -ForegroundColor Yellow
+    Write-Host "  Set Source to 'GitHub Actions', save, then re-run this script." -ForegroundColor Yellow
 }
 
 Start-Sleep -Seconds 2
+$prevEAP = $ErrorActionPreference
+$ErrorActionPreference = "SilentlyContinue"
 $pages = gh api "repos/$user/yt2site/pages" --jq ".html_url" 2>$null
+$ErrorActionPreference = $prevEAP
 
 Write-Host ""
 Write-Host "Done!" -ForegroundColor Green

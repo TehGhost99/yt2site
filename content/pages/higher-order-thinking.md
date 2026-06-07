@@ -67,6 +67,3 @@ There are two ways to climb:
 - Generate practice questions at levels 4–5 (an AI prompt like *"give me
   questions on [topic] at Bloom's levels 2–5"* works well) — these are exactly
   the questions exam writers use to separate good from great.
-
-Next, a system for handling *what* you read as you consume it —
-**[The PACER Method](pacer.html)**.

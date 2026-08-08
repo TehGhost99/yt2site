@@ -1,7 +1,7 @@
 ---
 title: Sources
 slug: sources
-order: 11
+order: 20
 nav: true
 summary: The YouTube videos and peer-reviewed research this course is built on.
 ---

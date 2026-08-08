@@ -1,0 +1,268 @@
+{
+  "id": "higher-order-thinking",
+  "title": "The 6 Levels of Thinking",
+  "order": 4,
+  "lesson": "higher-order-thinking.html",
+  "days": [
+    {
+      "focus": "Lower-Order: Remember & Understand",
+      "review": "Levels 1–2 are lower-order: Remember (regurgitate — list, define, state) and Understand (explain). Necessary, but university and professional work rarely stop there. First, spot when your study is stuck at 1–2.",
+      "task": {
+        "do": "From one chapter/lecture, write 3 study questions you usually ask yourself. Label each Bloom level 1 (remember) or 2 (understand) or higher if it already is. Then rewrite any level-1 item into a level-2 'explain' question.",
+        "capture": "Original questions with labels + rewritten explain versions.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your usual study questions and labels, what does the mix tell you about whether you're stuck at remember/understand?",
+          "rubric": "correct: Many define/list = stuck at level 1; cites labels. mostly_correct: Mentions lower-order vaguely. incorrect: Define questions are already high-level.",
+          "exemplar": "If most questions were 'What is… / Define…,' my practice is stuck at remember — regurgitation. Level 2 explain questions are a step up but still lower-order. University work rarely stops at 1–2, so I need to climb."
+        },
+        {
+          "q": "Take one rewrite you made from remember → understand. Why does that stem demand a higher thinking level than the original?",
+          "rubric": "correct: Explain how/why in own words vs list/define. mostly_correct: Says harder vaguely. incorrect: Synonyms or faster recite as understand.",
+          "exemplar": "Changing 'Define X' to 'Explain how X works in your own words' unlocks understand — making sense, not stating. Listing synonyms stays at remember. The rewrite demands sense-making."
+        },
+        {
+          "q": "After labeling today's questions, what is the strongest next move for your question mix across the coming sessions?",
+          "rubric": "correct: Keep some 1–2 but add higher-level questions. mostly_correct: Add harder questions vaguely. incorrect: Only level 1 forever; labeling alone raises thinking.",
+          "exemplar": "I'll keep a few level 1–2 checks for foundations but add higher-level questions next sessions. Awareness of level is step one; climbing toward analyze/evaluate is the goal. Labeling alone doesn't raise thinking."
+        }
+      ]
+    },
+    {
+      "focus": "Level 3: Apply",
+      "review": "Apply means use a concept to solve a problem — typically one concept → one problem. It is higher-order than explaining, but still below the analyze/evaluate work that separates good from great.",
+      "task": {
+        "do": "Pick one concept from your material. Invent or find one concrete problem/case where you must use it (not define it). Solve it with materials mostly closed; note where you needed to peek.",
+        "capture": "Concept; problem/case; your solution attempt; peek points.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Did you solve a case with the concept or mostly restate the definition? What Bloom level did you actually practice, and why?",
+          "rubric": "correct: Apply = use on a problem; restating = remember/understand. mostly_correct: Mentions apply vaguely. incorrect: Restating counts as evaluate/create.",
+          "exemplar": "If I restated the definition instead of solving a case, I practiced remember/understand — not apply. Apply means one concept used on a problem to produce an answer. Definitions aren't application."
+        },
+        {
+          "q": "Describe how your case used the concept to produce an answer. What makes that level-3 apply practice?",
+          "rubric": "correct: Concept → problem → solution attempt; simple problem solving. mostly_correct: Mentions a problem vaguely. incorrect: Calls any typing apply or jumps to evaluate automatically.",
+          "exemplar": "I used the concept on a concrete case to produce a solution — classic level-3 apply. It's higher than explaining but still below analyze/evaluate. One concept → one problem is the apply pattern."
+        },
+        {
+          "q": "If you peeked for much of the solution, what fix rebuilds apply skill instead of only viewing worked answers?",
+          "rubric": "correct: Retry similar case closed-book after brief structured review. mostly_correct: Try again vaguely. incorrect: Never attempt apply; memorize solutions only.",
+          "exemplar": "I'll do a brief structured review, then retry a similar case closed-book. Application grows by producing solutions, not only viewing them. Staying on flashcards alone won't build apply."
+        }
+      ]
+    },
+    {
+      "focus": "Level 4: Analyze",
+      "review": "Analyze means compare and contrast, find relationships — unlocking comparison. This is where many courses begin to separate students. Practice relationship-finding on your own content.",
+      "task": {
+        "do": "Choose two related ideas from your course. Write a structured comparison: shared features, key differences, and one relationship (cause, category, trade-off, sequence, etc.).",
+        "capture": "Pair; similarities; differences; relationship type + sentence.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your write-up was two separate definitions with weak links, what level were you actually at — and what would analysis require instead?",
+          "rubric": "correct: Still lower-order isolation; analyze needs compare/relationships. mostly_correct: Needs more linking vaguely. incorrect: Parallel definitions = full analyze.",
+          "exemplar": "Two separate definitions with no links is still lower-order isolation — not analyze. Analysis requires compare/contrast and an explicit relationship. Parallel regurgitation isn't level 4."
+        },
+        {
+          "q": "What in your capture best shows analysis (or fails to), and what relationship type did you name?",
+          "rubric": "correct: Contrast + explicit relationship (cause/category/trade-off/etc.). mostly_correct: Mentions comparison vaguely. incorrect: Longer quotes or 'both important' without comparison.",
+          "exemplar": "Clear similarities, differences, and an explicit relationship (e.g., trade-off) show analysis. Longer copied quotes or 'both are important' fail. Comparison and relationships unlock level 4."
+        },
+        {
+          "q": "After a solid compare/contrast, what stretch moves you toward evaluate — and why?",
+          "rubric": "correct: Ask which difference matters more for a decision and why. mostly_correct: Go deeper vaguely. incorrect: Stop at definitions; avoid relationships.",
+          "exemplar": "I'd ask which difference matters more for a real decision and justify it — moving toward evaluate. Analyze feeds evaluate. Stopping at definitions retreats down the ladder."
+        }
+      ]
+    },
+    {
+      "focus": "Level 5: Evaluate (The Target)",
+      "review": "Evaluate means judge, prioritize, justify — 'so what?' Form and defend conclusions. For most learners, level 5 is the target; senior academic and professional work tests here. Create (6) is rarer.",
+      "task": {
+        "do": "From your material, pick 3 ideas in one topic. Rank them by importance for understanding the topic or for a realistic exam/clinical decision. Write a justification for #1 vs #3 — not 'because teacher said.'",
+        "capture": "Ranked list + justification for top vs bottom.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Your ranking needed a justification for #1 vs #3. If justification was thin, what evaluate work was missing?",
+          "rubric": "correct: Judge/prioritize/defend 'so what?'; order without reasons isn't evaluate. mostly_correct: Needs reasons vaguely. incorrect: Order alone is evaluate.",
+          "exemplar": "Without justification I only ordered items — I didn't evaluate. Evaluate means judge, prioritize, and defend conclusions — 'so what?' Reasons, not teacher authority alone, make it level 5."
+        },
+        {
+          "q": "Why does the course treat level 5 as the practical target for most learners, given what exams and professional work demand?",
+          "rubric": "correct: Uni/professional roles test mostly analyze–evaluate; create rarer. mostly_correct: Higher levels matter vaguely. incorrect: Level 5 easier than remember; evaluate replaces understanding.",
+          "exemplar": "University and professional work mostly test at analyze–evaluate. Level 5 is the practical target; create (6) is rarer and for the highest tiers. That's why prioritize-and-justify practice matters."
+        },
+        {
+          "q": "Write one evaluate question stem for your topic tomorrow and explain why it sits at level 5 rather than remember.",
+          "rubric": "correct: Importance + why / justify stem; contrasts with define/list. mostly_correct: Somewhat judgmental stem. incorrect: Define/list/highlight stems labeled as evaluate.",
+          "exemplar": "'Which is more important for X, and why?' is evaluate — it demands judgment and defense. 'What is the definition of X?' is remember. The stem must force prioritizing, not regurgitating."
+        }
+      ]
+    },
+    {
+      "focus": "Level 6 Awareness: Create",
+      "review": "Create means synthesize something new — hypothesize. It matters at the highest levels; most students should prioritize evaluate first. Still, practice a light create move so you recognize the top of the ladder.",
+      "task": {
+        "do": "Using two+ ideas from your current topic, invent one small hypothesis, study question, or mini-example that isn't copied from the text — a new combination or prediction you could test against the material.",
+        "capture": "Your created item + which source ideas you combined.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Was your created item truly new synthesis or a copied example? What does create require that copying doesn't?",
+          "rubric": "correct: Create = synthesize something new from combined ideas; copying ≠ level 6. mostly_correct: Mentions originality vaguely. incorrect: Any writing is level 6.",
+          "exemplar": "If I copied a textbook example, that wasn't create. Create synthesizes something new — a hypothesis, question, or mini-example from combining ideas. Copying stays lower-order even if handwritten."
+        },
+        {
+          "q": "Given limited study time, where should most practice sit after tasting level 6 — and why?",
+          "rubric": "correct: Primarily analyze–evaluate (4–5), occasional create. mostly_correct: Focus on higher levels vaguely. incorrect: Only level 6 every session or only definitions.",
+          "exemplar": "Most practice should sit at analyze–evaluate, with occasional create. For most learners level 5 is the target; level 6 is rarer. Living only at definitions wastes the ladder."
+        },
+        {
+          "q": "How will you use today's hypothesis or invented example next — still anchored to the material?",
+          "rubric": "correct: Check against notes/lecture and refine. mostly_correct: Revisit vaguely. incorrect: Never check; brainstorm only forever.",
+          "exemplar": "I'll check it against my notes/lecture and refine — thinking up the ladder while anchored to the course. Unchecked brainstorming drifts. Create still connects to real concepts through testing."
+        }
+      ]
+    },
+    {
+      "focus": "Thinking Level ≠ Technique",
+      "review": "Two people can use the same technique — reading or mind mapping — at totally different levels. One crams (level 1); another evaluates and prioritizes (level 5). Intention sets the result.",
+      "task": {
+        "do": "Choose one technique you already use (reading, flashcards, mapping, outlining). Do it twice for 3 minutes on the same topic: (A) with level-1 intention, (B) with level-5 intention (judge/prioritize). Capture what differed in your thinking.",
+        "capture": "Technique; what you did in A vs B; difference in thinking.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Same technique, two intentions (level 1 vs 5). What differed in your thinking, and what does that show about technique versus thinking level?",
+          "rubric": "correct: Intention sets level; same tool can be remember or evaluate. mostly_correct: Mentions difference vaguely. incorrect: Tool name fixes level.",
+          "exemplar": "In B I forced ranking and justification while the map shape looked similar — intention changed the thinking level. Technique isn't the level; cognitive demand is. Same action, different learning."
+        },
+        {
+          "q": "If both rounds stayed at 'define this term,' what failed to rise — and how would you rewrite the intention?",
+          "rubric": "correct: Intention never rose; change demand to judge/prioritize. mostly_correct: Make harder vaguely. incorrect: Flashcards automatically evaluate.",
+          "exemplar": "Intention never rose — the technique stayed at remember. I'd rewrite cards to 'Which matters more and why?' or compare two terms. Raising level means changing thinking demand, not repeating the same tool."
+        },
+        {
+          "q": "What intention upgrade will you bring to reading tomorrow so it targets evaluate rather than page-finishing?",
+          "rubric": "correct: Read to judge what matters most and why. mostly_correct: Read more carefully vaguely. incorrect: Memorize phrasing only; avoid prioritizing.",
+          "exemplar": "I'll read to judge what matters most and why — not to finish pages. Level-5 reading aims at evaluate/prioritize. Matching highlighter colors or memorizing phrasing keeps intention at the bottom."
+        }
+      ]
+    },
+    {
+      "focus": "Why People Retreat Downward",
+      "review": "Moving from level 3 to 4–5 feels harder and slower, so the misinterpreted-effort trap pulls people back to easy lower levels. That extra effort is deeper memory forming. Notice retreat in yourself.",
+      "task": {
+        "do": "Attempt one level 4–5 task on your material for 5 minutes (compare or prioritize with justification). Then write: when you felt like switching to rereading/flashcard definitions, and whether that urge was comfort-seeking.",
+        "capture": "Your 4–5 attempt + retreat urge note + your decision.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "When analyze/evaluate felt slow, did you want to retreat to rereading or definitions? What does the course say that urge usually is?",
+          "rubric": "correct: Misinterpreted effort / retreat to easier levels; deeper effort builds memory. mostly_correct: Hard means keep going vaguely. incorrect: Higher levels never help; rereading is higher-order.",
+          "exemplar": "Wanting to bail to rereading is classic retreat to easier levels — often misinterpreted effort. The slower feel is deeper memory forming. The urge is comfort-seeking, not proof higher-order failed."
+        },
+        {
+          "q": "If you stayed with the hard compare despite discomfort, how should you interpret that discomfort?",
+          "rubric": "correct: Effort cost that strengthens deeper encoding. mostly_correct: Good to persist vaguely. incorrect: Discomfort means wrong subject; higher-order should feel effortless.",
+          "exemplar": "That discomfort is the effort cost that strengthens deeper encoding. Higher-order work shouldn't feel effortless immediately. Staying with it pays for stronger memory."
+        },
+        {
+          "q": "Write an anti-retreat rule you'll use next session when level 4–5 gets hard.",
+          "rubric": "correct: Stay longer at analyze/evaluate before dropping; expect harder feel. mostly_correct: Don't quit vaguely. incorrect: At friction return to definitions only.",
+          "exemplar": "When it feels harder, I'll stay five more minutes at analyze/evaluate before dropping. Ease isn't the success metric. Expect the harder feel and don't obey the trap's quit signal."
+        }
+      ]
+    },
+    {
+      "focus": "Study Top-Down",
+      "review": "Bottom-up (remember → … → evaluate) is slow; lower levels decay while you climb. Top-down: start at evaluate — lower levels fill in as a side effect because memory forms more strongly at level 5 than at level 1. Don't begin by trying only to remember.",
+      "task": {
+        "do": "Open a new or weakly learned section. First action: write evaluate questions only (Why does this matter? Which part is most important and why? How does A compare to B?). Study for 7 minutes solely to answer those — not to memorize lists.",
+        "capture": "Your evaluate questions + answers you reached + any lower-level facts that appeared as side effects.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you started with definition flashcards 'to build a base,' how does that conflict with studying top-down?",
+          "rubric": "correct: Don't start by trying only to remember; start at evaluate. mostly_correct: Start higher vaguely. incorrect: Bottom-up is recommended default.",
+          "exemplar": "Starting with definitions-only conflicts with top-down: the lesson says don't begin by trying only to remember. Start at evaluate questions; lower levels fill in along the way. Bottom-up is slow and decay-prone."
+        },
+        {
+          "q": "While aiming at importance/comparison, did lower-level understanding appear as a side effect? What does that show about top-down?",
+          "rubric": "correct: Lower levels fill in when aiming high. mostly_correct: Learned extra vaguely. incorrect: Evaluate prevents understanding.",
+          "exemplar": "While judging importance I suddenly could explain a mechanism — lower levels filling in as a side effect. Aiming at level 5 forces understand/analyze along the way. That's why top-down works."
+        },
+        {
+          "q": "Why is memorizing first and hoping evaluate appears later a weaker strategy than starting at evaluate?",
+          "rubric": "correct: Memorizing doesn't produce evaluate ability; lower levels decay while climbing slowly. mostly_correct: Top-down better vaguely. incorrect: Memorizing unlocks level 5 automatically.",
+          "exemplar": "Memorizing doesn't make me able to evaluate, and lower levels decay while I climb slowly. Starting at evaluate builds stronger memory and pulls lower levels along. Reverse order hopes for a skill it never practices."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: Ladder Workout",
+      "review": "Turn study questions up the ladder and generate level 4–5 practice — the same kinds of questions that separate good from great on exams.",
+      "task": {
+        "do": "For one exam-relevant topic, write 6 questions: two explain (2), two compare (4), two prioritize/justify (5). Answer the four higher ones closed-book first; only then touch notes.",
+        "capture": "Your 6 questions + answers to the four level 4–5 items.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Audit your six questions: did any 'level 5' stems still only ask for definitions? What failure mode is that, and how would you fix one stem?",
+          "rubric": "correct: Labels lied if stems lack judge/prioritize; rewrite to importance+why. mostly_correct: Some too easy vaguely. incorrect: Define is always evaluate.",
+          "exemplar": "If a 'level 5' question was still 'define X,' the label lied — the stem didn't require judging. I'd rewrite to 'Which approach is better for Y, and why?' Evaluate demands defense, not definitions."
+        },
+        {
+          "q": "How did closed-book answers to your compare/prioritize items go, and what does that signal about readiness for serious assessment?",
+          "rubric": "correct: Strong 4–5 answers ≈ closer to advanced exam demands; weak ≈ need more higher-order practice. mostly_correct: Mentions performance vaguely. incorrect: Success means stop; retreat to only level 1.",
+          "exemplar": "Answering compare/prioritize well without notes signals higher-order practice landing — closer to what separates good from great on exams. Weak answers mean I need more level 4–5 reps, not a retreat to definitions only."
+        },
+        {
+          "q": "After you've written and attempted your own stems, what is an appropriate use of an AI helper — and what would be outsourcing the thinking?",
+          "rubric": "correct: More level 2–5 variants after your attempt; not replace thinking/answers. mostly_correct: Use AI carefully vaguely. incorrect: Let AI do all thinking.",
+          "exemplar": "After I've attempted my own stems, I can ask AI for more level 2–5 variants on my topic. Letting AI replace my answers outsources the thinking. My attempt first keeps the learning mine."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Top-Down & Levels",
+      "review": "Checkpoint: classify thinking level, resist retreat, and start from evaluate on fresh material.",
+      "task": {
+        "do": "New topic: (1) write one level-1, one level-3, one level-5 question, (2) answer only the level-5 first with justification, (3) note one moment you wanted to retreat and what you did.",
+        "capture": "Three questions; level-5 answer; retreat note.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you answered level 1 first 'to warm up' and delayed evaluate, what top-down rule did you break — and what will you do differently?",
+          "rubric": "correct: Bottom-up drift; start attention on evaluate. mostly_correct: Should start higher vaguely. incorrect: Level 1 first is ideal top-down.",
+          "exemplar": "That's bottom-up drift — I avoided top-down. Next time I answer the level-5 question first with justification. Warming up with definitions-only isn't the method."
+        },
+        {
+          "q": "Evaluate your level-5 answer: does it rank/judge and defend? What would make it stronger?",
+          "rubric": "correct: Prioritize + justify = evaluate; suggests sharper criteria if thin. mostly_correct: Mentions reasons vaguely. incorrect: Needs definition list to be valid.",
+          "exemplar": "If I ranked approaches and defended one, that's strong evaluate evidence. To strengthen it I'd make the criterion explicit and contrast against the weaker option. A definition list isn't what makes it level 5."
+        },
+        {
+          "q": "A hard compare made you crave flashcards. What response resists retreat downward, and why is the difficulty expected?",
+          "rubric": "correct: Stay with higher-order briefly; difficulty expected; deeper effort builds memory. mostly_correct: Persist vaguely. incorrect: Drop to recognition; difficulty proves failure.",
+          "exemplar": "I'll stay with the higher-order task a bit longer — difficulty is expected when climbing. Immediately dropping to easy recognition is the trap. Deeper effort at 4–5 builds stronger memory."
+        }
+      ]
+    }
+  ]
+}

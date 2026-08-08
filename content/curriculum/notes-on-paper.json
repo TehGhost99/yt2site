@@ -1,0 +1,268 @@
+{
+  "id": "notes-on-paper",
+  "title": "Thinking on Paper",
+  "order": 7,
+  "lesson": "notes-on-paper.html",
+  "days": [
+    {
+      "focus": "Notes as a thinking tool",
+      "review": "Good notes do two jobs: document information, and — more importantly — *facilitate the right thinking*. Your brain has limited capacity; notes should *offload* the busywork of holding everything in your head so that freed capacity goes to deep, higher-order work. Test every habit with one question: does this help my brain think, or help it avoid thinking?",
+      "task": {
+        "do": "Open one page of notes from a recent lecture or reading. For each chunk, mark T (it made you group, connect, or judge) or A (you mostly transcribed or copied). Count both marks — about 8 minutes.",
+        "capture": "Paste your T/A counts and one example of each mark from your own notes.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your T/A counts from today's page, what do they tell you about whether those notes helped you think or helped you avoid thinking? Use your own examples.",
+          "rubric": "correct: Interprets T as thinking (group/connect/judge) and A as passive transcription; links their counts to whether the page facilitated learning. mostly_correct: Names T vs A meaning but weak link to their actual page. incorrect: Treats volume/neatness as proof of learning, or cannot distinguish T from A.",
+          "exemplar": "Most of my marks were A — I copied slide sentences. That means the page mostly helped me avoid thinking. The one T chunk was where I grouped causes under one heading, which is the kind of work notes should force more often."
+        },
+        {
+          "q": "Pick one chunk you marked A. In your own words, what is the strongest next move to turn it into thinking work — and why is polishing or adding more transcription a weaker move?",
+          "rubric": "correct: Proposes regrouping into keywords/relationships/judgments; rejects prettier rewrite or denser dump as still passive. mostly_correct: Suggests some active rewrite but vague on why polish/dump fails. incorrect: Recommends more copying, neatness-only, or deleting all notes.",
+          "exemplar": "I would rebuild that A chunk as keywords with arrows between ideas so I have to choose groups and links. Rewriting it neatly or adding more sentences still skips the thinking the lesson wants."
+        },
+        {
+          "q": "You may have felt productive while writing the A-heavy parts. What does that feeling usually mean, given what you just marked?",
+          "rubric": "correct: Explains that visible effort/volume can mask little deep processing; ties to their A marks. mostly_correct: Mentions false productivity but not tied to their audit. incorrect: Equates filled pages with encoding success.",
+          "exemplar": "Feeling productive while filling pages was misleading — my A marks show I was transcribing, not grouping or judging. Passive note mountains can feel like work while learning is skipped."
+        }
+      ]
+    },
+    {
+      "focus": "Failure mode: no notes",
+      "review": "Taking *no notes at all* burns capacity just holding information in your head, leaving little room to think. When material is dense, you need somewhere to park the puzzle pieces so working memory can compare, group, and connect them. Offloading is not optional busywork — it is what frees capacity for higher-order thinking.",
+      "task": {
+        "do": "Pick a dense paragraph from your current subject (textbook, slides, or handout). First try to hold it in mind only and list the relationships you notice. Then put keywords on paper/canvas and list relationships again. Compare — about 8 minutes.",
+        "capture": "Write what you could notice with memory alone vs with keywords on the page (2–4 bullets each).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Compare your memory-only list with your keywords-on-page list. What does the difference show about why notes matter for thinking?",
+          "rubric": "correct: States offloading frees capacity so more groups/links appear; cites their comparison. mostly_correct: Says notes help but vague on capacity/offloading. incorrect: Claims memory-only is always deeper, or that only full sentences help.",
+          "exemplar": "With keywords on the page I spotted more links because I was not using capacity just to hold the pieces. Memory-only stayed thin — that is why offloading matters for higher-order work."
+        },
+        {
+          "q": "If your memory-only relationship list was thin, what does that diagnose about working memory during dense study?",
+          "rubric": "correct: Diagnoses overload from holding pieces, leaving little room to think/compare. mostly_correct: Says it was hard without naming capacity overload. incorrect: Blames neatness, flashcards-only, or topic easiness.",
+          "exemplar": "A thin memory-only list means working memory was busy holding details, so little capacity remained to compare and connect them — the no-notes failure mode."
+        },
+        {
+          "q": "What in today's capture is the strongest evidence you used notes as a thinking tool rather than as a transcript?",
+          "rubric": "correct: Points to new groupings/arrows/relationships that appeared after offloading. mostly_correct: Mentions keywords but not new thinking. incorrect: Cites verbatim copy, word count, or a photo of the source.",
+          "exemplar": "The strongest evidence is the new groupings and arrows I only saw after parking keywords on the page — not a longer transcript of the paragraph."
+        }
+      ]
+    },
+    {
+      "focus": "Failure mode: passive volume",
+      "review": "Too many notes written *passively* is even worse than none. Transcription lets the brain do none of the lifting, bypasses learning in the moment, and creates a mountain to re-process later. Volume feels productive; it is not evidence of learning. Cut the dump and force selection.",
+      "task": {
+        "do": "Take one dense section of your own notes (or a lecture dump). Cut it to at most one-third the length using only keywords — no full sentences. Cross out anything that is pure transcription without a role in a group or link — about 8 minutes.",
+        "capture": "Paste before/after word counts (or line counts) and list 3 things you cut and why.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You just cut a dump to keywords. What was the real win in that process — not the shorter page itself, but what your brain had to do?",
+          "rubric": "correct: Names forced selection/summarizing/meaning-making that passive transcription skips. mostly_correct: Says shorter is better without naming selection as thinking. incorrect: Treats keeping every sentence or making a longer dump as the win.",
+          "exemplar": "The win was having to choose what mattered and compress it into keywords. That selection is the thinking passive transcription skips — not merely having fewer lines on the page."
+        },
+        {
+          "q": "A classmate keeps twelve pages per lecture and feels ahead. Using what you learned by cutting your own dump, how should you interpret that volume?",
+          "rubric": "correct: Frames high passive volume as likely future re-processing debt / bypassed learning. mostly_correct: Skeptical of volume but vague why. incorrect: Treats more pages as more learning or urges matching page count.",
+          "exemplar": "That volume is likely a re-processing mountain if it was mostly transcription. After cutting my own dump, I see page count is not proof of learning — passive notes skip thinking now and create work later."
+        },
+        {
+          "q": "Look at the three cuts you listed. Which cut best matches the lesson's standard, and which kind of cut would have been a mistake?",
+          "rubric": "correct: Values cutting copied sentences with no grouping/judgment role; would not cut useful keywords/arrows/labels that carry relationships. mostly_correct: Discusses cuts but unclear on keep vs cut criteria. incorrect: Celebrates cutting relationship structure or keeping pure dumps.",
+          "exemplar": "Cutting a copied sentence that added no group or link matched the standard. Cutting an arrow or keyword that held a key relationship would have been a mistake."
+        }
+      ]
+    },
+    {
+      "focus": "Make it wrong",
+      "review": "When new information overwhelms you, put puzzle pieces on the page and *guess* connections — it does not have to be right. Perfectionism causes paralysis. Guessing primes your brain so real learning lands faster. \"If what you write is right, you're doing it wrong.\" Speed and hypotheses beat waiting for perfect notes.",
+      "task": {
+        "do": "Open material you have not fully mastered yet. In 5 minutes, jot keywords and draw guessed groups/arrows on a blank page or canvas — deliberately allow wrong connections. Do not check the source until the timer ends — about 8 minutes total including a quick check.",
+        "capture": "List 3 guessed connections you made, then mark each Correct / Partly / Wrong after checking.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Describe the attempt you just made. Why was a fast keyword map with imperfect guesses stronger than waiting until you were sure or copying the textbook structure?",
+          "rubric": "correct: Explains make-it-wrong primes learning; perfectionism/paralysis and copy-perfect structures avoid the hypothesis work. mostly_correct: Prefers guessing but thin on why. incorrect: Argues only correct-first notes are valid.",
+          "exemplar": "My fast map with several wrong guesses was the right move because hypotheses prime learning. Waiting for certainty or copying the book avoids the thinking and recreates paralysis."
+        },
+        {
+          "q": "Some of your guesses were Wrong or Partly. What should you do with those guesses now, and what would wasting them look like?",
+          "rubric": "correct: Treat wrong guesses as data to revise groups/arrows; wasting = erase all / never guess again / freeze wrong forever. mostly_correct: Says revise but vague. incorrect: Says erase everything or avoid guessing to stay perfect.",
+          "exemplar": "I should revise the wrong arrows now that I checked — they were useful data. Erasing the whole map or refusing to guess next time would waste the priming effect."
+        },
+        {
+          "q": "If you felt uneasy writing uncertain arrows, what was that discomfort signaling in this method — and what should you do with it?",
+          "rubric": "correct: Names perfectionism/paralysis pressure; push through with a fast draft rather than stop. mostly_correct: Notes discomfort without linking to perfectionism. incorrect: Treats unease as proof to stop or switch to full-sentence outlines only.",
+          "exemplar": "The unease was perfectionism pushing me to wait. In this method I should push through a fast imperfect draft — discomfort is part of priming, not a stop signal."
+        }
+      ]
+    },
+    {
+      "focus": "Make it shorter",
+      "review": "No full sentences — get as close to single keywords as possible, and do not make it pretty. Higher word count links to lower retention: compressing into a keyword takes more thinking than copying a sentence, and fewer words make patterns easier to see. Short, ugly, and thoughtful beats long, neat, and empty.",
+      "task": {
+        "do": "Take one concept from your notes that is written in sentences. Rebuild it as a non-linear keyword map (handwritten or stylus if you can). Cap yourself at roughly one keyword per idea — no polishing — about 8 minutes.",
+        "capture": "Paste the original sentence count vs keyword count, and name one pattern that became easier to see when shorter.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You compressed sentences into keywords. Which change in that rebuild most improves encoding, and why?",
+          "rubric": "correct: Credits forcing each idea into a keyword/summary as the thinking; rejects adding prose/keeping all sentences/prettifying first. mostly_correct: Prefers shorter notes without naming compression-as-thinking. incorrect: Values polish or leftover full sentences over compression.",
+          "exemplar": "Forcing each idea into a single keyword improved encoding because summarizing is the thinking. Keeping the old sentences under the map or polishing prose would undo make-it-shorter."
+        },
+        {
+          "q": "Name the pattern that became easier to see on your shorter map. What does that illustrate about word count and relationships?",
+          "rubric": "correct: Ties a real newly visible grouping/link to fewer words making relationships easier to spot. mostly_correct: Mentions a pattern but weak link to brevity. incorrect: Argues longer notes always reveal more or that patterns need full sentences.",
+          "exemplar": "I suddenly saw a cause/effect cluster I missed in the prose. Fewer words made the relationships easier to spot — that is why shorter maps help."
+        },
+        {
+          "q": "Which version of your capture best matches \"make it shorter,\" and what would a fake win look like?",
+          "rubric": "correct: Ugly/shorter keyword map is the win; fake wins = polished same-length paragraph, highlights-only, photo of textbook. mostly_correct: Prefers shorter but unclear on fake wins. incorrect: Celebrates polish or transcript volume.",
+          "exemplar": "My uglier keyword map with a much lower count matches make-it-shorter. A polished paragraph with the same word count or a highlighted transcript would be a fake win."
+        }
+      ]
+    },
+    {
+      "focus": "Make it again",
+      "review": "Most of the power is in reorganization. As you learn more, the map gets messy and early guesses go wrong — so regroup, rearrange, and reconnect. Cleaning the map up *even with no new information* strengthens memory. Iteration is not busywork; it is the encoding.",
+      "task": {
+        "do": "Take an existing map or notes page for one topic you already studied. Without adding new source material, redraw or rearrange it: new groups, new arrow directions, clearer layout — about 8 minutes.",
+        "capture": "Describe 2–3 changes you made (what moved, what connected differently) and why.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You reorganized with no new input. In your own words, why is that still valuable encoding work?",
+          "rubric": "correct: States reorganization/reconnecting itself strengthens memory even without new facts. mostly_correct: Says redrawing helps but vague mechanism. incorrect: Calls no-new-info redraws wasted time or says maps must never change.",
+          "exemplar": "Cleaning and reconnecting without new material still strengthens the memory — make-it-again says much of the power is in reorganization itself, not only in adding facts."
+        },
+        {
+          "q": "Looking at the changes you captured, which one was highest-value and why? Contrast it with a cosmetic change that would not count.",
+          "rubric": "correct: Prioritizes structural regrouping/fixing wrong guesses; contrasts with neatness-only or decorative copies. mostly_correct: Names a change but weak contrast. incorrect: Treats handwriting polish as the main win.",
+          "exemplar": "Regrouping to fix an early wrong cluster was highest-value. Neater handwriting with the same structure would have been cosmetic, not encoding."
+        },
+        {
+          "q": "Your first map may have felt \"done.\" After redrawing, what stance should you take toward maps going forward?",
+          "rubric": "correct: Treats maps as living drafts revised as understanding grows. mostly_correct: Accepts some revision but still wants to lock early. incorrect: Freeze first draft, wait for teacher master map only, or abandon maps for sentence outlines.",
+          "exemplar": "I should treat maps as living drafts I revise as understanding grows. Locking the first version would block the strongest principle — make it again."
+        }
+      ]
+    },
+    {
+      "focus": "Decide the relationships",
+      "review": "Knowledge is not linear, so linear notes struggle to show groups and relationships. Non-linear maps work *only if you* decide the links — auto-generated connections are too passive, and showing every link is overwhelming. The thinking is choosing whether to draw an arrow, how thick, which direction, and where ideas sit.",
+      "task": {
+        "do": "On a blank canvas/page, place 6–10 keywords from one of your topics. Draw only the relationships *you* judge matter (max ~8 arrows). Label 2 arrows with why that link matters — about 8 minutes.",
+        "capture": "List the arrows you drew (from → to) and one link you *chose not* to draw, with a one-line reason.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You limited your arrows on purpose. Why is deciding which relationships matter better than linking everything or letting an app auto-connect?",
+          "rubric": "correct: Judgment about links is the thinking; all-links/auto-links are overwhelming/passive. mostly_correct: Prefers fewer links without clear why. incorrect: Wants every possible link or full auto-generation.",
+          "exemplar": "Choosing which arrows matter is the thinking. Showing every connection or accepting auto-links is passive and overwhelming — the map only works if I decide."
+        },
+        {
+          "q": "Using your capture, what proves you used non-linear notes actively rather than passively?",
+          "rubric": "correct: Cites spatial keywords + chosen arrows + a deliberately rejected link. mostly_correct: Mentions a map but not selective linking. incorrect: Linear outline, copied bullets, or unedited auto-graph.",
+          "exemplar": "I placed keywords in space, drew only chosen arrows, and rejected one link with a reason. That selective linking is active non-linear work — not a slide bullet list."
+        },
+        {
+          "q": "If you hesitated on arrow direction between two ideas, what should you do — and why is avoiding the choice a weaker move?",
+          "rubric": "correct: Pick a directional hypothesis then revise after a check; avoiding choice skips relationship practice. mostly_correct: Says decide somehow but vague. incorrect: Skip both ideas, always draw both ways, or retreat to linear notes to avoid choosing.",
+          "exemplar": "I should pick a direction as a hypothesis and revise after a quick check. Skipping the ideas or switching to linear notes avoids the relationship decision the map is for."
+        }
+      ]
+    },
+    {
+      "focus": "Intuitive and logical groups",
+      "review": "Groupings must be both *logical* (they fit the subject) and *intuitive* (obvious enough that you do not burn effort memorizing the scheme). \"Cause vs effect\" or \"before vs after\" help; arbitrary schemes you must memorize do not. Exam traps often exploit groups that felt intuitive but were not truly logical.",
+      "task": {
+        "do": "Take one topic map from your materials. Rewrite the groups two ways: (1) the most intuitive split you can think of, (2) a split you can defend as logically accurate to the subject. Note where they disagree — about 8 minutes.",
+        "capture": "Name both groupings and one place where intuitive ≠ logical, plus which you will keep for study.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Where did your intuitive grouping disagree with the logical one? What exam risk does that disagreement highlight?",
+          "rubric": "correct: Uses their disagreement; explains intuitive-but-illogical groups feel easy yet fail on tricky questions. mostly_correct: Notes disagreement without exam-trap risk. incorrect: Says intuition alone is enough or to avoid logical groups.",
+          "exemplar": "My intuitive split lumped two mechanisms that are logically distinct. That feels easy to remember but is exactly the kind of false group exams exploit."
+        },
+        {
+          "q": "Which grouping will you keep for study, and what dual standard should a good scheme meet?",
+          "rubric": "correct: Chooses a scheme that is logical for the subject and still easy to hold; rejects arbitrary memorize-only schemes. mostly_correct: Picks one grouping without stating both criteria. incorrect: Prefers random color codes, unexamined slide order, or alphabet-only.",
+          "exemplar": "I will keep the logical split that I can still hold intuitively. Good groups must fit the subject and stay easy to use — not an arbitrary color code I have to memorize."
+        },
+        {
+          "q": "Before locking your chosen grouping, what check should you run — and why does visual balance or matching a classmate's colors fail that check?",
+          "rubric": "correct: Stress-tests against hard exam questions that could exploit a false intuitive split. mostly_correct: Mentions some review but not exam stress-test. incorrect: Relies on looks, classmate colors, or long labels.",
+          "exemplar": "I should ask whether a hard exam question could break this split. Looking balanced or matching someone's colors does not test whether the group is truly logical."
+        }
+      ]
+    },
+    {
+      "focus": "Full map: wrong, short, again",
+      "review": "Today combine the three principles on real material: make a fast wrong draft, compress to keywords, then reorganize once. Prefer freehand on an infinite canvas when you can — slower writing forces less text and more thought. The goal is a living map that offloads busywork and forces relationship thinking.",
+      "task": {
+        "do": "Choose one upcoming exam topic from your own course. Spend ~3 minutes on a messy keyword draft (make it wrong), ~3 minutes cutting to essentials (make it shorter), ~3 minutes redrawing groups/arrows (make it again).",
+        "capture": "Paste a brief before→after description (or keyword list) and note which principle changed your map most.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "Walk through the sequence you just ran. How does it match make-it-wrong → shorter → again, and how does that differ from perfect-outline-first or transcript-and-highlight?",
+          "rubric": "correct: Describes fast imperfect draft, compress, reorganize; contrasts with perfect-first freeze or passive dump/highlight. mostly_correct: Names principles but weak contrast. incorrect: Describes perfect-first or reread-only as the method.",
+          "exemplar": "I drafted messy guesses, cut to keywords, then redraw groups. That is wrong → shorter → again — not a perfect outline frozen forever, and not a transcript with highlights."
+        },
+        {
+          "q": "If your final map still has uncertain arrows, what is the best next move — and what would abandoning or \"perfecting by copying the chapter structure\" get wrong?",
+          "rubric": "correct: Keep as hypotheses and revise after next exposure; abandoning/copying chapter to hide uncertainty blocks living-map practice. mostly_correct: Says revise later without contrasting bad moves. incorrect: Delete until perfect or replace arrows with paragraphs only.",
+          "exemplar": "I should keep uncertain arrows as hypotheses and revise after the next exposure. Deleting the map until perfect or copying the chapter to hide uncertainty abandons the living-map approach."
+        },
+        {
+          "q": "Using today's session, how do you know you avoided both failure modes (no offloading, and passive volume)?",
+          "rubric": "correct: Cites offloaded keywords plus forced grouping/linking rather than no notes or a passive dump. mostly_correct: Mentions one failure mode only. incorrect: Cites more pages, avoiding paper, or rereading-only as success.",
+          "exemplar": "I parked keywords on the page and forced groups and links instead of holding everything in my head or making a passive sentence dump — that avoids both failure modes."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: thinking on paper",
+      "review": "Checkpoint day: re-test the hardest moves — diagnosing T vs A notes, make-it-wrong drafts, keyword compression, deliberate relationship choices, and intuitive-vs-logical groups. Use fresh material from your own course. Aim for maps that help you think, not transcripts that help you avoid thinking.",
+      "task": {
+        "do": "Pick a *different* topic than yesterday. In 8 minutes: blank-page keyword map with guessed links, cut fluff, fix one grouping so it is both intuitive and logical, and mark one arrow you almost drew but rejected.",
+        "capture": "Summarize the map's groups, one revised link, and the rejected link with reasons.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You rejected a link on today's fresh map. What skill does that habit train, and why does showing every possible link undermine it?",
+          "rubric": "correct: Selective relationship judgment; all-links skips deciding what matters. mostly_correct: Mentions choosing links without clear why-not-all. incorrect: Maximizing links, memorizing textbook order, or letting software choose.",
+          "exemplar": "Rejecting a link trains deciding which relationships matter. Showing everything removes that judgment and turns the map passive and overwhelming."
+        },
+        {
+          "q": "A friend says your messy draft means you failed. Using this subject's practice, how should you respond — and what still remains unfinished if you never revise?",
+          "rubric": "correct: Messy wrong draft is the correct first move; then shorten and reorganize; mess without revision is incomplete. mostly_correct: Defends messiness without naming next steps. incorrect: Agrees to switch to passive transcription or keep mess forever with no revision.",
+          "exemplar": "The messy wrong draft was the right first move. I still need to shorten and reorganize — mess without revision is incomplete, but mess as a draft is required."
+        },
+        {
+          "q": "If a practice question breaks a grouping that felt obvious, what does that mean about intuitive vs logical structure — and what should you do?",
+          "rubric": "correct: Grouping was intuitive but not logical enough; revise it. mostly_correct: Says revise without naming intuitive≠logical. incorrect: Blame the question, stop grouping, or keep unbroken \"obvious\" groups unchecked.",
+          "exemplar": "It means the grouping felt intuitive but was not logical enough. I should reorganize the groups so they survive tricky questions, not keep a false split because it felt obvious."
+        }
+      ]
+    }
+  ]
+}

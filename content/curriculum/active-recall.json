@@ -1,0 +1,268 @@
+{
+  "id": "active-recall",
+  "title": "Active Recall, Done Right",
+  "order": 8,
+  "lesson": "active-recall.html",
+  "days": [
+    {
+      "focus": "Retrieval over review",
+      "review": "*Retrieval* pulls knowledge *out* of memory; encoding puts it in. Techniques built around retrieval — active recall — give beginners the most bang for buck: the learning curve is low and results show up in hours to days. Today you contrast producing an answer with merely reviewing it on your own material.",
+      "task": {
+        "do": "Pick one concept from your current course. Spend 3 minutes rereading your notes on it, then close them and spend 3 minutes writing everything you can produce from memory on a blank page. Compare gaps — about 8 minutes.",
+        "capture": "List 3 ideas that appeared in notes but not in your blank-page recall (or note if recall was complete).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You compared rereading with blank-page production. What outcome from your attempt shows retrieval doing real work that review was hiding?",
+          "rubric": "correct: Points to gaps that appeared only under closed production / recognition vs production contrast from their attempt. mostly_correct: Prefers retrieval but weak tie to their gaps. incorrect: Treats easier rereading or highlighting as proof of mastery.",
+          "exemplar": "Gaps showed up only when I had to produce without looking — ideas that felt familiar while rereading were missing on the blank page. That is retrieval revealing what recognition hid."
+        },
+        {
+          "q": "Looking at your gap list, what is the strongest next step — and why is another comforting reread a weaker response?",
+          "rubric": "correct: Target gaps with later closed-book production; reread-for-comfort avoids retrieval. mostly_correct: Mentions practicing gaps vaguely. incorrect: Ignore gaps if notes looked familiar, or highlight-only.",
+          "exemplar": "I should target those gaps with another closed-book production attempt later. Rereading the whole chapter for comfort would hide the gaps again instead of training retrieval."
+        },
+        {
+          "q": "If rereading felt easier than blank-page recall, what does that ease usually mean about how memory gets strengthened?",
+          "rubric": "correct: Ease means review skipped reconstructive work that strengthens pathways. mostly_correct: Says hard is better without naming reconstruction. incorrect: Ease proves mastery; harder methods always worse.",
+          "exemplar": "Rereading felt easier because it skipped effortful reconstruction. That reconstructive work is what strengthens the memory — ease was not mastery."
+        }
+      ]
+    },
+    {
+      "focus": "Free recall on a blank page",
+      "review": "*Free recall* means retrieving with no prompt — \"tell me everything about this topic.\" It is the most powerful form because you can recall in an *integrated*, elaborate way, not card by card. A blank page (or blank screen) is the simplest free-recall gym.",
+      "task": {
+        "do": "Choose one lecture or chapter section. Close all materials. On a blank page, brain-dump the topic for 6–7 minutes: structure, examples, and links — no peeking. Then open notes for 1–2 minutes and star missing pieces only.",
+        "capture": "Paste a short outline of what you produced, plus the starred gaps.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at how you produced today's dump, what made it free recall rather than cued recall?",
+          "rubric": "correct: No prompt/question stem — generated structure themselves. mostly_correct: Says \"from memory\" without contrasting cues. incorrect: Describes flashcards, peeking first, or fill-in-the-blanks as free recall.",
+          "exemplar": "It was free recall because I generated the structure myself with no question stem — not answering a flashcard cue or filling printed blanks."
+        },
+        {
+          "q": "If your dump listed facts but almost no links, what upgrade should you make on a second closed pass — and why?",
+          "rubric": "correct: Add relationships/why-it-matters from memory; free recall's power is integrated retrieval. mostly_correct: Mentions improving dump without naming links. incorrect: Copy more isolated facts or switch only to MCQ.",
+          "exemplar": "On a second closed pass I should add arrows and \"why this matters\" lines. Free recall's power is integrated, elaborate retrieval — not a longer list of isolated facts."
+        },
+        {
+          "q": "If you peeked halfway because it felt hard, how should you classify that attempt, and what will you change next time?",
+          "rubric": "correct: Weakened free-recall; stay closed until timer ends, check only after. mostly_correct: Admits peeking was suboptimal without clear fix. incorrect: Calls peeking a success or more efficient than closed-book.",
+          "exemplar": "Peeking weakened the free-recall attempt by turning production into recognition. Next time I stay closed until the timer ends and check only afterward."
+        }
+      ]
+    },
+    {
+      "focus": "Cued recall without cheating",
+      "review": "*Cued recall* retrieves from a prompt (a flashcard question). It is effective, but only if you genuinely generate the answer before flipping. Today you practice honest cued recall on your own cards or self-made prompts — speak or write the full answer first.",
+      "task": {
+        "do": "Make or open 5–8 prompts from your own material. For each: cover the answer, write/speak a full response, then check. Mark R (true recall) or N (you only recognized it after seeing the answer) — about 8 minutes.",
+        "capture": "List each prompt in short form with R or N, and rewrite one N item as a fuller answer from memory now.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "For items you marked N, what does N mean you must do differently next time — and why does \"it made sense when I saw it\" not count?",
+          "rubric": "correct: Treat as wrong; force full generation before checking; recognition ≠ recall. mostly_correct: Says try harder without marking wrong. incorrect: Count recognition as success or only study easy R items.",
+          "exemplar": "N means I only recognized the answer, so I mark it wrong and must generate fully before checking next time. \"It made sense\" is recognition, not recall."
+        },
+        {
+          "q": "Which of today's attempts was your strongest cued-recall rep? Describe what you did while the answer was still covered.",
+          "rubric": "correct: Wrote/spoke a complete answer with the back covered. mostly_correct: Mentions trying before flipping vaguely. incorrect: Glancing first, reading Q+A together, or skipping hard cards.",
+          "exemplar": "My strongest rep was writing a full answer while the back was still covered. Glancing first and nodding would have been recognition, not cued recall."
+        },
+        {
+          "q": "If your R/N list is mostly N, how should you interpret that — as failure of the subject, or as useful diagnosis?",
+          "rubric": "correct: Useful diagnosis — those cues need closed generation practice, not softer checking or retreat to rereading. mostly_correct: Sees problem but vague next step. incorrect: Stop testing / only reread / conclude subject impossible.",
+          "exemplar": "Mostly N is useful diagnosis: those cues need honest closed generation, not softer checking or a retreat into rereading."
+        }
+      ]
+    },
+    {
+      "focus": "Escape the recognition trap",
+      "review": "Recognition is far easier than recall — you can recognize a coin but maybe not draw it. Reading a question, glancing at the answer, and thinking \"yeah, I knew that\" proves nothing about production. Many wasted hours hide here. Fix: generate fully before checking; if you only recognized it, mark it wrong.",
+      "task": {
+        "do": "Pick 3 facts/diagrams from your subject you usually \"know when you see them.\" Without looking, draw or write each from scratch. Then compare to the source and score production vs recognition — about 8 minutes.",
+        "capture": "For each item: what you produced, what was missing, and whether past study was mostly recognition.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you could recognize an item yesterday but failed to produce it today, what does that prove about familiarity while looking?",
+          "rubric": "correct: Recognition was masquerading as mastery; familiarity ≠ production. mostly_correct: Admits a gap without naming recognition trap. incorrect: Drawing unrelated to knowing; familiarity is the exam skill.",
+          "exemplar": "It proves recognition was masquerading as mastery. Familiarity while looking did not mean I could produce the diagram — that is the recognition trap."
+        },
+        {
+          "q": "Based on your reflection, which study habit should you cut first, and which production-first habits should you keep?",
+          "rubric": "correct: Cut glance-and-nod / recognition checking; keep closed production and marking recognition failures wrong. mostly_correct: Mentions cutting something passive vaguely. incorrect: Cut closed-book practice or marking failures wrong.",
+          "exemplar": "I should cut glancing at answers and deciding they make sense. I keep closed-book drawing/writing before checking and marking recognition-only as wrong."
+        },
+        {
+          "q": "You found gaps in a \"familiar\" topic. What is the strongest response, and why do highlighting or waiting for familiarity-while-checking fail?",
+          "rubric": "correct: Schedule another closed production on those gaps; highlighting/soothing familiarity avoids retrieval. mostly_correct: Practice gaps vaguely. incorrect: Assume exam only tests recognition; stop because checking felt familiar.",
+          "exemplar": "I should schedule another closed production attempt on those gaps. Highlighting until it feels familiar again only restores recognition comfort — it does not train production."
+        }
+      ]
+    },
+    {
+      "focus": "Break cue saturation",
+      "review": "Repeat the same flashcard enough and you answer from the *first few words* of the question, not the knowledge. Then the exam phrases it differently and you blank. Fix: keep switching cues and prompts so you are authentically retrieving, not pattern-matching the card.",
+      "task": {
+        "do": "Take 3 ideas you usually study with the same flashcard wording. For each, invent 3 new prompts (different angle, diagram blank, \"why/when,\" or teach-it cue). Answer all 9 from memory — about 8–10 minutes.",
+        "capture": "Paste the 3 ideas with their 3 new prompts each, and note which prompt was hardest.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If you answered an old card easily but failed a rephrased prompt, what happened — and what does that say about the easy success?",
+          "rubric": "correct: Cue saturation / pattern-matching the familiar stem; easy success was not authentic retrieval. mostly_correct: Notes phrasing mattered without naming saturation. incorrect: Varied cues unfair; only one wording forever.",
+          "exemplar": "That was cue saturation — I was pattern-matching the familiar stem, not retrieving the idea. The easy old-card success was not trustworthy."
+        },
+        {
+          "q": "Which of your new prompts best fights saturation, and what made it a different retrieval path rather than a tiny reword?",
+          "rubric": "correct: Identifies a prompt with a truly different path (why/when, blank diagram, teach-it) vs synonym swap. mostly_correct: Picks a new prompt without explaining path difference. incorrect: Same stem with synonym, answer on front, or highlighted MCQ.",
+          "exemplar": "My \"when would you use this?\" prompt fought saturation best because it forced a different path than the usual definition stem — not just one synonym swapped."
+        },
+        {
+          "q": "After today's varied cues, what should you do with old single-wording cards that you always ace?",
+          "rubric": "correct: Retire or rewrite so exams cannot catch unfamiliar phrasing. mostly_correct: Mentions changing cards vaguely. incorrect: Keep as only practice; clone identical stems; stop retrieval.",
+          "exemplar": "I should retire or rewrite those saturated cards so one familiar stem is not my only practice. Exams will not use that exact wording."
+        }
+      ]
+    },
+    {
+      "focus": "Teach it simply",
+      "review": "Teaching the topic to a 10-year-old (Feynman-style) is strong free recall: you must structure it, compare and order ideas, and *simplify* — which means judging what matters. That builds an integrated schema. A plain brain dump is good; teaching forces deeper evaluation.",
+      "task": {
+        "do": "Pick one concept from your course. Without notes, explain it aloud or in writing as if to a smart 10-year-old for ~6 minutes: simple words, clear order, one analogy. Then check notes and mark where you hand-waved — about 8 minutes.",
+        "capture": "Paste your simple explanation (or outline) and list the hand-wavy spots you found.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Where did you get stuck simplifying? What does that usually mean about your schema there?",
+          "rubric": "correct: Fuzzy spot — cannot yet judge what matters / weak integration. mostly_correct: Admits confusion without schema diagnosis. incorrect: Simplifying is fluff; add more jargon; topic cannot be taught.",
+          "exemplar": "Getting stuck simplifying a step flagged a fuzzy place in my schema — I cannot yet judge what matters there. That is why teaching exposes weak integration."
+        },
+        {
+          "q": "Compared with isolated flashcard answers, what extra demand did teaching place on you today?",
+          "rubric": "correct: Structure, order, integrate, evaluate importance — not only retrieve isolated answers. mostly_correct: Says teaching is deeper vaguely. incorrect: All retrieval identical; teaching is only entertainment.",
+          "exemplar": "Teaching forced me to structure, order, and integrate ideas and judge what matters — not only spit back isolated card answers."
+        },
+        {
+          "q": "How will you use your hand-wavy list next — and why is highlighting the chapter a weaker follow-up?",
+          "rubric": "correct: Closed-book re-teach focusing on weak links; highlighting soothes without production. mostly_correct: Review weak spots vaguely. incorrect: Ignore if story sounded fine; recognition quiz only.",
+          "exemplar": "I will re-teach those hand-wavy links closed-book. Highlighting the chapter would make it feel familiar again without forcing me to produce the missing structure."
+        }
+      ]
+    },
+    {
+      "focus": "Practice how you play",
+      "review": "Match retrieval to how you will *use* the knowledge. Train declarative (what/why), procedural (how to execute), and conditional (when/why to choose an approach). If the exam makes you solve problems, practice solving — not only comfortable definition cards. In many procedural subjects, under-trained *declarative* understanding is high-yield.",
+      "task": {
+        "do": "Name how your next assessment uses this topic (solve / write / code / explain). Run 3 short retrievals from memory: one declarative, one procedural, one conditional (\"when would you use…?\") on your own material — about 8–10 minutes.",
+        "capture": "State the assessment format, then briefly record your three attempts and which was weakest.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If your weakest attempt was procedural but your usual cards are mostly definitions, what should change in your practice — and why?",
+          "rubric": "correct: Add closed-book practice matching exam execution; definitions alone do not train performance. mostly_correct: Mentions more practice vaguely. incorrect: Keep only safe definitions; drop all declarative; watch solutions only.",
+          "exemplar": "I need closed-book problem/execution practice that matches the exam. Definition cards feel safer but do not train the procedural performance I am tested on."
+        },
+        {
+          "q": "If you nailed procedures but failed \"when would you use this?\", what kind of knowledge is missing?",
+          "rubric": "correct: Conditional knowledge — choosing when/why approaches. mostly_correct: Says something about timing/choice vaguely. incorrect: Just more identical drills; recognition-only; timing never matters.",
+          "exemplar": "Conditional knowledge is missing — knowing when and why to choose an approach, not only how to execute steps."
+        },
+        {
+          "q": "For a maths-heavy or highly procedural course, what high-yield warning from this lesson should shape your mix of declarative and procedural retrieval?",
+          "rubric": "correct: Strengthen under-trained declarative why/when alongside procedures — not recognition-only formula sheets or dropping explanations. mostly_correct: Mentions balancing types vaguely. incorrect: Only memorize formulas by recognition; avoid problems; drop explanations.",
+          "exemplar": "I should strengthen under-trained declarative why/when alongside procedures. Recognition-only formula sheets leave the high-yield understanding gap the lesson warns about."
+        }
+      ]
+    },
+    {
+      "focus": "The retrieval loop",
+      "review": "The loop: (1) learn a small chunk and encode it well, (2) close everything and *produce* it (free or varied-cue), (3) check, correct, note gaps, (4) revisit gaps later at spaced intervals. Today you run one full loop on a small piece of your own coursework.",
+      "task": {
+        "do": "Select a small chunk you studied in the last 48 hours. Encode/refresh 2 minutes, closed produce 4 minutes, check and list gaps 2 minutes. Write a date for the next gap revisit (tomorrow or as fits your schedule).",
+        "capture": "Chunk name, gap list, and the next revisit date you committed to.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "After producing from memory, which loop step did you complete next — and why does skipping it leave the loop unfinished?",
+          "rubric": "correct: Check, correct, note gaps; without that errors persist and spaced revisit has no targets. mostly_correct: Mentions checking vaguely. incorrect: Skip checking; only add unrelated cards; reread whole textbook as the step.",
+          "exemplar": "I checked, corrected, and noted gaps. Skipping that leaves errors uncorrected and gives the next spaced revisit nothing specific to aim at."
+        },
+        {
+          "q": "You scheduled a revisit for your gaps. What must that revisit emphasize, and what should it avoid?",
+          "rubric": "correct: Active recall on gaps with varied cues; avoid passive reread/highlight/recognition-first. mostly_correct: Says review gaps vaguely. incorrect: Whole-chapter reread only; answers visible first.",
+          "exemplar": "The revisit must use active recall aimed at the gaps, ideally with varied cues — not a passive reread of the whole chapter or recognition with answers visible first."
+        },
+        {
+          "q": "If you wanted to learn a huge chapter in one loop, how should you adjust chunk size — and why?",
+          "rubric": "correct: Keep chunk small enough to encode and produce well; oversized chunks break production quality. mostly_correct: Says go smaller without why. incorrect: Skip production to cover more; check before producing to go faster.",
+          "exemplar": "I should keep the chunk small enough to encode and produce well in one sitting. A huge chapter in one loop breaks production quality — covering more pages by skipping production is not the loop."
+        }
+      ]
+    },
+    {
+      "focus": "Full retrieval workout",
+      "review": "Combine the subject's tools on one real topic: free recall, honest cued prompts, at least one rephrased cue to beat saturation, and a quick teach-it pass. Stay production-first. Match at least one attempt to how you will be assessed.",
+      "task": {
+        "do": "On one exam topic from your course (~10 minutes): blank-page free recall → 3 varied cues → 2-minute teach-it simplification → star gaps. No answer-peeking until each attempt is finished.",
+        "capture": "Outline of free recall, the 3 cue wordings, one teach-it sentence, and starred gaps.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In the workout you just finished, where did the recognition trap still show up — if it did — and how should you score that moment?",
+          "rubric": "correct: Any early glance + \"I knew that\" is recognition; mark wrong and regenerate. Writing before flipping / varied cues / teach-it are not the trap. mostly_correct: Mentions peeking without scoring rule. incorrect: Calls early glancing success.",
+          "exemplar": "If I glanced early and thought \"I knew that,\" that was the recognition trap — I mark it wrong and regenerate. Writing before flipping was the correct move."
+        },
+        {
+          "q": "If free recall was rich but an exam-style procedural attempt was weak, how should your next session bias practice?",
+          "rubric": "correct: Bias toward how you will play (problems/procedures) while keeping declarative links; do not drop free recall or switch to recognition-only. mostly_correct: Mentions more problems vaguely. incorrect: Ignore exam format; only MCQ recognition; drop free recall permanently.",
+          "exemplar": "Next session should bias toward exam-like problems/procedures while keeping declarative links. I should not ignore the exam format or abandon free recall for recognition-only drills."
+        },
+        {
+          "q": "What detail in your capture best proves you challenged cue saturation today?",
+          "rubric": "correct: Three differently angled prompts for the same idea. mostly_correct: Mentions \"varied practice\" without citing prompts. incorrect: One familiar stem repeated; reading answers then questions.",
+          "exemplar": "Having three differently angled prompts for the same idea proves I challenged cue saturation — not repeating one saturated stem ten times."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: retrieval done right",
+      "review": "Checkpoint: re-test the hardest practice moves with fresh material — blank-page free recall, marking recognition as wrong, varied cues against saturation, teach-it simplification, and matching retrieval to assessment type. No definition trivia — judge the attempts you make today.",
+      "task": {
+        "do": "Choose a topic you have *not* used this week. Closed free recall 4 minutes; create 2 brand-new cues and answer them; teach one sticky point in simple language; note gaps and when you will revisit.",
+        "capture": "Topic, gap list, revisit time, and which attempt was hardest (free / cued / teach).",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "Today's hardest attempt failed while an old familiar flashcard still feels easy. What is the best diagnosis, and which signal should you trust?",
+          "rubric": "correct: Cue saturation or recognition comfort; trust harder production evidence. mostly_correct: Prefers hard attempt without naming saturation. incorrect: Hard attempt invalid because it felt bad; familiar cards are true measure.",
+          "exemplar": "The easy familiar card is likely cue saturation or recognition comfort. I should trust the harder production failure as the honest signal."
+        },
+        {
+          "q": "You recognized an answer as soon as you uncovered it. How do you score that card, and why?",
+          "rubric": "correct: Wrong — recognition without prior generation does not count. mostly_correct: Says partial credit vaguely. incorrect: Correct because it made sense; skip scoring.",
+          "exemplar": "I score it wrong. Recognition without generating first does not count as recall, even if the answer made sense immediately."
+        },
+        {
+          "q": "What next move best closes today's checkpoint loop, given your gap list and revisit time?",
+          "rubric": "correct: Revisit starred gaps with production later; not whole-book reread, recognition piles, or stopping because notes looked familiar. mostly_correct: Mentions revisiting vaguely. incorrect: Familiarity while looking ends the loop.",
+          "exemplar": "I revisit the starred gaps with production at the time I scheduled. Looking familiar in notes does not close the loop — later retrieval on the gaps does."
+        }
+      ]
+    }
+  ]
+}

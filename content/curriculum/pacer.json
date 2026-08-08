@@ -1,0 +1,268 @@
+{
+  "id": "pacer",
+  "title": "The PACER Method",
+  "order": 5,
+  "lesson": "pacer.html",
+  "days": [
+    {
+      "focus": "Consume vs Digest",
+      "review": "Reading has consumption (intake) and digestion (processing so it stays). People obsess over consuming more, but learning depends on what remains. Up to ~90% of unread-digested material is forgotten. Sort your time: digest what you take in.",
+      "task": {
+        "do": "For yesterday's study on one subject, estimate minutes spent consuming (reading/watching/highlighting) vs digesting (organizing, practicing, mapping, rehearsing). Then adjust today's plan for one section toward more digestion.",
+        "capture": "Consume vs digest estimate + today's digestion-heavy plan.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using your consume vs digest time estimate, what risk does that ratio create for what will stay in memory?",
+          "rubric": "correct: Heavy consume/light digest → most intake forgotten; cites estimate. mostly_correct: Need more digest vaguely. incorrect: Higher consume always maximizes retention.",
+          "exemplar": "A 90/10 consume-to-digest split means most intake won't stay — over-consuming without digestion. Learning depends on what remains after processing. Highlighting and watching aren't digestion by themselves."
+        },
+        {
+          "q": "Explain today's digestion-heavy plan. Why does consuming less with more processing beat bingeing more pages?",
+          "rubric": "correct: If no time to digest, consume less; learning = what stays. mostly_correct: Process more vaguely. incorrect: Faster playback; skip processing.",
+          "exemplar": "I'll take fewer pages/videos and deliberately process what I take in. If I lack time to digest, I must consume less. Bingeing more undigested content maximizes forgetting, not learning."
+        },
+        {
+          "q": "For the material you chose, what digestion activity will you use — and why isn't another high-speed reread enough?",
+          "rubric": "correct: Targeted processing (PACER-appropriate); reread ≠ digestion. mostly_correct: Mentions processing vaguely. incorrect: Highlight every sentence; another summary video only.",
+          "exemplar": "I'll process it with a method matched to its type — practice, map, critique analogy, or store-and-rehearse — not another speed reread. Digestion is targeted processing. More raw intake isn't digestion."
+        }
+      ]
+    },
+    {
+      "focus": "The Balance Rule",
+      "review": "Everything you consume must be digested. No time to digest? Consume less. Over-consuming without digesting is like overeating — you 'vomit it back up' by forgetting. Practice saying no to excess intake.",
+      "task": {
+        "do": "Choose one upcoming reading/lecture block. Cut the planned consume volume by ~30–50%. Write exactly how you will digest what remains (method + minutes). Then start that shorter consume+digest loop on real material for 8 minutes.",
+        "capture": "What you cut; digestion method; what you actually processed in the loop.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You may have resisted cutting volume because 'there's too much content.' What does the balance rule say you should do anyway — and why?",
+          "rubric": "correct: Consume only what you can digest; unread beats forgotten. mostly_correct: Cut some vaguely. incorrect: Consume everything undigested to feel complete.",
+          "exemplar": "I should still consume less than I can digest — unread pages beat forgotten pages. Coverage theater without digestion is like overeating. Balance means matched consume and digest, not infinite intake."
+        },
+        {
+          "q": "Did your shorter consume+digest loop leave you able to explain the chunk? What does that say about the balance rule?",
+          "rubric": "correct: Less consume, more stay = balance working; cites result. mostly_correct: Felt better vaguely. incorrect: Failure if syllabus unfinished today.",
+          "exemplar": "If I digested a smaller chunk and can explain it, balance is working — less consume, more stays. Not finishing the syllabus today isn't failure if what I took in remains. Learning tracks what stays."
+        },
+        {
+          "q": "What pattern in a study plan would signal you broke the balance rule?",
+          "rubric": "correct: Large intake with almost no processing time. mostly_correct: Too much reading vaguely. incorrect: Matched blocks or stopping when digestion done as 'broken'.",
+          "exemplar": "Large intake with almost no processing time attached breaks the balance rule — the overeating pattern. Matched consume/digest blocks follow the rule. Stopping when digestion is done is healthy, not a failure."
+        }
+      ]
+    },
+    {
+      "focus": "P — Procedural",
+      "review": "Procedural information is how to *do* something (techniques, coding, languages, protocols). Digest it by practice — apply it in real life as early as possible. Don't only reread the steps.",
+      "task": {
+        "do": "Find one procedural item in your coursework (a method, problem type, lab step, workflow). Practice doing it once now on a real or realistic example — not rereading the steps. Note where you stumbled.",
+        "capture": "Procedural item; what you practiced; stumble notes.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Did you practice the procedural item or only highlight steps? What does PACER say procedural digestion requires?",
+          "rubric": "correct: Practice/application as early as possible; highlighting ≠ doing. mostly_correct: Practice more vaguely. incorrect: Highlighting equals doing; only flashcards.",
+          "exemplar": "If I only highlighted steps, that wasn't digestion. Procedural information is digested by practice — applying it in a realistic example early. Rereading steps alone won't install how-to skill."
+        },
+        {
+          "q": "Where you stumbled in practice, what is the best next move — and why not retreat to silent rereading only?",
+          "rubric": "correct: Retry sooner using stumble as feedback. mostly_correct: Practice again vaguely. incorrect: Reread forever; stumbles prove practice fails.",
+          "exemplar": "I'll retry the procedure sooner, using the stumble as feedback. Silent rereading forever avoids the digestion method for P. Early practice with corrections is the point."
+        },
+        {
+          "q": "Why was the item you chose Procedural rather than a definition or isolated statistic — and how did that label change what you did?",
+          "rubric": "correct: How-to/process you must perform → practice; contrasts non-P. mostly_correct: It's a skill vaguely. incorrect: Treats trivia/definition as procedural.",
+          "exemplar": "It's a how-to process I must perform, not a one-off statistic or pure definition. That PACER label meant I had to practice doing it, not only memorize wording. Wrong label would have sent me to the wrong digestion."
+        }
+      ]
+    },
+    {
+      "focus": "A — Analogous",
+      "review": "Analogous information relates to something you already know. Digest it by critiquing the analogy: where it holds, where it breaks, whether it can be improved. Don't just smile at a metaphor and move on.",
+      "task": {
+        "do": "Find an analogy in your notes/lecture/textbook (or invent one linking a new idea to something you know). Critique it in writing: holds / breaks / one improvement.",
+        "capture": "Analogy; holds; breaks; improvement.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your analogy note was basically 'nice analogy' with no critique, what digestion for Analogous information did you skip?",
+          "rubric": "correct: Critique holds/breaks/improvements. mostly_correct: Think deeper vaguely. incorrect: Liking an analogy fully digests it.",
+          "exemplar": "I skipped critiquing where it holds, where it breaks, and how to improve it. Analogous information is digested by testing the analogy, not smiling at a metaphor. 'Nice analogy' isn't digestion."
+        },
+        {
+          "q": "Your critique may have found a break. Why is spotting breaks useful for understanding the real idea?",
+          "rubric": "correct: Limits deepen understanding of the target concept. mostly_correct: Critique helps vaguely. incorrect: Breaks mean delete all analogies forever.",
+          "exemplar": "Spotting where the analogy breaks deepens understanding of the real idea — I see what the metaphor doesn't cover. Breaks aren't a reason to ban analogies. Critique including limits is the A digestion process."
+        },
+        {
+          "q": "After a weak analogy, what next step strengthens encoding of the target idea?",
+          "rubric": "correct: Improve or replace with tighter analogy tied to prior knowledge. mostly_correct: Find a better analogy vaguely. incorrect: Ignore prior knowledge; treat every analogy as perfect.",
+          "exemplar": "I'll improve it or replace it with a tighter analogy tied to something I already know. Knowing limits and building a better bridge strengthens encoding. Stopping all relating to prior knowledge blocks A digestion."
+        }
+      ]
+    },
+    {
+      "focus": "C — Conceptual",
+      "review": "Conceptual information is the *what*: facts, theories, relationships — most of science. Digest by mapping: non-linear, network-based notes (mind mapping), not endless linear lists alone.",
+      "task": {
+        "do": "Take one conceptual cluster from your subject. Draw a non-linear map (center + branches/links). Include at least 5 nodes and 3 explicit relationships. Use your real material.",
+        "capture": "Describe center, nodes, and the key links (or photo description of the map).",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Was your map a true network or mostly a linear list? What does conceptual digestion require instead of sequence-only notes?",
+          "rubric": "correct: Non-linear network with relationships; lists ≠ maps for C. mostly_correct: Needs structure vaguely. incorrect: Lists identical to maps; relationships optional.",
+          "exemplar": "A linear bullet list isn't a map. Conceptual digestion wants network structure — nodes and links showing how ideas relate — not only sequence. Theories need relationships, not isolated definition columns."
+        },
+        {
+          "q": "Which links on your map best show conceptual digestion, and what relationship do they capture?",
+          "rubric": "correct: Visible relational links (cause, part-of, contrast, etc.). mostly_correct: Mentions links vaguely. incorrect: Page numbers or copied paragraph order as digestion.",
+          "exemplar": "Links that show how ideas relate — cause, contrast, category — match conceptual digestion. Page numbers or copied paragraphs in order don't. Mapping emphasizes the conceptual network."
+        },
+        {
+          "q": "What follow-up would enrich today's map without turning everything into Reference flashcards?",
+          "rubric": "correct: Add a helpful analogy inside the map; keep network. mostly_correct: Add more connections vaguely. incorrect: Delete links for flashcards-only; never revisit.",
+          "exemplar": "I'd add an analogy inside the map where it helps a concept click — A living inside C. Converting the whole web to Reference trivia cards is the wrong move. Keep and grow the network."
+        }
+      ]
+    },
+    {
+      "focus": "E — Evidence",
+      "review": "Evidence is specific facts, stats, or cases that prove a concept. Digest by store & rehearse: note it now, later practice *using* it to support the concept — don't freeze consumption to memorize every number on the spot.",
+      "task": {
+        "do": "From your material, pick 2 evidence items (stat, finding, case). Store them briefly under the concept they support. Then rehearse: without looking, state the concept and use each evidence item in one supporting sentence.",
+        "capture": "Concept; two evidence items; your two supporting sentences from memory.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Did you burn first-pass time force-memorizing a statistic? What does PACER warn about Evidence during consumption?",
+          "rubric": "correct: Store now, rehearse later; don't force-memorize on the spot during consume. mostly_correct: Memorize later vaguely. incorrect: Must memorize evidence before noting the concept.",
+          "exemplar": "PACER warns: don't force-memorize Evidence on the spot during consumption — store it under the concept and rehearse later. On-the-spot memorizing steals foundation time. Using evidence in supporting sentences is the rehearsal."
+        },
+        {
+          "q": "How did your rehearsal use each evidence item to support the concept — and why is that better than highlighting alone?",
+          "rubric": "correct: Used evidence in supporting sentences from memory; rehearse-by-using. mostly_correct: Recalled the stat vaguely. incorrect: Evidence may only be highlighted.",
+          "exemplar": "I stated the concept and used each evidence item in a supporting sentence without looking — store & rehearse by using it. Highlighting alone isn't rehearsal. Evidence exists to support concepts in use."
+        },
+        {
+          "q": "If an evidence item had no parent concept in your notes, what fix comes before more memorizing?",
+          "rubric": "correct: Attach under the concept it proves. mostly_correct: Organize better vaguely. incorrect: Keep as lone flashcard forever; delete concepts.",
+          "exemplar": "I'd attach it under the concept it proves before more memorizing. Lone number flashcards orphan the evidence. Evidence is stored in relationship to what it supports."
+        }
+      ]
+    },
+    {
+      "focus": "R — Reference",
+      "review": "Reference is nitty-gritty detail you mainly need to recall. Digest with store & rehearse (flashcards + spacing/active recall). It is the easiest, least important category — most real knowledge is P, A, and C. Don't treat everything as R.",
+      "task": {
+        "do": "Scan one section of your notes. Tag items as R only if they are detail-for-recall. Make at most 5 flashcards for true Reference. Explicitly list 3 items you will NOT flashcard because they are P/A/C instead.",
+        "capture": "Up to 5 R cards (prompts only is fine) + 3 non-R items with their letter tags.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you turned a conceptual framework into a huge flashcard pile, what PACER mistake is that — and what digestion should replace most of those cards?",
+          "rubric": "correct: Treating Conceptual as Reference; map instead. mostly_correct: Too many cards vaguely. incorrect: Ideal PACER for theories.",
+          "exemplar": "That's treating Conceptual material as Reference — the worst offender pattern. Frameworks should be mapped as networks, not dumped onto dozens of cards. Most real knowledge is P, A, and C — not R."
+        },
+        {
+          "q": "Why did today's task cap R cards and force non-R tags? What does that protect time for?",
+          "rubric": "correct: R is least important; protect P/A/C digestion time. mostly_correct: Prioritize important stuff vaguely. incorrect: R is the only knowledge that matters; PACER forbids flashcards.",
+          "exemplar": "Reference is the easiest, least important category — capping R protects time for Procedural, Analogous, and Conceptual digestion. Flashcards are fine for true R, not for everything. Non-R tags keep the foundation funded."
+        },
+        {
+          "q": "For one true Reference detail you tagged, what digestion plan matches R — and what should you avoid during first consumption?",
+          "rubric": "correct: Store now; spaced active recall later; avoid endless on-the-spot rereading during consume. mostly_correct: Flashcard later vaguely. incorrect: Reread twenty times during first consume only.",
+          "exemplar": "Store it now and rehearse later with spaced active recall. I should avoid endless rereading during first consumption. R isn't practiced as a physical procedure when it isn't one."
+        }
+      ]
+    },
+    {
+      "focus": "Two Biggest Mistakes",
+      "review": "Mistake 1: memorizing on the spot for P/E/R during consumption. Mistake 2: treating everything as Reference. Both steal time from the foundation (P, A, C). Audit your habits against both.",
+      "task": {
+        "do": "Review your last study session's artifacts (notes/cards). Find one example of on-the-spot memorizing that should have been store/practice-later, and one example of over-flashcarding something that needed mapping/practice/analogy critique. Rewrite the plan for each.",
+        "capture": "Mistake examples + corrected digestion plans.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "From your audit, explain one on-the-spot memorizing mistake and the corrected digestion plan. Which PACER mistake is that?",
+          "rubric": "correct: Identifies consume-time memorizing of P/E/R; correct = practice later or store&rehearse. mostly_correct: Memorized too early vaguely. incorrect: Claims on-the-spot memorizing is correct PACER for P.",
+          "exemplar": "I memorized protocol steps during first reading instead of practicing later — on-the-spot memorizing of Procedural info during consume. Corrected plan: light store, then practice reps. That mistake starves foundation time."
+        },
+        {
+          "q": "Explain one over-flashcarding example from your artifacts and what digestion it should have received instead.",
+          "rubric": "correct: Conceptual/theory as R → map (or P→practice, A→critique). mostly_correct: Too many cards vaguely. incorrect: Flashcards perfect for theory webs.",
+          "exemplar": "I flashcarded a whole theory web — treating Conceptual knowledge as Reference. It should have been mapped. Dumping everything onto cards is the second big mistake."
+        },
+        {
+          "q": "After today's audit, what priority will protect P/A/C foundations in your next session?",
+          "rubric": "correct: Protect time for P/A/C; store E/R for later rehearsal; avoid both mistakes. mostly_correct: Focus on important material vaguely. incorrect: Memorize everything immediately while reading.",
+          "exemplar": "I'll protect time for practice, analogy critique, and mapping — and store Evidence/Reference for later rehearsal. No memorizing everything while reading, and no converting all P into R cards. Foundations first."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: PACER Sort",
+      "review": "Forced sorting feels unnatural — and that's why it works. Biological limits make endless intake overwhelming; sorting + right digestion keeps you under the limit. Do a full PACER pass on real pages.",
+      "task": {
+        "do": "Take 4–6 pages or one lecture. Tag each major chunk P/A/C/E/R. Digestion sprint: practice one P, critique one A, map one C cluster, store two E/R for later. Stop when time ends even if pages remain.",
+        "capture": "Tags summary + what you did for P, A, C, and stored E/R.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Sorting felt awkward but you finished targeted digestion on less volume. How does PACER interpret that awkwardness and result?",
+          "rubric": "correct: Forced process expected; keeps under overwhelm limits; less volume OK. mostly_correct: Sorting helps vaguely. incorrect: Awkwardness means abandon PACER; binge leftovers undigested.",
+          "exemplar": "Awkward forced sorting is expected — and that's why it works. It kept me under cognitive overwhelm by matching digestion to types. Finishing targeted processing on less volume beats consuming every remaining page undigested."
+        },
+        {
+          "q": "If almost everything got tagged R, what error pattern is that — and how would you retag two items?",
+          "rubric": "correct: Overusing Reference; retag toward P/A/C with reasons. mostly_correct: Too much R vaguely. incorrect: R should dominate science courses.",
+          "exemplar": "Overusing Reference misses P/A/C foundations. I'd retag a how-to as P and a theory cluster as C, then practice and map. Most important knowledge isn't nitty-gritty recall detail."
+        },
+        {
+          "q": "For leftover unread pages, what next move respects the balance rule?",
+          "rubric": "correct: Another consume+digest cycle; no binge without processing. mostly_correct: Come back later vaguely. incorrect: Speed-read all leftovers; flashcard every sentence; ignore balance when busy.",
+          "exemplar": "I'll schedule another consume+digest cycle — not speed-read leftovers with zero digestion. The balance rule still holds when busy. Flashcarding every sentence recreates the everything-is-R mistake."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Sort & Digest",
+      "review": "Checkpoint: classify information types, pick correct digestion, and catch the two big mistakes on fresh material.",
+      "task": {
+        "do": "New section: tag 5 items with PACER letters; digest two non-R items properly; write one temptation you felt toward on-the-spot memorizing or over-flashcarding and what you did instead.",
+        "capture": "Five tags; two digestions; temptation + alternative.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you tagged a how-to skill as R and only made flashcards, what checkpoint error is that — and what digestion should replace it?",
+          "rubric": "correct: Mis-tagged Procedural as Reference; needs practice. mostly_correct: Wrong tag vaguely. incorrect: All skills are Reference; cards replace doing.",
+          "exemplar": "That's mis-tagging Procedural as Reference. Digestion should be practice, not cards alone. Flashcards don't replace doing a how-to skill."
+        },
+        {
+          "q": "You mapped a theory cluster instead of carding every node. Why is that the correct Conceptual move?",
+          "rubric": "correct: C → network map; relationships over R dump. mostly_correct: Mapping good vaguely. incorrect: Theories must be R only.",
+          "exemplar": "Conceptual information is digested by non-linear mapping — showing relationships in the network. Carding every node treats C as R. Maps aren't only for procedural steps."
+        },
+        {
+          "q": "You felt an urge to memorize every number on first reading. What PACER response protects foundation time?",
+          "rubric": "correct: Store E/R now; rehearse later; keep consume for P/A/C. mostly_correct: Memorize later vaguely. incorrect: Memorize all numbers immediately; convert chapter to R first.",
+          "exemplar": "I'll store Evidence/Reference now and rehearse later — keeping consume time for P/A/C foundations. Memorizing every number immediately is the on-the-spot mistake. Skipping tags to binge more pages breaks balance."
+        }
+      ]
+    }
+  ]
+}

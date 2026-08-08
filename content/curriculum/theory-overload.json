@@ -1,0 +1,268 @@
+{
+  "id": "theory-overload",
+  "title": "Learning Skills & Mental Models",
+  "order": 11,
+  "lesson": "theory-overload.html",
+  "days": [
+    {
+      "focus": "The experiential cycle",
+      "review": "You cannot improve a skill by blindly repeating it. Improvement is a loop: *experience → observe the result → decide what to change → experiment.* Random arrows never teach you how to aim; a bad result must tell you what to adjust. Same with studying: a bad exam means little unless you learn what to change.",
+      "task": {
+        "do": "Pick one study skill you used this week on your own coursework (e.g., mapping, free recall, flashcards). Write one recent attempt (experience), what happened (observe), one concrete change (decide), and when you will try it (experiment) — about 8 minutes.",
+        "capture": "Fill the four steps with specifics from your real study, not generics.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your \"observe\" line only said \"it went badly,\" what is missing — and why does that break the cycle?",
+          "rubric": "correct: Needs a result specific enough to suggest what to adjust; without it decide/experiment stay aimless. mostly_correct: Wants more detail vaguely. incorrect: Observation optional; more quotes/theory replace specific observation.",
+          "exemplar": "What's missing is a specific result that suggests what to change — e.g., \"missed 3 links on free recall.\" \"Went badly\" cannot drive a useful experiment, so blind repetition continues."
+        },
+        {
+          "q": "Does your capture form a real experiential cycle? Point to each step, or say what is still generic.",
+          "rubric": "correct: Shows experience → specific observe → concrete decide → timed experiment on real study. mostly_correct: Partial cycle with one vague step. incorrect: \"Study harder,\" theory-only, or identical repeat with hope.",
+          "exemplar": "Yes: tried free recall → missed 3 links → map first 5 minutes next time → Thursday 7pm. That is experience, observation, decision, and a scheduled experiment."
+        },
+        {
+          "q": "Why is an exam score alone usually not enough observation to improve a study skill?",
+          "rubric": "correct: Scores rarely say what process to change; need process-level observation. mostly_correct: Scores incomplete vaguely. incorrect: Observation wastes time; experiments should be random; only theory improves skills.",
+          "exemplar": "A score says little about what to change in the process. Without observing how I studied, I cannot decide a useful experiment — that is why the cycle needs process detail."
+        }
+      ]
+    },
+    {
+      "focus": "Spot cognitive overload",
+      "review": "Working capacity is limited. Every new technique adds things to think about, and an unfamiliar skill already burns capacity just to perform. Pile on many new techniques at once and you overflow — *cognitive overload* — and learn almost nothing. Going \"fast\" through content while overloaded can make you worse.",
+      "task": {
+        "do": "List every new study technique or tool you tried to use in the last 7 days during real study. Star any session where you felt flooded, slower, or less accurate. Circle how many techniques were active in your worst session — about 8 minutes.",
+        "capture": "Technique list, starred overloaded sessions, and the count from the worst one.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your worst session's technique count, what is the best reading if you felt flooded and less accurate?",
+          "rubric": "correct: Likely cognitive overload — capacity spent performing unfamiliar methods, little left to learn. mostly_correct: Too much at once vaguely. incorrect: Add more techniques; overload = motivation only; speed never risks overload.",
+          "exemplar": "Juggling many new techniques at once was likely cognitive overload — capacity went to performing unfamiliar methods, so little was left to learn the material."
+        },
+        {
+          "q": "A peer covered more syllabus percent than you but got worse results. How does this lesson explain that pattern?",
+          "rubric": "correct: Racing content while overloaded can beat \"slow\" focused practice on outcomes. mostly_correct: Fast coverage can hurt vaguely. incorrect: More percent always equals more skill; copy their pace; outcomes unrelated to overload.",
+          "exemplar": "They may have raced coverage while overloaded. Going \"fast\" through content with no capacity left can produce worse learning than slower, focused practice."
+        },
+        {
+          "q": "Based on your starred sessions, what is the strongest cut you should make — and what temptation should you resist?",
+          "rubric": "correct: Reduce simultaneous new techniques; resist adding apps/methods or ignoring accuracy drops while going faster. mostly_correct: Do less vaguely. incorrect: Add a new app per weakness; more theory before any narrowing.",
+          "exemplar": "I should reduce how many new techniques I run at once. Adding another app tonight or ignoring accuracy drops while \"going faster\" would deepen the overload."
+        }
+      ]
+    },
+    {
+      "focus": "Learn slower to learn faster",
+      "review": "The counterintuitive rule: to learn a skill fast, learn *slower*. Only work on **one or two** new things at a time. Spreading attention across a dozen methods feels ambitious; it usually stalls all of them. Today you choose a narrow focus for your real study skill practice.",
+      "task": {
+        "do": "From your technique list (or current goals), pick at most two study skills to improve for the next 7 days. Write what you will *not* add until those get easier. Apply one of the two in today's actual coursework for a short block — about 8 minutes planning + doing.",
+        "capture": "Your 1–2 focus skills, the \"not now\" list, and a 3-line note on today's application attempt.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Why is a long \"not now\" list aligned with learning skills faster, not a failure of ambition?",
+          "rubric": "correct: One or two new things at a time prevents overload and speeds real skill gain. mostly_correct: Focus helps vaguely. incorrect: Guilt for not doing everything; not-now reduces ambition permanently; all techniques must start same week.",
+          "exemplar": "Deferring most techniques protects the one-or-two rule. That prevents overload and actually speeds skill gain — it is the method, not a lack of ambition."
+        },
+        {
+          "q": "After an overloaded week, which focus choice is healthiest — and what would an unhealthy \"catch up\" plan look like?",
+          "rubric": "correct: One familiar-enough skill to stabilize, optionally one new — not seven new methods or theory-only waiting. mostly_correct: Narrow focus vaguely. incorrect: Seven new methods; zero practice until more videos; random daily switching among ten apps.",
+          "exemplar": "Healthiest is stabilizing one familiar-enough skill, maybe adding one new. Trying seven new methods to \"catch up\" would recreate overload."
+        },
+        {
+          "q": "You are tempted mid-week by a video to add a third new method. What should you do with that idea?",
+          "rubric": "correct: Park on not-now until a current focus becomes habitual. mostly_correct: Wait vaguely. incorrect: Start immediately alongside both; replace sleep; drop focuses to chase novelty.",
+          "exemplar": "I park it on the not-now list until one current focus becomes habitual. Starting it immediately beside both focuses breaks the one-or-two rule."
+        }
+      ]
+    },
+    {
+      "focus": "Theory without practice (and the reverse)",
+      "review": "Practice with no theory is aimless; practice with too much theory overloads you. Skill learning needs both — in balance. Today you diagnose your recent week: were you collecting methods without reps, or grinding reps with no idea what to adjust?",
+      "task": {
+        "do": "For your chosen focus skill, log the last 5 study days: minutes of new theory/videos/articles vs minutes of deliberate practice on your coursework. Circle which side dominated. Plan tomorrow's block to correct the imbalance — about 8 minutes.",
+        "capture": "Rough theory vs practice minutes and tomorrow's corrective plan.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your log shows lots of method videos and almost no practice on real material, what is the risk?",
+          "rubric": "correct: Theory overload / knowledge about skills without experiential improvement. mostly_correct: Too much theory vaguely. incorrect: Perfect balance; practice unnecessary if theory is good; double theory again.",
+          "exemplar": "The risk is theory overload — collecting methods without experiential improvement on real coursework. High-quality videos do not replace practice."
+        },
+        {
+          "q": "If your log shows grinding with no idea what to change, what is the risk — and what does \"enough theory\" mean here?",
+          "rubric": "correct: Aimless practice — need enough theory to guide the next experiment, not endless blind reps. mostly_correct: Need guidance vaguely. incorrect: Stop all practice; more identical blind reps; theory never useful.",
+          "exemplar": "That is aimless practice. I need enough theory to guide the decide step of the cycle — not more identical blind reps, and not abandoning practice."
+        },
+        {
+          "q": "Does tomorrow's plan restore balance? Explain how it weights theory vs deliberate practice on your material.",
+          "rubric": "correct: Short theory check then mostly deliberate practice on own material. mostly_correct: Mentions practice without clear balance. incorrect: Four new courses first; tips-only scrolling; practice forever with zero adjustment review.",
+          "exemplar": "Yes — a short theory check, then mostly deliberate practice on my own material. Another theory binge would not restore balance."
+        }
+      ]
+    },
+    {
+      "focus": "The ~5:1 practice guideline",
+      "review": "As a rule of thumb, aim for about **5 hours of practice per 1 hour of new theory** — but adjust to *how fast you form habits*, not the clock alone. The ratio exists to keep theory from outrunning the experiential cycle. Today you set a personal ratio target for your focus skill.",
+      "task": {
+        "do": "Choose one bit of theory you recently added (a technique rule). Schedule practice blocks on your real coursework totaling ~5× that theory time before allowing another new technique video/chapter. Put the practice blocks on your calendar — about 8 minutes.",
+        "capture": "Theory item + minutes, planned practice minutes/dates, and the \"no new theory until\" rule you set.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using your theory minutes, roughly how much deliberate practice should you lean toward before more theory — and how flexible is that number?",
+          "rubric": "correct: About 5× theory time as a rule of thumb, adjusted to habit speed. mostly_correct: More practice than theory vaguely. incorrect: Another equal video immediately; zero practice if notes neat; exactly 5 minutes only ever.",
+          "exemplar": "If I took 30 minutes of theory, I lean toward about 2.5 hours of deliberate practice before more theory — adjusting upward if habits form slowly."
+        },
+        {
+          "q": "You form habits slowly and still feel clumsy. How should you use the 5:1 guideline without treating it as shame?",
+          "rubric": "correct: Stay in practice longer before adding theory — adjust to habit formation. mostly_correct: Need more practice vaguely. incorrect: Binge theory despite clumsiness; quit; treat needing more practice as shame.",
+          "exemplar": "I stay in practice longer before adding theory. Needing more than 5:1 while still clumsy is adjusting to habit speed — not a failure of the guideline."
+        },
+        {
+          "q": "What about your calendar pattern shows the guideline became real rather than aspirational?",
+          "rubric": "correct: Practice blocks booked before the next new-theory slot / gated new theory. mostly_correct: Mentions practice plans vaguely. incorrect: Theory every day with practice \"sometime\"; only weekend theory; random YouTube with no dates.",
+          "exemplar": "I booked practice blocks and set a no-new-theory-until rule before the next video. Theory-every-day with practice \"sometime\" would leave the guideline aspirational only."
+        }
+      ]
+    },
+    {
+      "focus": "Habits free capacity",
+      "review": "When a skill becomes a *habit*, it frees capacity for the next bit of theory. You know a habit is forming when something gets easier and faster *without* losing accuracy. Then — and only then — add more theory. Today you test a focus skill for habit signals on real work.",
+      "task": {
+        "do": "Run your focus skill on a short piece of coursework (6–7 min). Score ease (1–5), speed vs last week, and accuracy (kept / dropped). Decide: Habit forming (may add a little theory) or Still fragile (practice only) — about 8 minutes.",
+        "capture": "Ease, speed note, accuracy, and Habit forming vs Still fragile with one reason.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If ease and speed rose but accuracy fell, what decision should you make about adding theory — and why?",
+          "rubric": "correct: Still fragile — do not add theory yet; protect accuracy while practicing. mostly_correct: Wait vaguely. incorrect: Habit formed — binge methods; accuracy never matters; stop practicing because speed rose.",
+          "exemplar": "Still fragile — I do not add theory yet. Habit requires easier/faster without losing accuracy; speed alone is not enough."
+        },
+        {
+          "q": "If ease, speed, and accuracy all look better, what is the best next move — and what stacking mistake should you still avoid?",
+          "rubric": "correct: May add a small next piece of theory; still avoid adding many techniques at once. mostly_correct: Add theory vaguely. incorrect: Add five techniques at once; never add theory again; switch skills hourly.",
+          "exemplar": "I may add a small next piece of theory because capacity is freer — but still only one small addition, not five new techniques at once."
+        },
+        {
+          "q": "Why wait for habit before stacking methods, in terms of working capacity?",
+          "rubric": "correct: Habit frees capacity; stacking earlier invites overload. mostly_correct: Waiting helps vaguely. incorrect: Habits make theory useless; waiting only about motivation.",
+          "exemplar": "Habit frees working capacity so the next theory can land. Stacking methods earlier overflows capacity again and recreates overload."
+        }
+      ]
+    },
+    {
+      "focus": "Expected value thinking",
+      "review": "Mental models are simplified frameworks for thinking and deciding. A favorite is *expected value*: do not judge a decision as simply good or bad; weigh the range of likely outcomes and choose what wins *on average over many repetitions*, not just once. Use this on a real study decision this week.",
+      "task": {
+        "do": "Take one real study decision (e.g., block vs interleave tonight; add cards vs map; study now vs scroll). List 2–3 plausible outcomes for each option with rough upside/downside. Choose the option that wins on average across repetitions — about 8 minutes.",
+        "capture": "Decision, options, outcome sketches, and your EV-style choice with a one-line why.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You almost chose what feels best once tonight. What does expected value push you to choose instead?",
+          "rubric": "correct: The option that wins on average across many study nights. mostly_correct: Long-term vaguely. incorrect: Whatever reduces next-five-minutes discomfort; ignore outcomes; always novel shiny method.",
+          "exemplar": "Expected value pushes the option that wins on average across many study nights — not the choice that only feels best for tonight."
+        },
+        {
+          "q": "What in your capture shows you used the model rather than a slogan?",
+          "rubric": "correct: Multiple outcomes sketched per option before choosing. mostly_correct: Mentions weighing options vaguely. incorrect: Good vibes only; copy friend blindly; avoid deciding.",
+          "exemplar": "I sketched multiple plausible outcomes for each option before choosing. That weighing is the model — \"good vibes\" with no outcomes listed is not."
+        },
+        {
+          "q": "If your EV choice is harder tonight but better across a month of sessions, is that aligned? Why?",
+          "rubric": "correct: Yes — average-over-repetitions can disagree with tonight's comfort. mostly_correct: Hard can be good vaguely. incorrect: Only tonight's mood counts; EV forbids hard options; models cannot apply to study.",
+          "exemplar": "Yes — choosing what wins across many reps often means accepting short-term difficulty tonight. Expected value is not the same as tonight's comfort."
+        }
+      ]
+    },
+    {
+      "focus": "Models need good inputs",
+      "review": "A model is only as good as how you apply it. Wrong context or bad data and it confidently leads you off a cliff (like choosing a \"higher-probability\" campaign from flawed past data and losing money). Pick the right model, question inputs, and check whether the situation fits the model's assumptions.",
+      "task": {
+        "do": "Revisit yesterday's study decision (or a new one). Write: (1) which model/rule you are using, (2) the inputs you assumed, (3) one way those inputs could be wrong, (4) a quick check against your real constraints (time, readiness, exam type) — about 8 minutes.",
+        "capture": "Model, inputs, possible flaw, and whether you keep, adjust, or reject the choice.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you found an input was wishful (for example, \"I have 4 free hours\") but false, what should happen to the decision?",
+          "rubric": "correct: Adjust or reject — bad inputs make confident wrong answers. mostly_correct: Change something vaguely. incorrect: Keep because model sounded smart; ignore constraints; never question inputs.",
+          "exemplar": "I should adjust or reject the decision. Bad inputs make even a good model confidently wrong — keeping a fantasy schedule because it sounds smart fails the lesson."
+        },
+        {
+          "q": "What self-check best matches the lesson's warning about applying models?",
+          "rubric": "correct: Does this situation fit the model's assumptions? mostly_correct: Question the plan vaguely. incorrect: Is the model famous?; thumbnail recommended it?; apply without looking at real course.",
+          "exemplar": "I should ask whether this situation actually fits the model's assumptions. Fame or a video thumbnail is not a fit check."
+        },
+        {
+          "q": "You used expected value but ignored that a topic is not Ready for interleaving. What went wrong in the application?",
+          "rubric": "correct: Wrong context — model applied outside conditions where the option is valid. mostly_correct: Missed a constraint vaguely. incorrect: EV overrides readiness; readiness unrelated; models replace course constraints.",
+          "exemplar": "Wrong context — I applied EV outside conditions where interleaving is valid. Right model, wrong situation still fails when readiness constraints are ignored."
+        }
+      ]
+    },
+    {
+      "focus": "Apply: one skill, balanced reps",
+      "review": "Combine the subject's tools on your real learning skill: run an experiential cycle, keep only one or two focuses, balance theory with practice (~5:1 mindset), wait for habit signals before adding more, and use a mental model carefully with audited inputs.",
+      "task": {
+        "do": "For your focus skill and one coursework task (~10 min): practice the skill, observe result, decide one micro-adjustment, note theory minutes vs practice minutes this week, and confirm you are not adding a new technique today.",
+        "capture": "Cycle notes, weekly theory/practice sketch, and confirmation of the one/two-focus rule.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "What from today's session shows you avoided theory overload?",
+          "rubric": "correct: Practiced on real material and refused a new technique pile-on. mostly_correct: Focused practice vaguely. incorrect: Watched many method videos mid-session; started five focuses; skipped observation to go faster.",
+          "exemplar": "I practiced on real material and refused to add a new technique today. That focused practice — not stacking theory — is the anti-overload move."
+        },
+        {
+          "q": "If your micro-adjustment lacks a next experiment time, what is the fix?",
+          "rubric": "correct: Schedule the experiment — decide without trying changes little. mostly_correct: Try it sometime vaguely. incorrect: Collect more theory instead; abandon the cycle; only adjust yearly.",
+          "exemplar": "I need to put the experiment on the calendar. A decide step without a try time leaves the experiential cycle unfinished."
+        },
+        {
+          "q": "Accuracy is still shaky but you want a new model video. What do habit rules say?",
+          "rubric": "correct: Wait — keep practicing until easier/faster without accuracy loss. mostly_correct: Wait vaguely. incorrect: Watch now and add two more methods; replace practice with model notes; ignore accuracy.",
+          "exemplar": "Wait — keep practicing until the skill is easier and faster without accuracy loss. Shaky accuracy means capacity is not free for new theory yet."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: skills without overload",
+      "review": "Checkpoint with a fresh study-skill scenario from your week: diagnose overload, enforce one/two focuses, rebalance theory vs practice, test habit signals, and stress-test a model's inputs. Judge your plans and attempts — not trivia about definitions.",
+      "task": {
+        "do": "Write a mini case on a real recent study stumble. Label: overload? focus count? theory/practice skew? habit ready? model/input flaw? Then prescribe a 7-day correction with at most two focuses and scheduled practice — about 9 minutes.",
+        "capture": "Labels + 7-day prescription (focuses, practice times, theory gate).",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If your case shows five new techniques and falling accuracy, what should be the first element of the prescription?",
+          "rubric": "correct: Cut to one or two focuses and gate new theory. mostly_correct: Narrow focus vaguely. incorrect: Add more techniques; only read about overload; chase syllabus percent while ignoring accuracy.",
+          "exemplar": "First I cut to one or two focuses and gate new theory. Adding more techniques or chasing syllabus percent while accuracy falls deepens overload."
+        },
+        {
+          "q": "Your 7-day plan schedules practice before new videos. What guideline does that most directly support?",
+          "rubric": "correct: Practice-to-theory balance / ~5:1 mindset. mostly_correct: Balance vaguely. incorrect: Blind repetition with no observation; maximum theory density; skip experiential cycle.",
+          "exemplar": "Scheduling practice before new videos supports the practice-to-theory balance and ~5:1 mindset — theory stops outrunning the experiential cycle."
+        },
+        {
+          "q": "You used a model but your prescription ignored a false time input. What is the checkpoint fix?",
+          "rubric": "correct: Rewrite the plan with honest inputs — models fail when data is wrong. mostly_correct: Fix the plan vaguely. incorrect: Keep fantasy schedule; never use models again; assume constraints vanish.",
+          "exemplar": "I rewrite the plan with honest time inputs. A model applied to false data confidently produces a bad schedule — ambition on paper is not a fix."
+        }
+      ]
+    }
+  ]
+}

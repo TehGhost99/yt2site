@@ -34,7 +34,10 @@ You don't need to be a genius. In fact, that's a core message of this course:
    find where you are now and what to focus on first.
 2. **Work through the [Learning Materials](learning-materials.html) in order** —
    twelve lessons, from *how memory works* to *a study system you can keep.*
-3. **Apply one thing at a time.** Don't overhaul everything at once. Pick the next
+3. **Practice daily with the [Practice app](practice.html)** — one guided
+   15-minute session a day carries you through every concept in the course in
+   about four months.
+4. **Apply one thing at a time.** Don't overhaul everything at once. Pick the next
    technique, use it this week, then add the next.
 
 > The single biggest reason smart people study ineffectively for years: the

@@ -1,0 +1,268 @@
+{
+  "id": "motivation-systems",
+  "title": "Motivation & Your Study System",
+  "order": 12,
+  "lesson": "motivation-systems.html",
+  "days": [
+    {
+      "focus": "Motivation-enhanced, not dependent",
+      "review": "Most people are *motivation-dependent*: they wait to feel like working, then burn motivation overcoming every barrier. Motivation fluctuates with sleep, mood, health, and company — so productivity swings, and constant willpower leads to burnout. Aim to be *motivation-enhanced*: use motivation when you have it, but do not need it to start.",
+      "task": {
+        "do": "Review your last 5 study attempts on real coursework. Mark each Started despite low motivation (S) or Waited for motivation (W). Note one barrier you only overcome when \"in the mood.\" Plan a 10-minute start for today that does not require feeling ready — about 8 minutes.",
+        "capture": "S/W marks, the barrier, and today's non-negotiable 10-minute start (topic + time).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your S/W marks, what system problem do mostly-W patterns reveal?",
+          "rubric": "correct: Motivation-dependence — output tracks feelings instead of process. mostly_correct: Waiting is a problem vaguely. incorrect: Starting without motivation impossible; wait longer for perfect mood; quotes alone fix it.",
+          "exemplar": "Mostly W marks show motivation-dependence — my output tracks whether I feel like working instead of following a process I can start flat."
+        },
+        {
+          "q": "Which planned start from today best matches motivation-enhanced behavior, and why?",
+          "rubric": "correct: Fixed short block begun on time even if flat; contrasts with inspiration-conditional plans. mostly_correct: Mentions starting anyway vaguely. incorrect: Only if inspired; only high-energy days; cancel when mood dips.",
+          "exemplar": "My fixed 10-minute block at a set time matches motivation-enhanced — I begin even if flat. \"I'll study if I feel inspired after dinner\" would still be dependence."
+        },
+        {
+          "q": "If you used motivation to smash barriers when hyped and then crashed, how should you read that pattern?",
+          "rubric": "correct: Burning willpower through every barrier fuels burnout — redesign barriers rather than hero them. mostly_correct: Unsustainable vaguely. incorrect: Rely on hype more; systems irrelevant; only sleep when motivated.",
+          "exemplar": "That pattern is burning willpower through every barrier until burnout. I should redesign and defuse barriers — not wait for hype to hero through them again."
+        }
+      ]
+    },
+    {
+      "focus": "D — Distinguish",
+      "review": "DEFUSE builds thought–action defusion: separating what you do from how you feel. **D — Distinguish** feelings, thoughts, and actions. \"I feel tired\" is a sensation; it does not have to trigger \"therefore I must rest.\" Labeling the three strands weakens automatic fusion.",
+      "task": {
+        "do": "Before a real study block (or a 8-minute micro-block now), write three lines: Feeling (body/mood), Thought (story you're telling), Action you will take anyway on your coursework. Start the action for at least 5 minutes — about 8 minutes total.",
+        "capture": "The three lines and what you actually did in the 5 minutes.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you wrote \"I'm tired, so I can't study\" as one blob, what did Distinguish ask you to do instead?",
+          "rubric": "correct: Split sensation vs story vs chosen action so tired ≠ automatic stop. mostly_correct: Separate feelings vaguely. incorrect: Suppress all feelings; only study when thoughts positive; treat every feeling as a command.",
+          "exemplar": "Distinguish asks me to split the tired sensation, the \"I can't study\" story, and the action I choose anyway. Tired does not have to mean automatic stop."
+        },
+        {
+          "q": "What in your capture shows defusion starting to work?",
+          "rubric": "correct: Named the feeling/thought and still began the planned coursework action. mostly_correct: Started somehow. incorrect: Waited until tiredness vanished; only journaled; used tiredness as proof of laziness.",
+          "exemplar": "I named tiredness and still began the planned coursework for five minutes. Acting alongside the feeling — not after it disappears — is defusion starting."
+        },
+        {
+          "q": "A thought said \"this review is pointless.\" What is the best Distinguish move during the timed block?",
+          "rubric": "correct: Label it as a thought, then keep the chosen action for the timed block. mostly_correct: Don't obey vaguely. incorrect: Quit immediately; argue an hour first; merge with boredom into one stop rule.",
+          "exemplar": "I label it as a thought and keep the chosen action until the timer ends. Obeying it immediately would fuse thought and action again."
+        }
+      ]
+    },
+    {
+      "focus": "F — Fake it",
+      "review": "**F — Fake it.** Like an actor playing a non-tired character, do the actions of someone who is not tired. Bonus: acting productive often makes you *feel* more productive — it works both ways. \"Just train tired.\" Today you practice the actor move on real material.",
+      "task": {
+        "do": "Choose a low-motivation moment (now if flat). For 8 minutes, act as a focused student: sit in study posture, open your materials, and do a concrete task (recall, map, or problems). No bargaining for \"full energy\" first.",
+        "capture": "What \"in-character\" actions you used, what work you produced, and whether feeling shifted at all.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you waited to feel productive before acting, which DEFUSE step did you skip — and what order does it require?",
+          "rubric": "correct: Fake it — actions of a productive student first; feelings may follow. mostly_correct: Should have started vaguely. incorrect: Distinguish already finished the method; Zone/Uptime only answers.",
+          "exemplar": "I skipped Fake it. That step reverses the order: do the productive actions first rather than waiting to feel ready."
+        },
+        {
+          "q": "If feeling improved after a few minutes in character, what does the lesson allow you to conclude?",
+          "rubric": "correct: Action can feed feeling — productivity cues can raise motivation. mostly_correct: Feeling changed somehow. incorrect: Feelings never change; never act until inspired; acting ruins learning.",
+          "exemplar": "Action can feed feeling — acting productive can make me feel more productive. The lesson says it works both ways."
+        },
+        {
+          "q": "Which attempt today was strongest Fake-it practice? Describe the behaviors and the work.",
+          "rubric": "correct: Posture + materials + real closed-book work while still flat. mostly_correct: Did some studying. incorrect: Couch visualization only; scrolling tips until mood; canceling for vibe.",
+          "exemplar": "Strongest was study posture, materials open, and real closed-book work while still flat. Visualizing on the couch without acting is not Fake it."
+        }
+      ]
+    },
+    {
+      "focus": "U — Uptime",
+      "review": "**U — Uptime.** Gradually extend how long you can hold the defused, acting-productive state — 10 minutes today, 12 tomorrow, then 20, then 30. Neuroplasticity makes it easier over time. Do not jump from zero to a hero marathon; stretch the window on real coursework.",
+      "task": {
+        "do": "Set a slightly longer focused block than your recent average (e.g., +2–5 minutes). Use Distinguish + Fake it, work your own material until the timer ends. Log duration and whether you held the state — about 8–12 minutes depending on your stretch.",
+        "capture": "Previous typical minutes, today's target, actual minutes held, and one friction point.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you tried a multi-hour leap after days of short starts, what is the better Uptime approach?",
+          "rubric": "correct: Small extensions — build the window gradually (e.g., 10→12→20→30). mostly_correct: Go slower vaguely. incorrect: Hero sessions only then burnout rest; never extend past 5; skip timers forever.",
+          "exemplar": "Better Uptime is small extensions — stretch from my recent average by a few minutes, not a sudden 3-hour leap that recreates burnout."
+        },
+        {
+          "q": "You held focus a couple of minutes past your old average. What does that number represent in Uptime training?",
+          "rubric": "correct: The hold length is the skill being stretched — small gains count. mostly_correct: Progress vaguely. incorrect: Meaningless; failure because not a full evening; stop timing.",
+          "exemplar": "That extra couple of minutes is Uptime training — the skill is extending how long I can hold the state. Small gains count; it does not have to be a full evening."
+        },
+        {
+          "q": "Friction hit before your target ended. What is the best mid-block response using DEFUSE?",
+          "rubric": "correct: Re-Distinguish, stay in character, finish the timer on the task. mostly_correct: Keep going vaguely. incorrect: Quit for motivation; scroll \"as a break\" until timer dies; add three new techniques.",
+          "exemplar": "I re-Distinguish, stay in character, and finish the timer on the task. Quitting or scrolling until the timer dies abandons the Uptime practice."
+        }
+      ]
+    },
+    {
+      "focus": "Z — Zone and distraction sheet",
+      "review": "**Z — Zone.** Engineer a distraction-free environment. Keep a *distraction cheat sheet*: note every distraction as it happens, then later remove those triggers (app blockers, phone away, dedicated workspace). Today you build the sheet from a real session and change one trigger.",
+      "task": {
+        "do": "Run a 8–10 minute study block on your coursework. Each time attention pulls away, jot the trigger on a cheat sheet (do not indulge long). Afterward, pick one trigger and remove or block it for your next session — about 10 minutes.",
+        "capture": "Cheat sheet entries and the one environmental change you will implement next.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If your sheet lists the same trigger repeatedly (for example, phone buzz), what is the strongest Zone move before the next block?",
+          "rubric": "correct: Remove/block the trigger (phone away, DND) — not endless willpower. mostly_correct: Reduce distractions vaguely. incorrect: Rely on willpower forever; keep phone face-up; blame motivation only.",
+          "exemplar": "I remove or block that trigger before the next block — phone away and DND. The cheat sheet exists so I can eliminate triggers, not admire them with more willpower."
+        },
+        {
+          "q": "Why jot distractions during the block instead of only trying to remember them later?",
+          "rubric": "correct: Capture real triggers as they happen for later removal. mostly_correct: Accuracy vaguely. incorrect: Writing replaces studying permanently; sheets decorative; stop the block at every jot forever.",
+          "exemplar": "Live capture makes the cheat sheet accurate so I can redesign the environment later. Remembering afterward usually misses what actually pulled attention."
+        },
+        {
+          "q": "How should your next-session setup use today's sheet?",
+          "rubric": "correct: One concrete trigger removed plus the same coursework task ready. mostly_correct: Change environment vaguely. incorrect: Identical distraction-rich setup to \"build tolerance\"; no plan; more tabs for inspiration.",
+          "exemplar": "Next session I implement one concrete trigger removal and start with the coursework task ready. Keeping the same distraction-rich setup to \"build tolerance\" misses Zone."
+        }
+      ]
+    },
+    {
+      "focus": "Session prep that protects focus",
+      "review": "A focused session has phases — do not just dive in. **Prep:** clear workspace, drinks ready, phone and computer on Do Not Disturb, tell people not to disturb you. Pre-eliminate distractions you can predict. Prep is part of the system, not optional nicety.",
+      "task": {
+        "do": "Before studying your own material, run a 5-minute prep checklist: workspace, water/drink, DND, phone placement, one message to housemates/family if needed, materials open to the exact task. Then start a short encode or recall block — about 8–10 minutes total.",
+        "capture": "Checklist what you set, what you forgot last time, and the first study action you took after prep.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If you used to \"just start\" and then hunt for chargers mid-block, what does Prep fix?",
+          "rubric": "correct: Predictable distractions and friction that burn motivation mid-session. mostly_correct: Reduces interruptions vaguely. incorrect: Replaces retrieval practice; fixes sleep; changes curriculum content.",
+          "exemplar": "Prep pre-eliminates predictable friction — like missing chargers — so I am not spending willpower on logistics mid-session."
+        },
+        {
+          "q": "Which items from your checklist best match the lesson's prep phase, and what would undermine it?",
+          "rubric": "correct: Cleared workspace, DND, drinks, materials ready; undermines = social warm-up, skipping drinks to leave, materials packed until inspiration. mostly_correct: Lists some prep without contrast. incorrect: Opening social feeds as warm-up as a prep win.",
+          "exemplar": "Phone/computer on DND and workspace cleared before the timer match prep. Opening social feeds for a \"quick warm-up\" undermines it."
+        },
+        {
+          "q": "After prep you still dove into random tabs. How should the next start look?",
+          "rubric": "correct: Materials open to the exact task as the last prep step before timing. mostly_correct: Be more focused vaguely. incorrect: Prep without a defined first action; prep then scroll; skip prep if motivated.",
+          "exemplar": "The last prep step should leave materials open to the exact task before I start the timer. Motivation is not a substitute for that handoff."
+        }
+      ]
+    },
+    {
+      "focus": "Encode then retrieve in one session",
+      "review": "After prep: **Encode** — read actively and build the big picture in a non-linear map; embrace early confusion. Then **Consolidate / retrieve** — active recall, and only a small spaced set for pure facts if needed. Later, revisit at spaced, ideally interleaved intervals. Today you run encode → retrieve on your material.",
+      "task": {
+        "do": "One topic from your course: 4 minutes keyword/relationship mapping (encode), 4 minutes closed-book production (retrieve). Star gaps. Optional: mark at most 2 facts that truly need a card — about 8–9 minutes.",
+        "capture": "Map gist, retrieval gaps, and 0–2 card candidates only.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If you spent a block mostly rereading without a map or closed production, which session phases did you skip?",
+          "rubric": "correct: Encode (active big picture) and consolidate/retrieve. mostly_correct: Skipped active work vaguely. incorrect: Only prep/sleep; rereading is the full system.",
+          "exemplar": "I skipped encode — active big-picture mapping — and consolidate/retrieve. Rereading alone is not the structured session."
+        },
+        {
+          "q": "You wanted many new cards after one short encode. What is the better call, and why?",
+          "rubric": "correct: Keep cards tiny for pure facts; let the map carry relationships — avoid debt explosion. mostly_correct: Fewer cards vaguely. incorrect: Card every sentence; skip retrieval because cards later; avoid maps.",
+          "exemplar": "I keep at most a couple of cards for pure facts and let the map carry relationships. Turning the whole encode into dozens of cards creates learning debt."
+        },
+        {
+          "q": "Early mapping felt confusing. What is the lesson-aligned response during encode?",
+          "rubric": "correct: Embrace early confusion and keep building the big picture. mostly_correct: Persist vaguely. incorrect: Quit because confusion = failure; passive highlighting only; wait for perfect clarity before notes.",
+          "exemplar": "I embrace early confusion and keep building the big-picture map. Confusion in encode is expected — quitting or waiting for perfect clarity blocks the phase."
+        }
+      ]
+    },
+    {
+      "focus": "Hard-won system lessons",
+      "review": "From 10,000 hours: cram early (whole syllabus early, then fill gaps calmly), sleep is non-negotiable (hero hours broke down when workload doubled), effort feels bad and is good (misinterpreted-effort trap), and improve by making mistakes faster (try, fail, adjust every hour or two). Today you apply one lesson to your calendar and habits.",
+      "task": {
+        "do": "Pick one hard-won lesson and apply it to your real term: e.g., schedule an early full-syllabus pass date, set a sleep floor, replace a \"this feels too hard so I'll stop\" moment with continued effective method, or plan two short try–fail–adjust loops today on coursework — about 8 minutes.",
+        "capture": "Which lesson you chose, the concrete calendar/habit change, and when you will check it.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you planned to \"catch up\" with an all-nighter before the exam, which hard-won lesson pushes back hardest — and how?",
+          "rubric": "correct: Sleep is non-negotiable — working harder does not scale like learning better. mostly_correct: Sleep matters vaguely. incorrect: Cram early means only night-before; effort-bad means stop; never adjust methods.",
+          "exemplar": "Sleep is non-negotiable pushes back hardest. Hero hours broke down when workload rose — better process beats unsustainable all-nighters."
+        },
+        {
+          "q": "An effective method feels awful so you almost quit. How should you reframe that per the course?",
+          "rubric": "correct: Effort feels bad and can still be good — misinterpreted effort lies. mostly_correct: Hard can be okay vaguely. incorrect: Discomfort always means wrong method; only easy methods work.",
+          "exemplar": "Effort feels bad and can still be good — the misinterpreted-effort trap whispers that hard methods are failing when they are working."
+        },
+        {
+          "q": "Which capture best matches \"mistakes faster,\" and what would the opposite look like?",
+          "rubric": "correct: Short try–fail–adjust loops scheduled soon; opposite = wait weeks for perfect system / avoid failed attempts. mostly_correct: Iterate vaguely. incorrect: One yearly reflection only as the win.",
+          "exemplar": "Two short try–fail–adjust loops today matches mistakes faster. Waiting weeks for a perfect system before trying is the opposite."
+        }
+      ]
+    },
+    {
+      "focus": "Full DEFUSE + structured session",
+      "review": "Combine the system: prep the zone, Distinguish/Fake it/Uptime through a realistic block, encode then retrieve on your material, and keep the plan sustainable. Start small — even 15 focused minutes — with one technique done consistently. Motivation can amplify; process carries the day.",
+      "task": {
+        "do": "Run a ~12–15 minute full session on one course topic: prep + Zone change from your cheat sheet, Distinguish lines, Fake-it start, encode map (~5 min), closed retrieve (~5 min), log uptime minutes and one gap to revisit.",
+        "capture": "Prep/Zone change, feeling/thought/action lines, map+gap notes, minutes held.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "Walk through the sequence you just ran. How does it match prep/Zone → defuse start → encode → retrieve?",
+          "rubric": "correct: Describes that sequence on real material. mostly_correct: Partial sequence. incorrect: Motivation videos → all-nighter; card binge with no prep; wait for mood → theory binge.",
+          "exemplar": "I prepped and changed one Zone trigger, Distinguished feeling/thought/action, Fake-it started, mapped, then closed retrieved. That is prep/Zone → defuse → encode → retrieve."
+        },
+        {
+          "q": "Motivation was low but you completed the block. What does that demonstrate about motivation-enhanced vs dependent?",
+          "rubric": "correct: Motivation-enhanced — process worked without needing the feeling. mostly_correct: Started anyway vaguely. incorrect: DEFUSE failed; must only work when hyped; prep optional next time.",
+          "exemplar": "It demonstrates motivation-enhanced behavior — the process carried the session without needing hype. Dependence would have canceled because mood was flat."
+        },
+        {
+          "q": "What is the best \"where to go from here\" move after this full session?",
+          "rubric": "correct: Protect a realistic daily block and keep one technique for a week before adding the next. mostly_correct: Stay consistent vaguely. incorrect: Add every technique tomorrow; abandon process; replace sleep with heroics.",
+          "exemplar": "I protect a realistic daily block and keep one technique consistent for a week before adding the next. Consistency beats adding every method tomorrow or sleeping less for heroics."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: systems over mood",
+      "review": "Checkpoint with a fresh study day scenario: diagnose dependence vs enhanced, run Distinguish/Fake it, stretch uptime slightly, use the distraction sheet, prep properly, and encode→retrieve. Judge today's attempts and plans — not slogan recall.",
+      "task": {
+        "do": "Simulate or run a \"flat day\" protocol on unused coursework: Distinguish 3 lines, 10+ minute Fake-it block with prep/Zone, encode 3 min + retrieve 3 min, add one cheat-sheet fix, schedule tomorrow's slightly longer uptime.",
+        "capture": "Protocol notes, work produced, cheat-sheet fix, tomorrow's uptime target.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Flat mood almost canceled the protocol. What is the strongest checkpoint response?",
+          "rubric": "correct: Distinguish and Fake it into the timed block anyway. mostly_correct: Start somehow. incorrect: Wait indefinitely for motivation; drop Zone because mood low; replace block with technique videos.",
+          "exemplar": "I Distinguish and Fake it into the timed block anyway. Waiting indefinitely for motivation is dependence — checkpoint skill is acting on process when flat."
+        },
+        {
+          "q": "Your cheat-sheet fix and prep were solid but you skipped closed retrieval. What gap remains in the structured session?",
+          "rubric": "correct: Still need consolidate/retrieve after encode — environment alone is not enough. mostly_correct: Need more learning vaguely. incorrect: Prep replaces learning; retrieval optional if DND on; only Zone matters.",
+          "exemplar": "The gap is consolidate/retrieve after encode. Solid prep and Zone help focus, but they do not replace closed production on the material."
+        },
+        {
+          "q": "If tomorrow's uptime target jumps from about 12 minutes to 3 hours, how should you adjust — and why?",
+          "rubric": "correct: Use a small increment — gradual Uptime, not hero leaps that recreate burnout. mostly_correct: Smaller target vaguely. incorrect: Keep 3-hour leap; remove timers; only study when motivation guarantees 3 hours.",
+          "exemplar": "I use a small increment — maybe a few minutes past today — not a 3-hour leap. Gradual Uptime builds the hold; hero leaps recreate burnout patterns."
+        }
+      ]
+    }
+  ]
+}

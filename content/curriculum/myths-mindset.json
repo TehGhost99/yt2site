@@ -1,0 +1,268 @@
+{
+  "id": "myths-mindset",
+  "title": "Myths & the Misinterpreted-Effort Trap",
+  "order": 2,
+  "lesson": "myths-mindset.html",
+  "days": [
+    {
+      "focus": "Misinterpreted Effort",
+      "review": "Effective learning feels effortful because your brain must work. The misinterpreted-effort trap flips that signal: hard feels like 'not working,' so people quit the methods that help. Today's practice catches that trap in your own study.",
+      "task": {
+        "do": "During (or right after) a real study block on your material, list 2 moments that felt effortful/frustrating and 2 that felt smooth/easy. For each, guess: was that effort a learning signal or an avoidance cue?",
+        "capture": "Two hard moments + two easy moments, each with your guess (learning signal vs avoidance).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using the hard and easy moments you logged, where might you have fallen into the misinterpreted-effort trap — and what would a better reading of that difficulty be?",
+          "rubric": "correct: Hard generative work misread as 'not working'; difficulty as learning signal; easy passive work as suspicious. mostly_correct: Mentions trap without tying to their moments. incorrect: Hard always means broken method; maximize ease.",
+          "exemplar": "When generating answers felt harder than rereading and I almost quit, I was misreading productive effort as failure. That difficulty is a learning signal. Smooth passive scanning that felt easy should make me suspicious — little struggle often means little learning."
+        },
+        {
+          "q": "For one 'easy' moment you marked, explain why the course would tell you to be suspicious of that smoothness.",
+          "rubric": "correct: Smooth ease often = little learning; active learning costs effort; cites their moment. mostly_correct: Ease is bad vaguely. incorrect: Ease proves deep encoding.",
+          "exemplar": "My easy moment was passive scanning with no struggle. The course says if learning feels smooth and easy, be suspicious. Active learning costs effort; comfort often means the brain isn't doing the work."
+        },
+        {
+          "q": "What is the strongest next move after spotting the trap today, and how will you treat difficulty in the next session?",
+          "rubric": "correct: Keep an effortful method; treat difficulty as data not failure. mostly_correct: Persist vaguely. incorrect: Switch to highlight-only or wait for effortless study.",
+          "exemplar": "I'll keep one effortful generative method and treat difficulty as data, not a quit signal. Replacing hard methods with highlight-only recreates the trap. Welcome difficulty from active methods."
+        }
+      ]
+    },
+    {
+      "focus": "Don't Outsource the Thinking",
+      "review": "Removing effort entirely — AI-made notes, borrowed summaries — treats the product as magic and skips the thinking that builds skill. Like paying someone to lift your weights: the bar moves, you don't get stronger.",
+      "task": {
+        "do": "Take one page of your own notes OR a summary you usually rely on (classmate/AI/outline). Cover it. Reconstruct the 3 most important ideas in your own words from memory, then uncover and mark what you missed.",
+        "capture": "Your 3 reconstructed ideas + what you missed when you checked.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You tried to reconstruct ideas without the summary. What did the gaps (or lack of gaps) imply about outsourcing the thinking?",
+          "rubric": "correct: Relying on the product skips thinking that builds learning; cites reconstruction result. mostly_correct: Mentions gaps without outsourcing link. incorrect: Summaries install mastery automatically.",
+          "exemplar": "If I couldn't reconstruct much, relying on the summary skipped the thinking that builds learning — like paying someone to lift my weights. The magic is in the processing, not possessing notes. Gaps prove the product isn't the skill."
+        },
+        {
+          "q": "How should you use AI or borrowed notes going forward so you don't remove the effort that builds skill?",
+          "rubric": "correct: Generate structure yourself; tools only to check gaps — not replace thinking. mostly_correct: Limit tools vaguely. incorrect: Full AI summary as only study.",
+          "exemplar": "I should generate the structure and links myself, then use AI or outlines only to check gaps. Pasting a full summary and never thinking the links is outsourcing. Effortful processing has to stay mine."
+        },
+        {
+          "q": "After seeing what you missed, what follow-up closes those gaps in a way that still keeps the thinking yours?",
+          "rubric": "correct: Restudy by generating connections, then retest closed-book. mostly_correct: Restudy without generation/retest. incorrect: Longer AI summary and stop practicing.",
+          "exemplar": "I'll restudy the missed ideas by generating connections myself, then retest closed-book. A longer AI summary without practice just rebuilds dependence. Closing gaps requires my generative effort."
+        }
+      ]
+    },
+    {
+      "focus": "Learning Styles Are a Myth",
+      "review": "Decades of research find no fixed 'visual' or 'read/write' learning style you must cater to. Preferences and school-trained habits exist — but locking into one style handicaps you when information arrives in other formats.",
+      "task": {
+        "do": "Pick one concept from your course. Encode it three ways in ~2 minutes each: (1) a quick sketch/diagram, (2) a short written explanation, (3) say it aloud (or write what you'd say). Note which felt most comfortable vs which revealed gaps.",
+        "capture": "Concept; what each format produced; comfort vs gaps for each.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you skipped a format because of a 'learning style' label, what myth were you following — and what did today's three-format try show instead?",
+          "rubric": "correct: Styles as fixed wiring are a myth; preferences ≠ destiny; multimodal revealed gaps/flexibility. mostly_correct: Mentions myth without evidence from try. incorrect: Defends fixed style lock-in.",
+          "exemplar": "Skipping a sketch because 'I'm not visual' treats preference as fixed wiring — a myth. Encoding three ways showed preferences aren't destiny and uncomfortable formats can reveal gaps. Omni-learning beats style lock-in."
+        },
+        {
+          "q": "Which format felt uncomfortable but exposed a gap, and what should you do with that format next — and why?",
+          "rubric": "correct: Use uncomfortable format more because it diagnosed weakness. mostly_correct: Mentions gap without plan. incorrect: Avoid uncomfortable formats forever.",
+          "exemplar": "The sketch felt awkward but showed I couldn't structure the idea spatially — a gap my comfortable notes hid. I should use that format more for diagnosis and flexibility. Avoiding it protects the myth, not learning."
+        },
+        {
+          "q": "What takeaway from today's three-format practice will you apply when information arrives in a format you dislike?",
+          "rubric": "correct: Practice extracting learning across formats; preferences aren't destiny. mostly_correct: Be flexible vaguely. incorrect: Pick one style forever.",
+          "exemplar": "I'll practice extracting learning from whatever format arrives instead of labeling myself and refusing. Preferences are habits, not destiny. Becoming an omni-learner matters more than catering to a mythic style."
+        }
+      ]
+    },
+    {
+      "focus": "Become an Omni-Learner",
+      "review": "Almost every brain processes visual information faster than text, and many people have strong read/write habits from school. Those are habits, not destiny. Train yourself to learn from lectures, labs, diagrams, and text alike.",
+      "task": {
+        "do": "Take material you usually meet in only one format (e.g., text notes). Convert the same ideas into a second format you avoid (diagram from text, or verbal outline from a figure). Study from the new format for 5 minutes and note one insight you missed before.",
+        "capture": "Original format → new format; insight the conversion revealed.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Conversion to a second format felt clumsy but may have surfaced a new relationship. What does that say about omni-learning versus style lock-in?",
+          "rubric": "correct: Format change forced new processing; clumsiness ≠ reason to retreat. mostly_correct: Mentions insight without omni-learning. incorrect: Clumsiness means return to one style only.",
+          "exemplar": "The clumsy conversion forced new processing and revealed a relationship linear notes hid — omni-learning paying off. Clumsiness isn't a signal to lock into one style. Extracting learning from multiple formats builds flexibility."
+        },
+        {
+          "q": "Your courses mix lectures, labs, readings, and diagrams. What is the worst response to that mix, and what will you practice instead?",
+          "rubric": "correct: Worst = refuse non-preferred formats; instead pull structure from whatever arrives. mostly_correct: Mentions flexibility vaguely. incorrect: Defend refusing formats.",
+          "exemplar": "Worst response is refusing any format outside my preferred 'style.' I'll practice pulling structure from whatever arrives and translating awkward formats into a working representation. Academic life delivers information every way."
+        },
+        {
+          "q": "What recurring practice will you schedule to train omni-learning on real coursework?",
+          "rubric": "correct: Regular forced format switch on real topics. mostly_correct: Vague practice. incorrect: Never leave comfort format or buy 'style' products.",
+          "exemplar": "Once a week I'll force a format switch on a real topic — diagram from text or verbal outline from a figure. Habits change with deliberate cross-format practice. That's how omni-learning is trained."
+        }
+      ]
+    },
+    {
+      "focus": "Don't Just Copy Top Students",
+      "review": "Copying a top student's visible technique can still fail you. The real work is invisible deep processing in their head. Many high achievers use mediocre techniques with excellent processing — and processing is trainable.",
+      "task": {
+        "do": "Name one technique you copied from a 'good student' (or study influencer). On your own material, use it for 5 minutes while narrating the thinking: what you're comparing, prioritizing, or questioning. Then write whether the value was the tool or the thinking.",
+        "capture": "Technique; thinking you actually did; tool vs thinking verdict.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "When you used the copied technique, was the value in the tool or in the thinking? Use what you narrated during the 5 minutes to justify your verdict.",
+          "rubric": "correct: Deep processing (compare/prioritize/question) matters more than surface technique; cites narration. mostly_correct: Mentions thinking without evidence. incorrect: Tool/template alone guarantees results.",
+          "exemplar": "If I only copied mind-map shapes with no comparing or prioritizing, I had technique without deep processing — likely weak results. The value is the invisible thinking. Processing is trainable and more decisive than mimicking a template."
+        },
+        {
+          "q": "What evidence in your capture shows you understood that processing quality beats copying visible technique?",
+          "rubric": "correct: Cites judgment that thinking > template; or admits empty copying. mostly_correct: Vague agreement. incorrect: Tools alone create mastery; processing can't be trained.",
+          "exemplar": "My verdict that thinking quality mattered more than which template I used shows I got the lesson. If the technique felt empty, that evidence also counts — surface copying without processing. High achievers' invisible work is the real target."
+        },
+        {
+          "q": "If the copied technique felt empty, what upgrade raises the thinking level without chasing more aesthetics?",
+          "rubric": "correct: Keep simple tool; raise compare/evaluate/organize demands. mostly_correct: Mentions thinking vaguely. incorrect: More stationery, abandon structure, or more influencer copying.",
+          "exemplar": "I'll keep a simple tool but raise the thinking — compare, evaluate, organize — while I use it. Collecting prettier templates won't fix empty processing. Upgrade the invisible work, not the aesthetics."
+        }
+      ]
+    },
+    {
+      "focus": "Metacognition: Mechanic of Your Brain",
+      "review": "If you don't know how your learning 'engine' works, you guess and hope when results tank — that's stressful. Metacognition means thinking about your own thinking: knowing what's working, why you're stuck, and how to adjust.",
+      "task": {
+        "do": "After studying one real topic, answer in writing: (1) What exactly did I do? (2) What stuck vs didn't? (3) Why do I think that happened? (4) One adjustment for next time. Be specific to this material.",
+        "capture": "Your four answers tied to today's topic.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Rate the quality of your four metacognitive answers. What made them strong or vague, and what skill does that reflect?",
+          "rubric": "correct: Metacognition = monitoring process, outcomes, causes, adjustments; judges specificity. mostly_correct: Mentions reflection vaguely. incorrect: Equates metacognition with memorizing the word.",
+          "exemplar": "Vague answers like 'I studied / idk' show missing metacognition — I'm not clearly monitoring process, what stuck, why, and how to adjust. Specific cause-and-tweak answers mean I can fix the engine instead of guessing. That's thinking about my own thinking."
+        },
+        {
+          "q": "If you named a cause and an adjustment, why is that more useful than hoping results improve on their own?",
+          "rubric": "correct: Known cause + planned change beats guessing/hoping; mechanic of learning. mostly_correct: Says reflection helps vaguely. incorrect: Causes don't matter; never change methods.",
+          "exemplar": "Naming 'I only reread' and adjusting to 'closed-book explain' lets me fix the engine instead of guessing and hoping. Higher metacognition means even when struggling, I know why and how to improve. Blind hope isn't a strategy."
+        },
+        {
+          "q": "How will you use today's reflection tomorrow so metacognition actually changes outcomes?",
+          "rubric": "correct: Run the planned adjustment and re-check what stuck. mostly_correct: Remembers reflection vaguely. incorrect: Ignore, blame talent, or reflect yearly only.",
+          "exemplar": "Tomorrow I'll run the planned adjustment and re-check what stuck. Metacognition pays off only when it drives concrete, tested changes. Ignoring the reflection returns me to guessing."
+        }
+      ]
+    },
+    {
+      "focus": "Know Your Learner Type",
+      "review": "Unlike learning styles, learner type is real: your current habits, strengths, and time-wasters. Improvement accelerates when you make those explicit — which techniques actually help vs which only feel productive — then upgrade one at a time.",
+      "task": {
+        "do": "List 3 study habits you used this week on real coursework. Mark each: actually helps learning / only feels productive / unclear. For one 'feels productive' habit, write a replacement you'll try once.",
+        "capture": "Three habits with marks + one replacement plan.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "For a habit you marked 'feels productive,' what evidence from recall or use supports that mark — and what should you do next?",
+          "rubric": "correct: If closed-book doesn't improve, treat as time-waster candidate and trial replacement. mostly_correct: Skeptical without plan. incorrect: Double the feel-good habit; call it fixed style.",
+          "exemplar": "Neat rewriting felt productive but didn't improve what I could recall — so it's a time-waster candidate. I'll trial a replacement once and re-measure. Learner type means spotting false productivity, not protecting comfort."
+        },
+        {
+          "q": "Why upgrade only one habit at a time after today's list, and which one will you change first?",
+          "rubric": "correct: Focused change is evaluable; names one replacement; not identical to learning styles. mostly_correct: One change without why. incorrect: Change everything or never change.",
+          "exemplar": "Focused change is faster to evaluate than changing everything at once. I'll replace one 'feels productive' habit first and check closed-book results. Learner type is real habits — not the learning-styles myth."
+        },
+        {
+          "q": "If closed-book checks fail after a habit, how should you mark that habit — and what does honesty here protect you from?",
+          "rubric": "correct: Mark feels-productive/unclear; honesty protects against false productivity. mostly_correct: Mark lower without rationale. incorrect: Mark as helping despite failed recall.",
+          "exemplar": "I'd mark it 'only feels productive.' Honesty protects me from sinking hours into habits that don't improve what I can explain or use. Calling it 'helps' without evidence locks in a weak learner type."
+        }
+      ]
+    },
+    {
+      "focus": "Mistakes as Data",
+      "review": "Across many learners, fast improvement tracked with willingness to make mistakes: try, get feedback, correct often. Slow improvers wait for the 'perfect method' and barely practice. Treat errors as data.",
+      "task": {
+        "do": "Do a short closed-book quiz on your own material (3 questions you invent from a lecture/chapter). Score yourself. For each miss, write what the error teaches you about a gap or process flaw — no self-scolding.",
+        "capture": "Your 3 questions, results, and data-note for each miss (or 'no misses' + one stretch question).",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "You may have missed some self-test questions. What response treats those mistakes as data rather than as a reason to quit or wait for a perfect method?",
+          "rubric": "correct: Feedback → correct within cycle; mistakes diagnostic; contrasts slow-improver waiting. mostly_correct: Learn from mistakes vaguely. incorrect: Quit, hide errors, or wait for perfect system.",
+          "exemplar": "I'll use the misses as feedback and correct within this study cycle. Fast improvers try, get feedback, and correct often. Waiting for a perfect method before practicing is the slow-improver pattern."
+        },
+        {
+          "q": "Write a high-quality data-note for one miss (or stretch item): what gap or process flaw does it reveal, and what will you change?",
+          "rubric": "correct: Specific causal note + actionable fix (not self-insult). mostly_correct: Vague gap. incorrect: 'I'm bad,' tests unfair, avoid topic.",
+          "exemplar": "I confused X with Y because I never compared them — next I'll contrast them side by side, then retest. That turns the error into a process upgrade. 'I'm bad at this' isn't data; it's a dead end."
+        },
+        {
+          "q": "How does delaying practice while hunting for the 'right system' fit the slow-improver pattern — and what will you do instead this week?",
+          "rubric": "correct: Waiting ≈ barely practicing; instead iterate with feedback soon. mostly_correct: Practice more vaguely. incorrect: Waiting is required before mistakes allowed.",
+          "exemplar": "Delaying practice for the perfect system is the slow-improver pattern — little iteration, little feedback. This week I'll run short attempts, log misses as data, and correct quickly. Mistakes while practicing beat perfect plans unused."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: Mindset Audit",
+      "review": "Combine the myths: welcome effort, don't outsource thinking, drop style lock-in, prioritize processing and metacognition, treat mistakes as data. Run a full audit on a real study block.",
+      "task": {
+        "do": "Study one topic for ~8 minutes with: one effortful generative step, no full outsourcing of notes, one format stretch, and a 3-line metacognitive close (what worked / what didn't / next tweak).",
+        "capture": "What you generated; format used; metacognitive close.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Audit today's session against the mindset goals (effortful generation, no full outsourcing, format stretch, metacognitive close). Where did you succeed or slip — and what does a slip imply?",
+          "rubric": "correct: Concrete audit; slips like easy highlighting+AI = effort-removal/weak learning. mostly_correct: Partial audit. incorrect: Claims easy outsourcing matches the course.",
+          "exemplar": "If the session was easy highlighting plus an AI summary with no generative step, I fell into effort-removal and likely weak learning. A strong session had generation I did myself, a format stretch, and a cause-and-tweak close. Application means living the myths' opposite."
+        },
+        {
+          "q": "Why does a metacognitive close that names a cause and a tweak matter more than a vague pep talk?",
+          "rubric": "correct: Mechanic of learning — known cause and testable change. mostly_correct: Reflection helps vaguely. incorrect: Reflection replaces practice; never test tweaks.",
+          "exemplar": "Naming a cause and a tweak means I'm the mechanic of my learning, not guessing blindly. Pep talks without causes don't steer the next session. The tweak still has to be tested in practice."
+        },
+        {
+          "q": "What in today's work shows you treated a miss or gap as data — or what would you add next time to make that true?",
+          "rubric": "correct: Noted gap + scheduled correction (not comfort-only or wait-for-perfect). mostly_correct: Mentions a gap without correction plan. incorrect: Avoided testing to stay comfortable.",
+          "exemplar": "I noted a gap and scheduled a correction, not only a pep talk — that's mistakes-as-data. If I avoided self-testing to stay comfortable, next time I'll invent questions, log misses, and fix them the same day. Willingness to err and correct predicts faster improvement."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Hardest Mindset Moves",
+      "review": "Checkpoint: re-test misinterpreted effort, false productivity, and mistake-as-data decisions on fresh scenarios from your coursework.",
+      "task": {
+        "do": "On a new topic: (1) do one hard generative task for 5 minutes, (2) list one habit that only feels productive, (3) invent and answer 2 self-questions, logging misses as data.",
+        "capture": "Generative task result; feels-productive habit; quiz outcomes + data notes.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "The generative task felt worse than rereading. Fresh call: is that a quit signal or misinterpreted effort — and what will you do?",
+          "rubric": "correct: Likely misinterpreted effort; stay with productive difficulty. mostly_correct: Persist vaguely. incorrect: Abandon hard methods; ease = effectiveness.",
+          "exemplar": "Feeling worse than rereading is likely misinterpreted effort, not proof the method failed. I'll stay with productive difficulty. Ease is a poor effectiveness signal for active learning."
+        },
+        {
+          "q": "You listed a habit that only feels productive. What evidence would convince you to replace it next session, and how will you re-measure?",
+          "rubric": "correct: Failed closed-book/use → replace and re-measure recall. mostly_correct: Replace without measurement. incorrect: Protect comfort habit as style.",
+          "exemplar": "If it never improves closed-book results, I'll replace it next session and re-measure recall. Comfort isn't evidence. Upgrading time-wasters one at a time with evidence is learner-type work."
+        },
+        {
+          "q": "If you missed self-questions, what is the highest-value response in the next hour or two?",
+          "rubric": "correct: Extract specific gap lessons and correct soon. mostly_correct: Review vaguely. incorrect: Stop until perfect; delete questions; only reread.",
+          "exemplar": "I'll extract specific gap lessons and correct within the next hour or two. Fast improvers correct frequently. Stopping until I feel perfect, or only rereading, wastes the diagnostic value of the misses."
+        }
+      ]
+    }
+  ]
+}

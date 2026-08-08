@@ -1,0 +1,268 @@
+{
+  "id": "interleaving",
+  "title": "Interleaving",
+  "order": 10,
+  "lesson": "interleaving.html",
+  "days": [
+    {
+      "focus": "Blocking vs interleaving",
+      "review": "The intuitive revision habit is *blocking*: all of topic A, then B, then C. It feels smooth and you seem to improve fast within a block. *Interleaving* mixes them — A, C, B, A… Like kicks to a pad held at changing distances, mixed practice is harder but trains adjustment that repetition never does. Today you contrast both on your own material.",
+      "task": {
+        "do": "Pick 2 related topics/problem types from your course. Spend 4 minutes blocked on A only, then 4 minutes alternating A↔B every 1–2 minutes (questions, prompts, or recall cues you create). Note which felt smoother and which forced more decisions.",
+        "capture": "Topics A/B, what you practiced in each half, and which required more \"which approach?\" decisions.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Which half of today's practice trained exam-like choosing, and what about it forced those decisions?",
+          "rubric": "correct: Interleaved half — had to keep deciding which approach applied; blocked allows autopilot. mostly_correct: Prefers mixing without naming choice skill. incorrect: Blocked half trained choosing better; mixing never affects decisions.",
+          "exemplar": "The interleaved half trained exam-like choosing because I had to keep deciding which approach applied. The blocked half let me run on autopilot within one method."
+        },
+        {
+          "q": "Blocked practice felt smoother. What should you conclude about that feeling versus revision quality?",
+          "rubric": "correct: Smoothness often means less decision training — not automatically better revision. mostly_correct: Suspicious of ease vaguely. incorrect: Smoothness proves blocking always superior; difficulty always means wrong method.",
+          "exemplar": "Feeling smoother usually means less decision training, not better revision. Interleaving's messiness is where the transferable choice skill is built."
+        },
+        {
+          "q": "What detail in your capture best shows you actually interleaved rather than finished one block then the other?",
+          "rubric": "correct: Rotated A and B before either felt done. mostly_correct: Mentions both topics vaguely. incorrect: Finished all of A before B; only reviewed A; watched solutions only.",
+          "exemplar": "I rotated A and B before either felt finished. Completing all of A before touching B would have been blocking, not interleaving."
+        }
+      ]
+    },
+    {
+      "focus": "Train the choice skill",
+      "review": "When you block, you already know which method every problem needs. When you interleave, you must first *decide which approach a problem calls for* — exactly what exams and real life test. Mixing also helps memory, test performance, unfamiliar variants, and naturally spaces practice. Today you build a mini set that forces that choice.",
+      "task": {
+        "do": "From your notes/problem sets, gather 6 short items that could be confused (3 from type A, 3 from type B). Shuffle them so types are mixed. Solve or answer from memory in shuffled order — about 8–10 minutes. Mark each: right approach chosen? yes/no.",
+        "capture": "The shuffled order (A/B labels), and yes/no for approach choice on each.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If you missed an item because you used the previous item's method on autopilot, what skill failed?",
+          "rubric": "correct: Selecting which approach the item called for. mostly_correct: Says concentration vaguely. incorrect: Neatness, reading speed only, or page-number memory.",
+          "exemplar": "The skill that failed was selecting which approach the item called for. Autopilot from the previous item is exactly what interleaving is meant to disrupt."
+        },
+        {
+          "q": "Looking at your yes/no marks, where should tomorrow's mix focus, and why?",
+          "rubric": "correct: On pairs you mis-classified — highest payoff discrimination practice. mostly_correct: Practice more vaguely. incorrect: Only types already perfect; unrelated subjects; passive solution rereads.",
+          "exemplar": "Tomorrow's mix should focus on the pairs I marked no — mis-chosen approaches show where discrimination practice pays off most."
+        },
+        {
+          "q": "Why did shuffling matter for this task compared with AAA then BBB?",
+          "rubric": "correct: Shuffling removes the giveaway that \"we are in type A now\" so you must choose. mostly_correct: Says mixing helps vaguely. incorrect: Order never matters; blocking forces choice equally.",
+          "exemplar": "Shuffling hid the type label so I had to choose the approach. AAA then BBB advertises the method and removes that decision."
+        }
+      ]
+    },
+    {
+      "focus": "Learn the basics first",
+      "review": "Interleaving is a *revision* tool. You need a foundational understanding of each topic before mixing, or you are just confused. If you cannot yet do a simple blocked example of A or B, mix practice will thrash. Today you gate interleaving behind a quick readiness check on your own material.",
+      "task": {
+        "do": "List 3 candidate topics to interleave. For each, try one easy closed-book example. Label Ready (can do basics) or Not yet (still encoding). Build a mix only from Ready topics; schedule encoding for Not-yet — about 8 minutes.",
+        "capture": "The three labels and the mix set you are allowed to use (Ready only).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If one topic failed its easy example, what is the correct move regarding your mix — and why?",
+          "rubric": "correct: Keep it out until basics exist; mix Ready only — early interleaving thrash/confusion. mostly_correct: Delay vaguely. incorrect: Force into mix to catch up; drop all interleaving forever.",
+          "exemplar": "I keep that topic out of the mix until basics exist and only interleave Ready topics. Mixing without foundations produces confusion, not discrimination skill."
+        },
+        {
+          "q": "If all three were Ready, what is the best next step from today's gate check?",
+          "rubric": "correct: Build a mixed set from those related Ready topics. mostly_correct: Practice them somehow. incorrect: Wait until finals; block another month with no mix; interleave with unrelated hobby topics.",
+          "exemplar": "Next I build a mixed set from those related Ready topics. The readiness gate exists so I can interleave now — not wait until finals."
+        },
+        {
+          "q": "A classmate mixes brand-new lecture topics nightly and feels lost. What is the diagnosis?",
+          "rubric": "correct: Interleaving before foundations — revise after basics, do not thrash. mostly_correct: Too early vaguely. incorrect: Needs more unrelated subjects; confusion always means it is working; never use active recall.",
+          "exemplar": "They are interleaving before foundations. Interleaving is a revision tool — mixing brand-new topics creates thrash, not useful difficulty."
+        }
+      ]
+    },
+    {
+      "focus": "Mix related things",
+      "review": "Interleave topics or problem types that could genuinely be confused or combined — not random unrelated subjects. The value is learning to *tell them apart* and choose between them. Mixing chemistry with unrelated history may space time, but it misses discrimination training.",
+      "task": {
+        "do": "From your syllabus, pick two pairs: (1) Related — easy to confuse/combine, (2) Unrelated — little overlap. Create a 6-item mix for the Related pair only and run it. Write one sentence on what distinction the mix forced — about 8 minutes.",
+        "capture": "Related pair, Unrelated pair (not practiced), and the distinction your Related mix trained.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Why did today's task tell you not to practice the Unrelated pair?",
+          "rubric": "correct: Interleaving payoff is discrimination among confusable/combinable types. mostly_correct: Related is better vaguely. incorrect: Unrelated mixes illegal; only identical items; related topics should never mix.",
+          "exemplar": "The payoff is learning to tell confusable or combinable types apart and choose between them. An unrelated mix may space time but misses that discrimination training."
+        },
+        {
+          "q": "If your Related mix still felt too easy to tell apart, how should you upgrade the pair?",
+          "rubric": "correct: Choose closer cousins / types you actually mix up on exams. mostly_correct: Make it harder vaguely. incorrect: Switch to unrelated; pure blocking forever; remove decision points.",
+          "exemplar": "I should pick closer cousins or problem types I actually confuse on exams. If discrimination is trivial, the mix is not training the choice skill."
+        },
+        {
+          "q": "Give an example from your course of a strong interleaving pair versus a weak one, using today's relatedness rule.",
+          "rubric": "correct: Strong = confusable Ready procedures/types; weak = unrelated courses, identical repeats, or unencoded topics. mostly_correct: Names a pair without contrast. incorrect: Prefers unrelated or unencoded mixes.",
+          "exemplar": "A strong pair is two procedures I often apply to the wrong problem type. A weak pair is a maths drill mixed with unrelated vocabulary from another course."
+        }
+      ]
+    },
+    {
+      "focus": "Switch before you're done",
+      "review": "Do not finish a topic to completion before rotating. Switch while there is still a little struggle — the switching is the point. Completing every A item \"for closure\" recreates blocking. Today you practice leaving a thread unfinished on purpose.",
+      "task": {
+        "do": "Set a timer for 8 minutes with topics A and B (Ready + related). Work A for ~2 minutes, switch to B at mid-struggle, back to A, back to B. Do not \"finish the set\" of either. Stop mid-item if the timer says switch.",
+        "capture": "When you switched (what you left unfinished) and how the mid-struggle switches felt.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you wanted to finish A's worksheet before touching B, what rule were you about to break — and why does that rule exist?",
+          "rubric": "correct: Switch before you're done — rotation matters more than closure; finishing recreates blocking. mostly_correct: Mentions switching vaguely. incorrect: Always complete blocks for interleaving; only switch when easy.",
+          "exemplar": "I was about to break \"switch before you're done.\" Finishing A for closure recreates blocking; the switching itself is the training."
+        },
+        {
+          "q": "What in your capture best shows you followed the rule, and what pattern would show you broke it?",
+          "rubric": "correct: Left items unfinished when switching vs completing all of A then all of B. mostly_correct: Mentions switching without unfinished evidence. incorrect: Only easier topic; avoided struggle by quitting.",
+          "exemplar": "Leaving items unfinished when I switched shows rule-following. Completing all of A, then all of B, would show I broke it."
+        },
+        {
+          "q": "Mid-switch frustration spiked. How should you read that feeling during interleaved revision?",
+          "rubric": "correct: Expected desirable difficulty — keep structured switches. mostly_correct: Hard is okay vaguely. incorrect: Proof to return to pure blocking; stop revision; Ready topics were a mistake.",
+          "exemplar": "That frustration is expected desirable difficulty. I should keep structured switches rather than treat discomfort as a stop sign or a reason to return to blocking."
+        }
+      ]
+    },
+    {
+      "focus": "Expect it to feel worse",
+      "review": "Like other effective methods, interleaving feels harder and messier than blocking. That discomfort is desirable difficulty doing its job — not proof the method failed. Today you track performance and feeling separately so ease does not hijack your revision choices.",
+      "task": {
+        "do": "Run a 6–8 item interleaved set on related Ready material. After each item, jot F (felt easy/hard) and P (process correct: yes/no). Compare whether \"felt hard\" lined up with \"process wrong\" — about 8 minutes.",
+        "capture": "Your F/P marks and one sentence on whether hard feelings matched actual errors.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If several items felt hard but your process was correct, how should you interpret that?",
+          "rubric": "correct: Desirable difficulty — hard feelings ≠ failure of interleaving. mostly_correct: Hard can be okay vaguely. incorrect: Hard feelings always mean stop mixing; only do easy problems.",
+          "exemplar": "Hard feelings with correct process are desirable difficulty. Feeling hard does not mean interleaving failed."
+        },
+        {
+          "q": "You nearly switched back to blocking because the session felt messy. What is the better move?",
+          "rubric": "correct: Keep mixing related Ready items; judge by approach accuracy over comfort. mostly_correct: Persist vaguely. incorrect: Abandon when mood dips; only reread examples; mix unrelated for novelty.",
+          "exemplar": "I should keep mixing related Ready items and judge by approach accuracy, not comfort. Messy feel is expected — comfort would recreate blocking."
+        },
+        {
+          "q": "Which metric from today's F/P log should drive adjustments, and which should not?",
+          "rubric": "correct: Wrong approach choices (P=no) drive adjustments; F=hard alone should not. mostly_correct: Mentions accuracy vaguely. incorrect: Only pleasant feelings; handwriting; similarity to yesterday's block.",
+          "exemplar": "I should adjust based on wrong approach choices (P = no), not merely on F = hard. Ease ratings are not the training target."
+        }
+      ]
+    },
+    {
+      "focus": "Build mixed review sets",
+      "review": "Once you have encoded a few related topics, build mixed review sets: alternate problem types, shuffle subjects within a session, and mix the kinds of questions you ask yourself. Prepare the set *before* you start so you do not drift back into blocks mid-session.",
+      "task": {
+        "do": "Create a 9-item mixed review set from your own materials (3 topics or problem types, Ready + related). Write prompts/problem numbers on a single shuffled list. Complete the set without re-sorting by type — about 9–10 minutes.",
+        "capture": "Paste the shuffled list (short labels) and score approach choice + answer quality briefly.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If halfway through you regrouped all type-2 items together \"to go faster,\" what did that do to the practice?",
+          "rubric": "correct: Collapsed back toward blocking and removed choice practice. mostly_correct: Hurt interleaving vaguely. incorrect: Improved interleaving; required by the method.",
+          "exemplar": "Regrouping by type collapsed the set back toward blocking and removed the approach-choice practice. I needed to keep the shuffled order."
+        },
+        {
+          "q": "What features of your pre-built list best match how interleaving should be used in a session?",
+          "rubric": "correct: Shuffled related types and varied question kinds on one sheet prepared in advance. mostly_correct: Mentions a mix vaguely. incorrect: Separated A then B then C blocks; unencoded new lectures; single stem only.",
+          "exemplar": "My list shuffled related types and varied question kinds on one sheet before I started. Separated blocks labeled A then B then C would not match."
+        },
+        {
+          "q": "If two of your three topics were unrelated to the third, how should you fix the set?",
+          "rubric": "correct: Rebuild so every type could be confused or combined with the others. mostly_correct: Change topics vaguely. incorrect: Add more unrelated courses; remove all variety.",
+          "exemplar": "I should rebuild so every type could be confused or combined with the others. Relatedness among mixed items preserves discrimination value."
+        }
+      ]
+    },
+    {
+      "focus": "Pair with strong retrieval",
+      "review": "Interleaving pairs best with active recall at higher-order levels — not recognition glances in a mixed order. Mixing weak review still yields weak learning. Today every interleaved item must be produced or solved before you check, with at least one compare/choose/explain prompt.",
+      "task": {
+        "do": "Run a short interleaved set (6 items, related Ready topics). For each: closed production/solution first; include at least two higher-order prompts (compare, choose approach, explain why not the other method). Check only after each attempt — about 8–10 minutes.",
+        "capture": "List items with type tags, note which were higher-order, and where approach choice failed.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If you interleaved but peeked at solutions early, what broke — and why can't mixing fix that alone?",
+          "rubric": "correct: Active recall broke; mixing cannot fix recognition-first checking. mostly_correct: Peeking bad vaguely. incorrect: Peeking required for interleaving; only the timer broke.",
+          "exemplar": "Active recall broke. Interleaving amplifies good retrieval — it cannot fix recognition-first peeking."
+        },
+        {
+          "q": "Which item in your set best combined interleaving with higher-order thinking? Describe the prompt.",
+          "rubric": "correct: Compare/choose/why-not-the-other on a shuffled confusable pair. mostly_correct: Names a hard item without higher-order feature. incorrect: Recognize highlighted definition; reread summary; copy worked example.",
+          "exemplar": "My best item asked why this method instead of the other on a shuffled confusable pair. That hits both mixing and higher-order choice."
+        },
+        {
+          "q": "Where approach choice failed on a higher-order item, what is the best follow-up for future mixes?",
+          "rubric": "correct: Keep that pair in future mixes with which-method/why prompts. mostly_correct: Practice it again vaguely. incorrect: Avoid higher-order prompts; only block forever; drop active recall.",
+          "exemplar": "I should keep that pair in future mixes and re-ask which method and why. Failed discriminations are exactly what to re-interleave."
+        }
+      ]
+    },
+    {
+      "focus": "Full interleaved revision session",
+      "review": "Run a complete mini revision: Ready related topics only, pre-shuffled set, switches before closure, expect messiness, retrieve first, include approach-choice questions. This is how interleaving should look in a real study block for your course.",
+      "task": {
+        "do": "Prepare and complete a 10–12 minute interleaved session on 2–3 related Ready topics from your exam list: shuffled items, forced switches every ~2 minutes, no peeking first, end with a 1-minute note on which discriminations are still shaky.",
+        "capture": "Session plan (topics + shuffle), shaky discriminations, and one adjustment for next time.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Which feature of the session you just ran is non-negotiable for real interleaving?",
+          "rubric": "correct: Mixing related Ready material so approach choice stays in play. mostly_correct: Mentions mixing without Ready/related. incorrect: Finish every topic to 100% before switching; only unrelated subjects; must feel smoother than blocking.",
+          "exemplar": "Mixing related Ready material so I still had to choose approaches was non-negotiable. Finishing each topic to completion before switching would have broken it."
+        },
+        {
+          "q": "Your shaky-discrimination note lists a pair. How should you design the next session around it?",
+          "rubric": "correct: Heavier mix of that pair with which/why prompts. mostly_correct: Practice the pair vaguely. incorrect: Avoid the pair; long blocks without mixing; recognition highlights.",
+          "exemplar": "Next session should mix that pair more heavily with \"which method / why\" prompts — not avoid it or bury it in pure blocking."
+        },
+        {
+          "q": "The session felt worse than yesterday's blocked review. What does this subject predict about that feeling versus exam-relevant training?",
+          "rubric": "correct: Worse feel can still mean better exam-relevant choice training (desirable difficulty). mostly_correct: Hard can be good vaguely. incorrect: Felt bad means done wrong; blocking always predicts higher scores; feelings are only metric.",
+          "exemplar": "This subject predicts that a worse feel can still mean better exam-relevant training. Desirable difficulty trains the choice skill exams use even when blocking felt nicer."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: mix on purpose",
+      "review": "Checkpoint with fresh related topics: readiness gate, related-only mix, switch before done, tolerate worse feel, retrieve before checking, and judge approach choice. New scenarios — same hard moves.",
+      "task": {
+        "do": "Pick two related Ready topics not used yesterday. Build a 6-item shuffle; mid-struggle switches; mark approach choice yes/no; write one \"why not the other method?\" answer from memory for a miss.",
+        "capture": "Shuffle labels, yes/no marks, and the why-not-the-other explanation.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "You switched topics while still struggling. Which rule did that practice, and why leave work unfinished on purpose?",
+          "rubric": "correct: Switch before you're done — switching is the point; unfinished struggle preserves interleaving. mostly_correct: Mentions switching vaguely. incorrect: Always finish blocks; mix only unrelated; avoid struggle.",
+          "exemplar": "That practiced \"switch before you're done.\" Leaving unfinished struggle on purpose keeps the rotation — finishing for closure would recreate blocking."
+        },
+        {
+          "q": "A miss happened because you treated item 4 like item 3's type. What is the best fix in future sets?",
+          "rubric": "correct: More interleaved reps that hide the type label until you choose. mostly_correct: Be more careful vaguely. incorrect: Longer blocked drills only; stop checking approach; recognition-only reviews.",
+          "exemplar": "I need more interleaved reps that hide the type until I choose. Autopilot from the previous item is exactly what interleaving disrupts — longer blocked drills would reinforce it."
+        },
+        {
+          "q": "If your why-not-the-other explanation was vague, what should you train next inside mixed sets?",
+          "rubric": "correct: Conditional discrimination — when/why each approach wins. mostly_correct: Better explanations vaguely. incorrect: Only memorize definitions in order; avoid explanations; block until explanations feel unnecessary.",
+          "exemplar": "I should train conditional discrimination inside mixed sets — when and why each approach wins. Vague why-not answers mean that choice knowledge is still weak."
+        }
+      ]
+    }
+  ]
+}

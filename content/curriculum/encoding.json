@@ -1,0 +1,268 @@
+{
+  "id": "encoding",
+  "title": "Encoding: Build the Big Picture",
+  "order": 6,
+  "lesson": "encoding.html",
+  "days": [
+    {
+      "focus": "Encoding Flattens Forgetting",
+      "review": "Encoding is how information goes in the first time — the highest-leverage learning skill. Encode well and the forgetting curve flattens; you may keep most of what you learned after a single strong pass. That reduces endless review.",
+      "task": {
+        "do": "Pick a topic you studied in the last week. Without re-reading first, rate what % you still have usable grasp of, and list what encoding moves you used originally (reread, map, relate, none). Plan one encoding upgrade for a new section today.",
+        "capture": "Topic; rough retained %; past encoding moves; upgrade plan.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Given your retained-% estimate and the encoding moves you listed, what does low retention after reread-heavy study imply about encoding versus endless review?",
+          "rubric": "correct: Weak first-pass encoding; review can't fully replace better encoding; cites their data. mostly_correct: Need better encoding vaguely. incorrect: Reread-only flattens forgetting best.",
+          "exemplar": "Low retention after many reread-only hours means the intake process was weak. More review can't fully replace better first-pass encoding. Strong encoding flattens forgetting; weak encoding leaves me relearning."
+        },
+        {
+          "q": "Explain your encoding upgrade plan for a new section. Why does it target encoding (how ideas enter) rather than only last-minute retrieval?",
+          "rubric": "correct: Build big-picture structure/connections on the way in. mostly_correct: Study better vaguely. incorrect: Only more cramming; skip organization on entry.",
+          "exemplar": "I'll build a clearer big-picture structure as ideas enter — relate and organize on intake. That's encoding skill, the highest leverage. Last-minute cramming without better entry process keeps the forgetting curve steep."
+        },
+        {
+          "q": "Encoding practice can feel slower at first. Why still prioritize it over only practicing retrieval tricks?",
+          "rubric": "correct: Encoding skill takes longer to build but flattens forgetting and eventually eases learning. mostly_correct: Worth it vaguely. incorrect: Encoding is instant; retrieval replaces all encoding.",
+          "exemplar": "Encoding skills take weeks to months to build, longer than retrieval tricks, but they flatten forgetting so I keep more after a strong pass. Eventually learning feels easier. Retrieval alone doesn't replace organizing on the way in."
+        }
+      ]
+    },
+    {
+      "focus": "Relate to the Big Picture",
+      "review": "Unifying principle: for every new piece, ask what its purpose is and where it fits relative to everything else. The brain keeps what it judges relevant — and relevant means connected. 'It's on the exam' isn't enough.",
+      "task": {
+        "do": "Take 5 new or recent facts/ideas from your material. For each, write: purpose (why it exists in the topic) + fit (where it sits relative to the big picture). No orphan one-liners.",
+        "capture": "Five items each with purpose + fit.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If any of your five items only said 'might be on the test' as purpose, why is that a weak relevance signal for the brain?",
+          "rubric": "correct: Exam threat isn't a connection; relevance = how it fits the big picture. mostly_correct: Need better reasons vaguely. incorrect: Exam reminders fully encode any fact.",
+          "exemplar": "Telling my brain it's on the exam isn't a real connection — it doesn't create relevance. Relevance means purpose and fit relative to the big picture. Without that, the piece stays orphaned even if high-stakes."
+        },
+        {
+          "q": "Pick your strongest purpose+fit line. What makes it strong encoding intent compared with a copied definition?",
+          "rubric": "correct: Clear purpose + specific structural link. mostly_correct: Mentions connection vaguely. incorrect: Highlight color or 'important' with no reason.",
+          "exemplar": "A clear purpose plus a specific link to the topic's structure is strong encoding intent. A copied definition with no fit is intake without relevance. 'Important' without a reason doesn't place the piece."
+        },
+        {
+          "q": "For an orphan item with no fit, what will you do next — and why isn't memorizing it harder in isolation the fix?",
+          "rubric": "correct: Hold aside until it belongs in the structure; isolation memorizing fails relevance. mostly_correct: Find a place vaguely. incorrect: Memorize harder in isolation; abandon big picture.",
+          "exemplar": "I'll hold it aside until I find where it belongs in the structure. Memorizing orphans harder still leaves them irrelevant to the brain. Encoding requires placing pieces relative to the whole."
+        }
+      ]
+    },
+    {
+      "focus": "Simplify First (Scaffold)",
+      "review": "At the moment of learning, simplify ideas until they slot into a simple big picture. Find the simplest concepts and build the simplest whole first — scaffolding. You're not ready for every detail yet; your brain would drop them anyway.",
+      "task": {
+        "do": "Open a dense section. Write the simplest 4–7 idea skeleton that captures the whole — no rare details. Park details in a separate 'later' list. Stop when the skeleton is sayable in under a minute.",
+        "capture": "Simple skeleton + parked details list.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Is your skeleton simple enough, or packed with exceptions? What does simplify-first scaffolding require at the moment of learning?",
+          "rubric": "correct: Simplest whole first; park details; not every exception yet. mostly_correct: Keep it simple vaguely. incorrect: More detail always improves first-pass encoding.",
+          "exemplar": "If the skeleton is packed with exceptions, I skipped simplify-first. Scaffolding means the simplest 4–7 ideas that capture the whole, details parked for later. The brain drops excess detail before a stable picture exists."
+        },
+        {
+          "q": "Can you say the skeleton in under a minute? What does that (or failure) tell you about whether a simple big picture is forming?",
+          "rubric": "correct: Sayable skeleton = simple big picture forming; unspeakable dump = not simplified. mostly_correct: Mentions clarity vaguely. incorrect: Simple can't be academic; only full detail dumps encode.",
+          "exemplar": "If I can say it in ~45 seconds, a simple big picture is forming. An unspeakable detail dump means I haven't simplified. Simplifying until the whole is graspable is the point of scaffolding."
+        },
+        {
+          "q": "How should you use the parked details list across the next sessions — and what order mistake would undo the scaffold?",
+          "rubric": "correct: Add later in layers once skeleton holds; don't memorize parked list first. mostly_correct: Add later vaguely. incorrect: Memorize parked list before any skeleton; throw away skeleton.",
+          "exemplar": "I'll add parked details later in layers once the skeleton holds. Memorizing the parked list before any skeleton undoes scaffolding. Mixing all details back in unordered recreates overwhelm."
+        }
+      ]
+    },
+    {
+      "focus": "Learn in Layers",
+      "review": "Once the simple skeleton is stable, add one layer of detail, fit it to the big picture, then another. In the study demo, early pages were slow; later pages accelerated because new detail snapped onto a framework.",
+      "task": {
+        "do": "Using yesterday's or today's skeleton for a real topic, add exactly one detail layer (a handful of specifics). For each add-on, write how it attaches to the skeleton. Do not add a second layer yet.",
+        "capture": "Skeleton reminder; layer-1 details + attachment notes.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Do your layer-1 details attach to skeleton nodes? If some don't, what does that say about layered learning?",
+          "rubric": "correct: Unattached details = layering failed; each add-on must fit the big picture. mostly_correct: Need connections vaguely. incorrect: Unattached details encode best.",
+          "exemplar": "Details that don't attach to any skeleton node mean layering failed — I'm collecting orphans again. Each layer must fit the big picture. Unattached specifics aren't a successful layer."
+        },
+        {
+          "q": "Why did today's task allow only one detail layer before another — what stabilizes between layers?",
+          "rubric": "correct: Stabilize fit before piling more detail. mostly_correct: Don't rush vaguely. incorrect: Only one fact exists; dump all detail at once for speed.",
+          "exemplar": "I add one layer, see how it fits, then add another — layered learning. Stabilizing fit prevents an unsorted pile. Dumping all detail at once recreates the pre-scaffold mess."
+        },
+        {
+          "q": "If adding detail started to feel faster mid-topic, what likely cause matches the encoding demo pattern?",
+          "rubric": "correct: Structure stabilizing — new detail snaps on quicker. mostly_correct: Getting used to it vaguely. incorrect: Speed means abandon skeleton.",
+          "exemplar": "Structure is stabilizing — new detail attaches quicker once the framework holds. That's the demo pattern: early pages slow, later pages accelerate. Speeding up isn't a reason to abandon the skeleton."
+        }
+      ]
+    },
+    {
+      "focus": "Organize on the Way In",
+      "review": "Organize as knowledge arrives — like tidying a room as you go. Dumping everything to reorganize later (or never) is much harder. Practice placing each new idea correctly on entry.",
+      "task": {
+        "do": "Study a short new chunk. Rule: every new idea must be placed onto your map/skeleton before you take the next one. No 'inbox dump' list. If placement is unclear, pause and simplify.",
+        "capture": "Chunk studied; placement decisions; any pause-to-simplify moments.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Did you dump ideas to 'organize tonight,' or place each on entry? How does that choice match organize-on-the-way-in?",
+          "rubric": "correct: Place as knowledge arrives; dumping for later conflicts. mostly_correct: Organize sooner vaguely. incorrect: Dumping first is recommended encoding.",
+          "exemplar": "A long unsorted capture to organize tonight conflicts with organizing on the way in. It's far easier to place knowledge correctly as it arrives than to dump and reorganize later. Tonight-organization rarely equals on-entry placement."
+        },
+        {
+          "q": "You may have paused when an idea wouldn't place. Why is that a good instinct for encoding?",
+          "rubric": "correct: Unclear placement → simplify/organize before adding more. mostly_correct: Slow down vaguely. incorrect: Never pause; speed-read past confusion.",
+          "exemplar": "Pausing when placement is unclear is right — unclear means simplify or fix structure before adding more. Speed-reading past confusion keeps dumping orphans. If it doesn't fit, fix the structure."
+        },
+        {
+          "q": "What evidence in your capture shows you organized on entry rather than promising to sort later?",
+          "rubric": "correct: Each idea has a decided place now. mostly_correct: Somewhat organized vaguely. incorrect: Messy inbox or vow to reorganize on break week.",
+          "exemplar": "Each idea having a decided place in the structure now is evidence of on-entry organization. A messy inbox or a vow to reorganize during break week is a dump. Highlights with no placement aren't organized."
+        }
+      ]
+    },
+    {
+      "focus": "Iteration: Guess, Test, Refine",
+      "review": "Don't study for weeks then test once. Effective learning loops hypothesis → feedback → refine. As each piece arrives, guess how it connects, then check. Wrong guesses early are cheap; wrong assumptions carried for weeks are expensive. Lightbulb moments are confirmed hypotheses.",
+      "task": {
+        "do": "For 3 incoming ideas in your material: before checking the source's framing, write a quick hypothesis of how each connects. Then check and mark confirm / adjust / reject. Refine one connection that was wrong.",
+        "capture": "Three hypotheses; outcomes; one refinement.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Some hypotheses may have been wrong but caught quickly. What does that teach about iteration and the cost of early errors?",
+          "rubric": "correct: Early wrong guesses are cheap; loop is the point. mostly_correct: Mistakes OK vaguely. incorrect: Wrong guesses mean stop hypothesizing.",
+          "exemplar": "Wrong hypotheses caught in minutes show early errors are cheap — iteration working. The loop is guess → check → refine. Waiting weeks to test makes wrong assumptions expensive."
+        },
+        {
+          "q": "If you avoided guessing to 'not be wrong,' what cost does that create for encoding?",
+          "rubric": "correct: Delays feedback; may carry silent wrong assumptions longer. mostly_correct: Less learning vaguely. incorrect: Avoiding hypotheses maximizes insight.",
+          "exemplar": "Avoiding guesses delays feedback and may let silent wrong assumptions ride for weeks. Iteration needs testable hypotheses. Being wrong once in a micro-loop doesn't ruin encoding — hiding from error does."
+        },
+        {
+          "q": "After a rejected hypothesis, what micro-loop will you run next?",
+          "rubric": "correct: Revised connection → re-check quickly. mostly_correct: Try again vaguely. incorrect: Wait weeks; memorize wrong version; stop relating.",
+          "exemplar": "I'll write a revised connection and re-check quickly — hypothesis → feedback → refine. Waiting weeks before any test loses the iteration effect. Memorizing the wrong version harder makes it worse."
+        }
+      ]
+    },
+    {
+      "focus": "Micro-Retrieval: Test to the Max",
+      "review": "Practical iteration: right after learning a chunk, look away and try to reproduce or use it immediately. If you can't, encoding (or struggle level) needs work — and you just got instant feedback. Test to the max in tiny loops.",
+      "task": {
+        "do": "Learn one small chunk from your material (3–5 minutes). Close it. Reproduce the structure/use from memory for 2 minutes. Open, note gaps, fix encoding (relink/simplify), then micro-retrieve once more.",
+        "capture": "First reproduction; gaps; fix; second reproduction result.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Your first micro-retrieval may have failed. How should you interpret that signal for encoding quality right now?",
+          "rubric": "correct: Useful feedback — encoding or struggle needs work now; cheap to fix. mostly_correct: Need to restudy vaguely. incorrect: Never retrieve early; only end-of-month tests matter.",
+          "exemplar": "A bad first reproduction is useful signal — encoding or struggle needs work now, while fixes are cheap. It doesn't mean abandon the topic or wait for a monthly test. Immediate failure is feedback on how ideas went in."
+        },
+        {
+          "q": "After you fixed links and tried again, what did the second retrieval tell you about the iteration loop?",
+          "rubric": "correct: Improvement confirms fix; hypothesis/fix/refine in action. mostly_correct: Got better vaguely. incorrect: Skip second retrieval; retrieval harms encoding.",
+          "exemplar": "If the second retrieval improved after relinking/simplifying, the iteration loop worked — form, refine, test again. Micro-retrieval confirms whether encoding improved. Skipping the second try leaves the fix unverified."
+        },
+        {
+          "q": "What micro-retrieval prompt will you use right after the next chunk — and why not reread and assume mastery?",
+          "rubric": "correct: Look away and rebuild/use without peeking. mostly_correct: Self-test vaguely. incorrect: Reread once; highlight; watch summary instead of producing.",
+          "exemplar": "I'll look away and rebuild or use the chunk without peeking — test to the max. Rereading and assuming mastery skips the feedback. Producing immediately after learning is the practical iteration move."
+        }
+      ]
+    },
+    {
+      "focus": "Embrace the Confusion",
+      "review": "First laying out a big topic feels overwhelming. That discomfort is cognitive load doing its job — confusion as fuel. Work through it by simplifying and organizing, not by writing more undigested notes.",
+      "task": {
+        "do": "Choose a topic that currently feels confusing. For 8 minutes, only simplify and organize (skeleton + placements). Ban adding new copied notes. End by rating confusion 1–10 before vs after.",
+        "capture": "Before/after confusion ratings; simplified structure; what you refused to copy.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "When confusion was high, did you start copying more paragraphs? How does that conflict with using confusion as fuel?",
+          "rubric": "correct: Fix is simplify/organize, not write more undigested notes. mostly_correct: Organize instead vaguely. incorrect: More copying is the cure; stop structuring.",
+          "exemplar": "Copying more paragraphs conflicts with the lesson — writing more isn't the fix. Confusion is cognitive load to channel by simplifying and organizing. Overwhelm doesn't prove encoding is impossible."
+        },
+        {
+          "q": "If your confusion rating dropped after scaffolding, how do you read that change?",
+          "rubric": "correct: Load channeled into useful structure. mostly_correct: Felt clearer vaguely. incorrect: Drop means cheated; confusion should never decrease.",
+          "exemplar": "A drop after scaffolding means cognitive load was channeled into useful structure. Confusion as fuel worked. The rating change tracks encoding progress when the response is simplify/organize."
+        },
+        {
+          "q": "A new map looks messy at first. What mindset keeps you encoding instead of quitting or dumping more detail?",
+          "rubric": "correct: Expected; stay with simplify/organize until stable. mostly_correct: Keep going vaguely. incorrect: Quit higher-order encoding; dump more detail to hide mess.",
+          "exemplar": "Messy first layouts are expected — I'll stay with simplify/organize until it stabilizes. Quitting or dumping more undigested detail hides the mess without encoding. Overwhelm at first big-picture work is normal."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: Big-Picture Pass",
+      "review": "Encoding is mostly how you think, not which fancy tool you use. Pull it together on one real topic: relate, simplify, layer once, organize on entry, micro-retrieve.",
+      "task": {
+        "do": "One topic, ~10 minutes: build a simple big picture, place 5–8 ideas with purpose/fit, add one detail layer, then closed-book reproduce the skeleton. No passive-only reread.",
+        "capture": "Big picture; placements; layer-1 adds; reproduction result.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Beautiful notes with a failed closed-book skeleton — what does that say about tools/output versus encoding?",
+          "rubric": "correct: Pretty output ≠ encoding; reproduction still weak. mostly_correct: Need recall vaguely. incorrect: Pretty notes guarantee flattened forgetting.",
+          "exemplar": "Failed skeleton recall means tool/output isn't encoding — the thinking and reproduction are still weak. You can encode well from a plain book by relating and simplifying. Pretty notes don't flatten forgetting by themselves."
+        },
+        {
+          "q": "Which part of your capture best shows real encoding rather than busywork — and why?",
+          "rubric": "correct: Purpose/fit placements + successful skeleton retrieval. mostly_correct: Mentions structure vaguely. incorrect: Word count, colors, or hours without recall.",
+          "exemplar": "Purpose/fit placements plus a successful skeleton retrieval show encoding. Word count, pastel colors, or hours without checking recall are busywork. Connected placement plus immediate reproduce is the loop."
+        },
+        {
+          "q": "If layer-1 details wouldn't attach, what will you do before forcing more detail — and why not isolate them on flashcards only?",
+          "rubric": "correct: Simplify skeleton until attachments clear; then retry. mostly_correct: Fix structure vaguely. incorrect: Force isolated flashcards; abandon big picture.",
+          "exemplar": "I'll simplify the skeleton until attachments are clear, then retry the layer. Forcing unattached details onto isolated flashcards abandons the big picture. Unattached detail means the scaffold needs work first."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Encode Under Pressure",
+      "review": "Checkpoint: big-picture fit, simplify-first, on-entry organization, and micro-retrieval — fresh scenarios on your own material.",
+      "task": {
+        "do": "New dense page/section: (1) 60-second simplified skeleton, (2) place 4 ideas with fit, (3) one hypothesis-check on a connection, (4) immediate closed-book reproduce.",
+        "capture": "Skeleton; four fits; hypothesis outcome; reproduce result.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you jumped to memorizing details before any skeleton, what encoding rule did you violate — and what order will you use instead?",
+          "rubric": "correct: Violates simplify-first; simplest whole then layers. mostly_correct: Big picture first vaguely. incorrect: Details always precede big picture.",
+          "exemplar": "That violates simplify-first scaffolding. I'll build a 60-second simple skeleton first, then place ideas, then layer details. Details before relevance recreates orphans."
+        },
+        {
+          "q": "Walk through your hypothesis outcome and reproduce result. How does that pattern show healthy (or unhealthy) iteration?",
+          "rubric": "correct: Wrong→caught→refine→improved reproduce = healthy cheap error loop. mostly_correct: Learned from mistake vaguely. incorrect: Wrong hypotheses forbid further encoding; wait weeks to reproduce.",
+          "exemplar": "Hypothesis wrong, caught same session, then reproduce improved — healthy iteration: cheap error, fast refine, test again. Only perfect first guesses aren't required. Waiting weeks to reproduce makes errors expensive."
+        },
+        {
+          "q": "Fresh overwhelm mid-map: what response treats confusion as fuel, and what responses make encoding worse?",
+          "rubric": "correct: Simplify/organize; don't copy more, only highlight, or quit structuring. mostly_correct: Calm down by organizing vaguely. incorrect: Longer undigested notes until calm.",
+          "exemplar": "I'll simplify and organize — confusion as fuel. Adding longer undigested notes, only highlighting, or quitting structure makes encoding worse. Hard subjects still need big-picture placement."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "effort-struggle",
+  "title": "The Effort–Time Exchange",
+  "order": 3,
+  "lesson": "effort-struggle.html",
+  "days": [
+    {
+      "focus": "Spend Effort to Buy Time",
+      "review": "Making learning easier per session often delays learning and costs more time later relearning. The real exchange: spend more effort up front so memory and understanding form sooner — buying time back overall.",
+      "task": {
+        "do": "Estimate last week: hours spent first-learning a topic vs hours re-studying what didn't stick. Then redesign tomorrow's plan for one topic: what higher-effort activity will you add to reduce relearning?",
+        "capture": "Rough hours first-pass vs relearn; tomorrow's higher-effort swap.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using your first-pass vs relearn hour estimates, what does the effort–time exchange imply about how you spent last week?",
+          "rubric": "correct: Low effort up front delayed learning and created rework; cites estimates. mostly_correct: Mentions relearning without exchange. incorrect: Relearning proves easy methods optimal.",
+          "exemplar": "Many relearn hours imply low effort up front delayed learning and created rework. The exchange says spend more effort early so understanding forms sooner. Passive hours don't buy time — they often spend it twice."
+        },
+        {
+          "q": "Explain tomorrow's higher-effort swap. Why is that plan more aligned with the lesson than covering more pages passively?",
+          "rubric": "correct: Generate structure/answers under struggle; fewer pages but deeper; contrasts passive coverage. mostly_correct: Mentions effort without contrast. incorrect: Faster video, highlight-only, skip practice.",
+          "exemplar": "I'll do fewer pages but generate structure and answers myself under real struggle. That effortful thinking strengthens memory and cuts later re-study. Covering more with zero digestion feels fast today and slow overall."
+        },
+        {
+          "q": "You may fear higher effort will slow you. Reframe that fear using the effort–time exchange.",
+          "rubric": "correct: Higher effort per hour can reduce total time by cutting relearning. mostly_correct: Effort helps vaguely. incorrect: Speed only from zero effort; relearning is free.",
+          "exemplar": "Higher effort per hour can make me faster overall by cutting relearning. Easy sessions that don't stick maximize total time. The exchange is spend effort now to buy time back later."
+        }
+      ]
+    },
+    {
+      "focus": "Generation Effect",
+      "review": "Actively generating answers, connections, and structure beats passively receiving them — the generation effect. Today's practice forces generation on your own material instead of intake-only.",
+      "task": {
+        "do": "Open one lecture/section. Before rereading, write from memory (or educated guess) the main claims and how they connect. Then check the source and mark what you generated correctly vs what you only recognized.",
+        "capture": "Generated structure; correct vs recognize-only items.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You recognized a lot when peeking but may have generated little beforehand. What does that gap say about recognition versus the generation effect?",
+          "rubric": "correct: Recognition ≠ generation; skipped stronger process; cites capture. mostly_correct: Mentions generation vaguely. incorrect: Recognition equals generating structure.",
+          "exemplar": "Recognizing everything after peeking while generating little beforehand means I skipped the stronger process. The generation effect favors producing answers and structure, not passive receiving. Familiarity isn't production."
+        },
+        {
+          "q": "Which part of your capture best used the generation effect, and why does that part matter more than what you highlighted after looking?",
+          "rubric": "correct: Pre-check production is the boost; post-look highlighting isn't generation. mostly_correct: Mentions generating without contrast. incorrect: Copied lines after looking count as generation.",
+          "exemplar": "The ideas I produced before checking the source used the generation effect. Highlights and copied sentences after looking are recognition/cleanup. The learning boost comes from actively generating first."
+        },
+        {
+          "q": "For items you only recognized, what next move turns them into generation — and why isn't another passive reread enough?",
+          "rubric": "correct: Hide source and regenerate until produceable. mostly_correct: Practice more vaguely. incorrect: Assume recognition enough; delete items.",
+          "exemplar": "I'll hide the source and regenerate those items until I can produce them. Another passive reread keeps me in recognition. Turning recognize-only into generation is the point of the effect."
+        }
+      ]
+    },
+    {
+      "focus": "Struggle Check: Reading",
+      "review": "Ask while studying: am I at the right level of struggle? Passive reading — eyes scanning — is no struggle and little learning. Instead, actively decide which ideas matter and how they fit together.",
+      "task": {
+        "do": "Read 2–3 pages of your material with a struggle rule: after each half-page, look away and write the most important idea and how it fits the section. No continuous scanning without pauses.",
+        "capture": "Your pause notes (important idea + fit) for each chunk.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If your pause notes were thin or empty after 'reading,' what failed the struggle check — and what does that mean for learning?",
+          "rubric": "correct: Passive scanning / no struggle → little learning; cites notes. mostly_correct: Says reading was passive vaguely. incorrect: Empty notes mean efficiency.",
+          "exemplar": "Empty pause notes mean I scanned in neutral — no struggle check passed. Passive reading with no selecting or relating is little learning. The engine was off even if pages got finished."
+        },
+        {
+          "q": "Pick your strongest pause note. What about it shows the right level of struggle for reading?",
+          "rubric": "correct: Key idea + how it fits section structure. mostly_correct: Notes an idea without fit. incorrect: Only page numbers, copied sentences, or tiredness.",
+          "exemplar": "My best note names an important idea and places it in the section's structure. That's selecting what matters and relating it — productive struggle. 'Read page 12' or a copied sentence without selection isn't struggle."
+        },
+        {
+          "q": "If reading felt too easy today, how will you raise generative struggle next time without just speeding up?",
+          "rubric": "correct: More prioritize/relate pauses before moving on. mostly_correct: Slow down vaguely. incorrect: Remove pauses; skim with music; stop asking what matters.",
+          "exemplar": "I'll increase generative pauses: prioritize and relate before moving on. Removing pauses to stay in flow drops struggle further. Ease while scanning is a warning, not a goal."
+        }
+      ]
+    },
+    {
+      "focus": "Struggle Check: Notes",
+      "review": "Note-taking like a human photocopier is no struggle. Real struggle means deciding what to write, how to phrase it, and what's important — generative choices, not transcription.",
+      "task": {
+        "do": "From one lecture/section, take notes with a constraint: max 8 lines, every line must be a decision (priority, relationship, or paraphrase in your words). No verbatim copying.",
+        "capture": "Your 8-or-fewer lines + one sentence on what you chose to leave out and why.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your ≤8 lines, how much was decision-making versus photocopier transcription — and what does that say about struggle in note-taking?",
+          "rubric": "correct: Struggle = decide priority/phrase/relationships; copying = low struggle. mostly_correct: Mentions copying vaguely. incorrect: Verbatim notes equal organization.",
+          "exemplar": "If most lines are copied sentences, I was in photocopier mode — low struggle, weak processing. Real note struggle is deciding what to write, how to phrase it, and what matters. Transcription isn't generative choice."
+        },
+        {
+          "q": "Why did the task ask what you left out? What does that omission decision do for learning?",
+          "rubric": "correct: Prioritizing is effortful processing that builds learning. mostly_correct: Mentions focus vaguely. incorrect: Never omit; omissions mean you weren't studying.",
+          "exemplar": "Choosing what to leave out is prioritizing — effortful processing that builds learning. Omitting isn't failure; refusing to omit keeps me photocopying. Deciding importance is the struggle that turns notes into thinking."
+        },
+        {
+          "q": "If your notes still feel like a transcript, what constraint will you tighten next time and why?",
+          "rubric": "correct: Force paraphrase + relationship labels; cut lines. mostly_correct: Shorter notes vaguely. incorrect: Type faster; record everything; more highlight colors.",
+          "exemplar": "I'll force paraphrase and relationship labels and cut the line count again. Typing faster to capture every word increases photocopying. More decision-making in what I write is the right struggle."
+        }
+      ]
+    },
+    {
+      "focus": "Struggle Check: Self-Testing",
+      "review": "Self-testing by glancing then checking the answer is no struggle. Genuine struggle means trying to produce the answer before looking — productive frustration means the engine is running.",
+      "task": {
+        "do": "Create 4 questions from your own notes/lecture. Answer each on a blank page with materials closed. Only then check. Mark each: produced correctly / partial / looked too early / blank.",
+        "capture": "Questions, your closed-book answers, and marks after checking.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Where did you peek early or avoid producing answers? What does that do to the self-testing struggle that makes testing work?",
+          "rubric": "correct: Early peeking removes genuine production struggle. mostly_correct: Mentions peeking vaguely. incorrect: Peeking maximizes generation; blanks prove testing useless.",
+          "exemplar": "Peeking midway because it felt uncomfortable avoided the struggle that makes self-testing work. Genuine production before looking is required. Glancing early turns testing into recognition practice."
+        },
+        {
+          "q": "A blank or partial answer you later fixed — how can that still be useful learning, not just failure?",
+          "rubric": "correct: Productive frustration + feedback trains learning. mostly_correct: Mistakes help vaguely. incorrect: Only perfect first answers count; abandon topic.",
+          "exemplar": "A blank I later fixed is productive frustration plus feedback — the engine running. Perfect first answers aren't required. The struggle of trying, then correcting, is what trains learning."
+        },
+        {
+          "q": "For items marked partial, what next move keeps genuine self-testing struggle instead of drifting into comfort peeking?",
+          "rubric": "correct: Restudy gap then re-attempt closed-book without peeking. mostly_correct: Review vaguely. incorrect: Passive answer-key only; glance first next time.",
+          "exemplar": "I'll restudy the gap, then re-attempt closed-book without peeking. Passive answer-key reading or peeking first removes the struggle. Keep genuine production attempts."
+        }
+      ]
+    },
+    {
+      "focus": "Ask: How Can I Organize This?",
+      "review": "The most powerful prompt for effortful processing is 'How can I organize this?' — not merely 'Do I understand this?' Organization time is learning time. Practice the prompt on real material.",
+      "task": {
+        "do": "Take one messy section of your notes or a dense textbook page. Spend 7 minutes only answering 'How can I organize this?' — regroup into categories, sequence, or a simple map. Don't add new highlighting.",
+        "capture": "Before: one-line description of the mess. After: your organized structure.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You may have felt you 'understood' the section before organizing. What happened when you tried to regroup — and what does that say about understanding versus organized knowledge?",
+          "rubric": "correct: Understanding without organization is shallow/weakly remembered; cites attempt. mostly_correct: Organization helps vaguely. incorrect: Understanding alone equals durable mastery.",
+          "exemplar": "If I 'understood' it but couldn't regroup, that was shallow familiarity without organized knowledge. You can understand a messy room without organizing it — and memory stays weak. Organization time is learning time."
+        },
+        {
+          "q": "What in your 'after' structure shows the magic question 'How can I organize this?' actually worked?",
+          "rubric": "correct: Ideas have clear places relative to each other. mostly_correct: Mentions cleaner notes vaguely. incorrect: More highlighter or longer quotes as success.",
+          "exemplar": "Ideas now have a clear place relative to each other — categories, sequence, or map. More pink highlighter or longer copied quotes wouldn't show organization. The question worked if structure makes sense to me."
+        },
+        {
+          "q": "You spent most of the time organizing one section. Is that a worry or a win for learning time — and why?",
+          "rubric": "correct: Often a win — time to organize is time to learn. mostly_correct: Organization matters vaguely. incorrect: Always waste vs covering more pages.",
+          "exemplar": "It's often a win: how long it takes to organize something is how long it takes to learn it. Covering more pages without structure feels productive and forgets faster. Organization isn't optional neatness."
+        }
+      ]
+    },
+    {
+      "focus": "Understanding ≠ Organized Knowledge",
+      "review": "Understanding without organization feels like learning but slips away and fails problem-solving. Organized knowledge is structured so you can navigate and use it. Test the difference on your material.",
+      "task": {
+        "do": "Pick a topic you 'get' when reading. Without notes, try to teach a 60-second organized explanation with a clear order or structure. Then note where the explanation fell apart — those are organization gaps, not just 'memory' gaps.",
+        "capture": "Your structured teach-back outline + where it fell apart.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Reading felt clear but your teach-back may have jumbled. What does that gap mean for understanding versus organized knowledge?",
+          "rubric": "correct: Familiarity without organization — shallow for memory and use. mostly_correct: Mentions structure gap vaguely. incorrect: Clear reading means organization unnecessary.",
+          "exemplar": "Clear reading with a jumbled teach-back means familiarity without organization — shallow knowledge. It feels learned but slips and fails problem-solving. The break points are organization gaps, not just 'bad memory'."
+        },
+        {
+          "q": "Where your teach-back fell apart, what repair should come before more rereading — and why?",
+          "rubric": "correct: Rebuild structure (order/categories/relationships) first. mostly_correct: Review that part vaguely. incorrect: Passive reread until soothing; more isolated facts.",
+          "exemplar": "I'll rebuild that part's structure — order, categories, relationships — before more rereading. Passive rereading restores the feeling of clarity without fixing navigation. Organization gaps need organization work."
+        },
+        {
+          "q": "What evidence in your capture would convince you that you now have organized knowledge, not just recognition?",
+          "rubric": "correct: Structured teach-back you can navigate. mostly_correct: Mentions explanation vaguely. incorrect: Familiarity while scanning or unsorted highlights.",
+          "exemplar": "A teach-back with clear structure I can navigate is evidence of organized knowledge. Feeling familiar while scanning or an unsorted highlight dump is recognition, not structure. Organized knowledge supports use."
+        }
+      ]
+    },
+    {
+      "focus": "Active Reading as Organizing",
+      "review": "Active reading isn't start-to-end coverage. Pick what's important, decide where it belongs, interrogate the source for answers you need, and rearrange ideas into something that makes sense to you.",
+      "task": {
+        "do": "Before reading a new section, write 3 questions you need answered. Read only to answer and place those answers into a simple structure (not linear copy). Stop when the structure holds, even if unread sentences remain.",
+        "capture": "Your 3 questions; answers placed in your structure; what you skipped and why.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If you drifted into start-to-end coverage and ignored your questions, what active-reading moves did you skip?",
+          "rubric": "correct: Interrogate for purpose, select, rearrange into your structure — not photocopy order. mostly_correct: Skimmed too much vaguely. incorrect: Coverage always equals organization.",
+          "exemplar": "I skipped interrogating the source for my questions and rearranging answers into my structure. Active reading isn't start-to-end photocopying. Without those moves I consumed order, not organized knowledge."
+        },
+        {
+          "q": "You may have stopped with unread paragraphs once your structure answered your questions. Was that valid for active reading — why or why not?",
+          "rubric": "correct: Valid if organization holds for purpose; learning needed layer ≠ every word. mostly_correct: Skipping OK vaguely. incorrect: Every word must be highlighted; never stop early.",
+          "exemplar": "Yes — if the structure already answered my questions, I learned the needed layer. Endless coverage without structure isn't mastery. Skipping unread lines can be right when organization holds for my purpose."
+        },
+        {
+          "q": "What is the strongest sign today's reading was active rather than linear consumption?",
+          "rubric": "correct: Ideas rearranged into question-driven structure. mostly_correct: Took notes vaguely. incorrect: Max speed finish; zero importance decisions; exact author order copy.",
+          "exemplar": "Ideas rearranged into my structure driven by my questions is the strongest sign. Finishing every page at max speed with no importance decisions is consumption. Active reading = select, place, interrogate, rearrange."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: Effort Session",
+      "review": "Put the exchange together: raise struggle on purpose, generate before peeking, and organize as you go so you forget less and relearn less — especially under heavy workload.",
+      "task": {
+        "do": "One real topic, ~10 minutes: (1) generate a rough organization first, (2) read/notes only to improve that organization, (3) closed-book produce 3 answers, (4) note one relearning task you hopefully won't need later.",
+        "capture": "Organization sketch; 3 closed-book answers; relearning note.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Did organizing first reduce rereading or closed-book failures still show up? What does your result say about the effort–time exchange?",
+          "rubric": "correct: Ties result to effort buying time OR need to raise generation when ease misleads. mostly_correct: Mentions effort vaguely. incorrect: Organization increases relearning; trust reading ease.",
+          "exemplar": "If organizing first cut rereading, effort up front bought time back. If closed-book still failed despite easy reading, I should raise generation — don't trust ease. Right struggle plus organization reduces rework under load."
+        },
+        {
+          "q": "If closed-book answers failed though reading felt fine, what next move raises the right struggle?",
+          "rubric": "correct: Raise generation/struggle; don't trust reading ease. mostly_correct: Practice more vaguely. incorrect: Skip retrieval; only add passive hours.",
+          "exemplar": "I'll raise generation and struggle — produce answers and structure — instead of trusting the reading feeling. Feeling of understanding without production is unreliable. More passive hours repeat the same mistake."
+        },
+        {
+          "q": "Under a heavy workload, which session pattern fits the lesson — and how does today's capture support choosing it?",
+          "rubric": "correct: Higher effort per hour with organization to relearn less; cites session. mostly_correct: Work harder vaguely. incorrect: Easiest hours now; avoid all struggle.",
+          "exemplar": "Higher effort per hour with organization so I relearn less later fits a heavy workload. Today's generate-organize-retrieve loop is that pattern. Easiest hours with maximum later relearning feel fast and cost more overall."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Struggle & Organize",
+      "review": "Checkpoint: diagnose no-struggle habits, apply the organize prompt, and choose generation over recognition on fresh material.",
+      "task": {
+        "do": "New section: mark one no-struggle habit you were about to do; replace it for 8 minutes using 'How can I organize this?' + one closed-book generation round.",
+        "capture": "Habit you replaced; organized result; generation outcome.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "You almost fell into a no-struggle habit (e.g., photocopying). What replacement did you use, and why is that the right struggle?",
+          "rubric": "correct: Decide priorities/structure instead of transcribing; decision-making = struggle. mostly_correct: Different habit vaguely. incorrect: Transcribe faster; avoid deciding importance.",
+          "exemplar": "I replaced photocopying with deciding priorities and structure. Note-taking struggle is decision-making, not transcription speed. Highlighting a photocopy still skips the struggle."
+        },
+        {
+          "q": "If you organized well but peeked during generation, what struggle check still failed — and how will you fix it next time?",
+          "rubric": "correct: Self-testing/generation requires produce-before-look. mostly_correct: Don't peek vaguely. incorrect: Peeking required for generation effect.",
+          "exemplar": "Self-testing struggle was skipped — I must produce before looking. Organization doesn't replace retrieval production. Next time I'll finish the closed-book round before any peek."
+        },
+        {
+          "q": "Fresh scenario from today: reading felt easy but recall was weak. What call do you make about struggle level, and what will you switch to?",
+          "rubric": "correct: Wrong struggle level → organize + generate. mostly_correct: Study differently vaguely. incorrect: Easy reading proves mastery; study less.",
+          "exemplar": "Wrong struggle level — I was in neutral while reading. I'll switch to 'How can I organize this?' plus closed-book generation. Easy reading with weak recall means the engine wasn't running."
+        }
+      ]
+    }
+  ]
+}

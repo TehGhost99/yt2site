@@ -70,11 +70,18 @@ py scripts/fetch_transcripts.py
 # 5. Build the website
 py scripts/build_site.py
 
-# 6. Open it
-start output/index.html
+# 6. Preview locally (or open output/index.html)
+py scripts/serve_site.py
 ```
 
 > On macOS/Linux use `python3` instead of `py`, and `open` instead of `start`.
+
+### Share with other computers on your network
+
+`http://localhost:8123/...` only works on the machine running the server.
+Other devices must use this PC’s LAN IP (the serve script prints it), e.g.
+`http://192.168.1.23:8123/practice.html`. They need to be on the same Wi‑Fi/LAN;
+Windows Firewall must allow inbound traffic on that port for Python.
 
 ---
 

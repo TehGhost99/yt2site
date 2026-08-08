@@ -1,0 +1,268 @@
+{
+  "id": "spacing",
+  "title": "Spacing & the Forgetting Curve",
+  "order": 9,
+  "lesson": "spacing.html",
+  "days": [
+    {
+      "focus": "See your forgetting curve",
+      "review": "After learning something once, memory can drop steeply — Ebbinghaus showed you might fall from high retention toward very little within a day. That decay eventually hits everything. Today you measure what survived from your own recent study so spacing has a personal baseline, not an abstract graph.",
+      "task": {
+        "do": "Pick material you studied 1–2 days ago and have not reviewed. Closed-book, write what you still remember (5 min). Check notes and estimate % retained. Note what vanished first — about 8 minutes.",
+        "capture": "Topic, rough % retained, and 3 items that disappeared.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using your retention estimate after a delay, how should you read that drop in light of the forgetting curve — as a personal failure, or as expected data?",
+          "rubric": "correct: Sharp drop after one exposure is normal baseline; spacing exists to slow later fades — not a verdict on ability. mostly_correct: Accepts some forgetting without linking to spacing. incorrect: Any drop means abandon subject; perfect memory should be default.",
+          "exemplar": "My modest retention is expected decay after one exposure, not proof I cannot learn. It is baseline data spacing is meant to fight by slowing the next fade."
+        },
+        {
+          "q": "Looking at the three items that vanished first, what is the best immediate use of that list?",
+          "rubric": "correct: Target them with active recall in the next spaced review. mostly_correct: Study them again vaguely. incorrect: Ignore and reread everything equally; highlight-only; recognition glances only.",
+          "exemplar": "Those three items should be the targets for active recall in my next spaced review — not buried in an undifferentiated full-chapter reread."
+        },
+        {
+          "q": "If low retention felt demoralizing, what is a productive framing that still leads to action?",
+          "rubric": "correct: Expected decay data to fight with spaced, high-quality retrieval — not quit testing or only cram forever. mostly_correct: Stay hopeful without naming spacing action. incorrect: Spacing useless because forgetting happened; stop testing to avoid seeing losses.",
+          "exemplar": "Low retention is expected decay data I can fight with well-timed, high-quality retrieval. Stopping tests so I never see losses would only hide the problem."
+        }
+      ]
+    },
+    {
+      "focus": "Spacing slows the fade",
+      "review": "Each well-timed review makes the memory fade *more slowly* next time — the spacing effect, one of the most valuable tools in learning. Massing everything in one sitting feels productive; spreading retrieval over time changes the slope of forgetting. Today you schedule real reviews on your own calendar.",
+      "task": {
+        "do": "Choose 2 topics you need long-term. On your calendar/planner, place a short active-recall review for each at three future times (e.g., +1 day, +1 week, +1 month — adjust to your term). Keep each block 10–15 minutes — about 8 minutes to plan.",
+        "capture": "Paste the two topics with their three dated review slots.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Look at the schedule you just made. What about it actually uses the spacing effect rather than massed study?",
+          "rubric": "correct: Multiple retrieval sessions spread over days/weeks for the same topics. mostly_correct: Mentions reviewing later vaguely. incorrect: One marathon tonight; anxiety rereads; infinite new material with no revisits.",
+          "exemplar": "I have three retrieval sessions for each topic spread across days and weeks. That distributed retrieval is spacing — not one 3-hour marathon tonight."
+        },
+        {
+          "q": "A friend crams the same topic for four hours today instead of using spaced slots. What trade-off should you expect between their plan and yours?",
+          "rubric": "correct: Cramming may feel strong now but fades faster; spaced reviews slow later forgetting. mostly_correct: Prefers spacing without fade trade-off. incorrect: Cramming always beats spacing long-term; spaced plan weaker because less intense today.",
+          "exemplar": "Their cram may feel stronger today, but it should fade faster. My spaced retrievals should make the memory fade more slowly next time even if today feels less intense."
+        },
+        {
+          "q": "Which calendar entry from today is strongest, and how would you rewrite a vague \"study more\" entry to match that standard?",
+          "rubric": "correct: Dated blocks with topic + active recall; vague intentions need topic + retrieval method + date. mostly_correct: Wants dates without retrieval specificity. incorrect: Only exam-eve cram; \"look at notes\" with no retrieval.",
+          "exemplar": "My dated blocks labeled with topic and active recall are strongest. \"Study more\" should become a specific date, topic, and closed retrieval method."
+        }
+      ]
+    },
+    {
+      "focus": "A simple default schedule",
+      "review": "You do not need fancy software. A solid default: review after **1 day, then 1 week, then 1 month.** Exact intervals are not critical — 3 hours vs a day, or 3 weeks vs 6 weeks, can all work. Consistency matters, and *what you do* in each review matters more than the algorithm.",
+      "task": {
+        "do": "Pick one concept you learned today (or yesterday). Write a mini plan on paper: Review A tomorrow (free recall), Review B in ~1 week (varied cues), Review C in ~1 month (exam-style use). Put the first reminder in your phone now — about 8 minutes.",
+        "capture": "Concept name + the three review dates/actions you chose.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you agonized over 6 vs 8 days for Review B, what does the lesson say you should prioritize instead?",
+          "rubric": "correct: Consistency and quality of spaced retrieval over exact interval tuning. mostly_correct: Says don't stress dates vaguely. incorrect: Only perfect algorithms work; must review every hour.",
+          "exemplar": "Exact tuning matters little compared with consistently doing quality spaced retrieval. Obsessing over 6 vs 8 days is the wrong lever."
+        },
+        {
+          "q": "How do your three reviews reflect the day / week / month default spirit rather than massing or a single pass?",
+          "rubric": "correct: Expanding gaps across day/week/month scales with retrieval actions. mostly_correct: Lists three reviews without naming expanding gaps. incorrect: All three tonight; only one review ever; passive rereads only.",
+          "exemplar": "I spread retrieval across tomorrow, about a week, and about a month with different retrieval modes. That expanding-gap default is not massing all three into tonight."
+        },
+        {
+          "q": "If your phone reminder only says \"study,\" how should you improve it after today's task?",
+          "rubric": "correct: Specify concept + closed-book retrieve how. mostly_correct: Make it more specific vaguely. incorrect: Delete reminders; replace with reread everything; fifty same-night alarms.",
+          "exemplar": "I should name the concept and that I will retrieve closed-book. A vague \"study\" reminder does not make the spacing action concrete."
+        }
+      ]
+    },
+    {
+      "focus": "Quality beats the algorithm",
+      "review": "The research does *not* show that a perfectly tuned interval matters much. The quality of the retrieval session matters far more: active recall that hits an integrated schema and \"practices how you play.\" A mediocre app interval with weak recognition flipping loses to a simple schedule with strong production.",
+      "task": {
+        "do": "Run one scheduled (or overdue) review on your own material for ~8 minutes: closed integrated recall or exam-style use — no answer-peeking first. Avoid isolated recognition glances. End by noting whether the session trained how you will be tested.",
+        "capture": "What you retrieved, how (free/cued/problem), and one upgrade to make next review more exam-real.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Describe the review session you just ran. What made it higher or lower quality by this lesson's standard?",
+          "rubric": "correct: Judges by production before checking / integrated or exam-like use vs recognition nodding or interval tinkering only. mostly_correct: Calls it good/bad without quality criteria. incorrect: Perfect app timing alone = high quality.",
+          "exemplar": "Mine was higher quality because I produced an integrated answer before checking. Flipping cards and nodding at familiar answers — even at a \"perfect\" interval — would have been low quality."
+        },
+        {
+          "q": "If an app buzzed at the \"perfect\" time but you only recognized answers, what should you prioritize fixing?",
+          "rubric": "correct: Generation-before-check and exam-real tasks — timing cannot rescue recognition-only. mostly_correct: Mentions trying harder vaguely. incorrect: Buy a better algorithm; ignore quality because timing was perfect.",
+          "exemplar": "I should fix generation-before-check and make tasks more exam-real. Perfect timing does not rescue recognition-only reviews."
+        },
+        {
+          "q": "Which upgrade in your capture best aligns with \"practice how you play,\" and why?",
+          "rubric": "correct: Swap definition glances for problem/explain-as-tested retrieval. mostly_correct: Mentions an upgrade without exam-real link. incorrect: More identical easy stems; shorten intervals to minutes today; remove production.",
+          "exemplar": "Swapping pure definition glances for problem or explain-as-tested retrieval aligns with practice how you play — it trains the performance I need, not only comfortable recognition."
+        }
+      ]
+    },
+    {
+      "focus": "Spot learning debt",
+      "review": "Each new flashcard commits your future self to many repetitions. One lecture might spawn 30–50 cards → ~150 reviews; several lectures a day → hundreds stacking next week while new cards arrive. That compounding pile is *learning debt*, and motivated students often drown by week two. Today you audit your own backlog.",
+      "task": {
+        "do": "If you use cards (or a to-review list), count new items from the last 3–5 study days and estimate pending reviews this week. If you do not use cards, count \"things I meant to restudy\" instead. Mark whether the pile is growing — about 8 minutes.",
+        "capture": "Numbers: new items, estimated pending reviews, and one sentence on whether debt is rising.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your pending reviews are rising while you keep adding cards (or restudy items), what pattern is that — and why is high motivation not a fix by itself?",
+          "rubric": "correct: Learning debt compounding toward collapse; motivation can accelerate adding debt. mostly_correct: Sees backlog problem vaguely. incorrect: Proof spacing scales forever; add cards faster; debt irrelevant if motivated.",
+          "exemplar": "That is learning debt compounding toward collapse. High motivation can make it worse if I keep adding items faster than I repay reviews."
+        },
+        {
+          "q": "You estimated a large future-rep load from one dense lecture's cards. What is the best response?",
+          "rubric": "correct: Shrink what becomes a card; invest more in encoding so fewer reps needed. mostly_correct: Make fewer cards vaguely. incorrect: Keep generating that volume; ignore math; stop all review forever.",
+          "exemplar": "I should shrink what becomes a card and invest more in encoding so I need fewer spaced reps — not celebrate a huge deck from every lecture."
+        },
+        {
+          "q": "Which detail in your capture is the clearest early warning of unsustainable spacing, and what would a healthier pattern look like?",
+          "rubric": "correct: Pending reviews growing week over week vs a small stable finishable list. mostly_correct: Mentions numbers without growth warning. incorrect: Rising backlog is fine; only rereading with no list is healthier.",
+          "exemplar": "Pending reviews growing week over week is the clearest warning. A healthier pattern is a small stable deck or list I actually finish daily."
+        }
+      ]
+    },
+    {
+      "focus": "Isolated cards, shallow mastery",
+      "review": "Spacing alone has a second problem: answering isolated cards keeps you at low, isolated mastery, so complex integrated problems still wreck you no matter how many reps you log. Flashcards can support memory; they do not replace building connected understanding. Today you stress-test a \"known\" card cluster with an integrated task.",
+      "task": {
+        "do": "Take 5–8 cards/facts you can answer in isolation from your subject. Put them away. On a blank page, write an integrated explanation or solve a mixed problem that requires using several together — 7–8 minutes, then check.",
+        "capture": "Which isolated items you \"knew,\" and where the integrated attempt broke.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If you hit every card but failed the integrated task, what does that mean about isolated mastery?",
+          "rubric": "correct: Isolated mastery is not enough for complex performance. mostly_correct: Admits a gap without naming isolation limit. incorrect: More identical card reps auto-fix integration; integrated tasks unfair.",
+          "exemplar": "It means isolated mastery is not enough. I can ace atomic cards and still fail when complex performance needs the ideas connected."
+        },
+        {
+          "q": "What adjustment should your review plan make after today's break — without abandoning spacing?",
+          "rubric": "correct: Add periodic closed integrated retrieval, not only atomic cards. mostly_correct: Mentions synthesis vaguely. incorrect: Only easier cards; stop spacing; replace checks with highlighting.",
+          "exemplar": "I should keep spacing but add periodic closed integrated explain/problem sessions on the same cluster — not only atomic flips."
+        },
+        {
+          "q": "Write a healthy study-log line for a session like today's, and contrast it with a misleading \"40 cards correct\" line.",
+          "rubric": "correct: Combines modest cards + closed integrated work; contrasts with cards-only or peeking recognition. mostly_correct: Wants integration mentioned vaguely. incorrect: Celebrates card count with skipped synthesis as healthy.",
+          "exemplar": "A healthy line is \"15 cards + one closed integrated explain on the same cluster.\" \"40 cards correct; skipped synthesis\" would hide the shallow-mastery problem I just saw."
+        }
+      ]
+    },
+    {
+      "focus": "Spacing needs encoding",
+      "review": "Relying only on active recall + spaced repetition is a *rate-limiting step*: like a short plank in a barrel, learning leaks from the weakest part. Pair spacing with strong encoding. Encode well and the forgetting curve flattens, so you need far fewer repetitions — Justin's example: a heavy master's topic needing only ~10–15 cards after good encoding.",
+      "task": {
+        "do": "Choose a topic whose card count or review load feels heavy. Spend ~8 minutes building/improving a one-page big-picture keyword map (relationships, not a transcript). Then list cards you could delete or never make because the map already holds them.",
+        "capture": "Map summary (groups/links) and a prune list of cards/items you no longer need as isolates.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "You pruned cards after mapping. What principle about encoding and spaced reps did you apply?",
+          "rubric": "correct: Better encoding reduces how many spaced reps you need; spacing supports encoding rather than replacing it. mostly_correct: Says maps help reduce cards vaguely. incorrect: More cards always beat encoding; maps replace all retrieval forever.",
+          "exemplar": "Stronger encoding flattens forgetting so I need fewer spaced reps. Spacing supports that encoding — it does not replace building the big picture."
+        },
+        {
+          "q": "If your deck is huge and integrated questions still fail, what is the highest-leverage move?",
+          "rubric": "correct: Invest in encoding/big picture, not only more reps. mostly_correct: Mentions understanding vaguely. incorrect: Double daily cards; shorten every interval to minutes; avoid maps to save time.",
+          "exemplar": "Highest leverage is investing in encoding and the big picture. Doubling card count keeps leaning on the short plank instead of fixing it."
+        },
+        {
+          "q": "Which kind of item on your prune list is safest to cut, and which kinds should you keep?",
+          "rubric": "correct: Cut isolates the map already explains; keep items that still fail in exam-style/conditional/integrated use. mostly_correct: Cuts something redundant vaguely. incorrect: Cut core failing procedures/gaps; keep only saturated wording clones.",
+          "exemplar": "Safest cuts are isolated wordings I can already explain through the map's relationships. I keep procedures or conditional distinctions I still fail in real use."
+        }
+      ]
+    },
+    {
+      "focus": "Use flashcards as a supplement",
+      "review": "Flashcards are great when aligned with your goal — best for Reference and some Evidence information (PACER). Keep decks small, keep cards spaced, vary cues, and always retrieve before flipping. Overwhelm or stuck low mastery is a signal to invest in encoding, not more cards. Later study and professional life rarely run on flashcards alone.",
+      "task": {
+        "do": "Audit 10 of your own cards (or 10 facts you might card). Label each Keep (true reference/evidence worth spaced reps) or Map/Encode instead. Rewrite 2 Keep prompts to vary the cue — about 8–10 minutes.",
+        "capture": "Keep vs Map counts, plus the two rewritten prompts.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "If most items were better as Map/Encode, what should change in your study this week?",
+          "rubric": "correct: Stop carding everything; encode relationships; card sparingly for suitable targets. mostly_correct: Fewer cards vaguely. incorrect: Card every syllabus sentence; ignore PACER; increase new cards.",
+          "exemplar": "I should stop turning everything into cards, encode relationships on a map, and card only the keep-worthy reference/evidence items."
+        },
+        {
+          "q": "If you feel overwhelmed by reviews, what does that signal mean according to this lesson?",
+          "rubric": "correct: Invest in encoding and shrink the deck — not add more cards or trust recognition flipping. mostly_correct: Reduce load vaguely. incorrect: Add more cards until better; delete all retrieval.",
+          "exemplar": "Overwhelm signals I should encode better and shrink the deck — not create more cards or catch up by recognition flipping."
+        },
+        {
+          "q": "Looking at your two rewritten prompts, what features make a rewritten Keep card match good card use?",
+          "rubric": "correct: Varied cue, answer-before-flip, keep-worthy reference/evidence target; not answer-on-front, multi-idea paragraphs, or saturated clones. mostly_correct: Mentions varying cue only. incorrect: Celebrates answer-visible or saturated identical stems.",
+          "exemplar": "A strong rewrite uses a varied cue I answer before flipping on a true keep-worthy fact — not the answer on the front or another clone of a saturated stem."
+        }
+      ]
+    },
+    {
+      "focus": "Build a sustainable spacing system",
+      "review": "Put it together on your real workload: a simple day/week/month-style schedule, high-quality retrieval in each slot, a debt check so the deck cannot explode, and encoding support so spacing stays a beginning — not the whole system. Sustainability beats heroic card counts.",
+      "task": {
+        "do": "For one active course: (1) list topics due for review in the next week, (2) assign each a retrieval method (free / varied-cue / exam-style), (3) cap new cards for the next 3 days at a number you can actually finish, (4) schedule one encoding/map session for the heaviest topic — about 10 minutes.",
+        "capture": "Weekly review list with methods, your new-card cap, and the encoding session time.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Why does capping new cards align with this subject, given what you planned?",
+          "rubric": "correct: Unbounded new cards create learning debt that collapses the system. mostly_correct: Caps help workload vaguely. incorrect: Caps always reduce learning; software makes caps unnecessary; never card reference facts.",
+          "exemplar": "Capping new cards prevents committing future reps faster than I can repay them. Unbounded additions create learning debt that collapses the system."
+        },
+        {
+          "q": "Which weekly slot in your plan best reflects \"quality > algorithm,\" and what would a low-quality slot look like instead?",
+          "rubric": "correct: Dated exam-style/integrated retrieval; contrasts with interval fiddling, passive rereads, or adding without reviewing. mostly_correct: Points to a review without quality contrast. incorrect: Opening app only to tweak settings as the quality win.",
+          "exemplar": "My exam-style retrieval on a dated topic reflects quality over algorithm. Opening the app only to change interval settings or rereading while scrolling would be low quality."
+        },
+        {
+          "q": "You scheduled an encoding session beside reviews. What role does that session play relative to spacing?",
+          "rubric": "correct: Flattens forgetting so spacing needs fewer reps — spacing supports encoding rather than replacing it. mostly_correct: Says encoding helps vaguely. incorrect: Proves flashcards are the entire system; means skip all future retrieval.",
+          "exemplar": "Encoding flattens forgetting so I need fewer spaced reps. Spacing supports that encoding — it does not replace it or make flashcards the whole system."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: spacing that lasts",
+      "review": "Checkpoint with fresh material: measure decay, schedule spaced retrieval, demand session quality, detect learning debt, and prefer encoding when decks bloat. Judge the plans and attempts you produce today — not definitions of Ebbinghaus.",
+      "task": {
+        "do": "Pick a topic unused in this subject's tasks. Closed recall to estimate retention; book the next 1-day and 1-week retrievals; run a 5-minute high-quality review now; note one card/list item to prune or not create.",
+        "capture": "% estimate, two future dates, what you produced in the 5-minute review, and the prune decision.",
+        "minutes": 9
+      },
+      "check": [
+        {
+          "q": "Your retention estimate may have been modest, yet you booked future retrievals. Why is that the right move?",
+          "rubric": "correct: Well-timed reviews slow the next fade — decay is data, not a stop sign. mostly_correct: Says keep going vaguely. incorrect: Low retention means spacing never works; only schedule when memory is perfect.",
+          "exemplar": "Modest retention is decay data, not a stop sign. Booking well-timed retrievals is how I slow the next fade."
+        },
+        {
+          "q": "Justify your prune-or-not-create decision using encoding and learning debt.",
+          "rubric": "correct: If encoding/map/explain already carries it, extra card debt is unnecessary; keep items still failing in use. mostly_correct: Mentions pruning without encoding/debt link. incorrect: Pruning always wrong; only delete failing cards; apps forbid pruning.",
+          "exemplar": "I pruned an item my map already explains so I do not add unnecessary card debt. Encoding that carries the idea means I do not need another isolate in the queue."
+        },
+        {
+          "q": "What about your 5-minute review shows you avoided the isolated-card trap?",
+          "rubric": "correct: Connected production or exam-like use, not only atomic recognition nods. mostly_correct: Mentions retrieval without integration. incorrect: Faster saturated stems; adding many new isolates; only optimizing interval slider.",
+          "exemplar": "I had to produce a connected explanation/use of the topic, not just nod at atomic cards. That is what avoids shallow spaced mastery."
+        }
+      ]
+    }
+  ]
+}

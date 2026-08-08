@@ -1,0 +1,268 @@
+{
+  "id": "the-science",
+  "title": "How Learning Really Works",
+  "order": 1,
+  "lesson": "the-science.html",
+  "days": [
+    {
+      "focus": "Studying Is Not Learning",
+      "review": "Studying is the activity — reading, highlighting, rewriting. Learning is the outcome: knowledge actually in your head *and usable*. Hours measure studying, not learning. Today's practice closes that gap by testing what stuck.",
+      "task": {
+        "do": "Open one topic you studied yesterday (notes, lecture, or chapter). Close all materials. Write from memory, in 3–5 sentences, what you can now explain or do that you couldn't before. Do not peek.",
+        "capture": "Paste your 3–5 sentence from-memory explanation (or note if the page was nearly blank).",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your from-memory write-up (or nearly blank page), what does that outcome tell you about studying versus learning for this topic — and why?",
+          "rubric": "correct: Distinguishes studying (activity/time) from learning (knowledge in head and usable); ties judgment to their blank or solid recall. mostly_correct: Names the studying-vs-learning gap but weakly links to their attempt. incorrect: Blames talent/hours only, or treats blank recall as irrelevant.",
+          "exemplar": "A nearly blank page means I spent time studying without converting it into learning — the ideas aren't in my head in usable form. Solid recall would mean that session actually produced learning, not just desk time. Hours don't measure learning; what I can explain without peeking does."
+        },
+        {
+          "q": "In your own words, how would you judge whether today's closed-book attempt showed learning, not just studying?",
+          "rubric": "correct: Uses ability to explain/use from memory as the criterion; references their capture. mostly_correct: Mentions recall but omits usability or their result. incorrect: Equates neat notes, page count, or feeling busy with learning.",
+          "exemplar": "Learning showed up if I could explain the ideas from memory in clear sentences and could imagine using them. If I only recognized notes when looking, that was studying activity without learning. My capture is the evidence either way."
+        },
+        {
+          "q": "Based on how today's attempt went, what is the strongest next study move for this same topic — and why that move?",
+          "rubric": "correct: Proposes a process that forces producing ideas then retesting closed-book; justified by today's result. mostly_correct: Suggests restudy without naming production/retest. incorrect: Highlights more, copies notes, or delays until the exam.",
+          "exemplar": "I should restudy with a method that makes me generate the ideas myself, then close the book and retest. Passiveing or copying won't fix a blank page. The next move is change the process, then check again without peeking."
+        }
+      ]
+    },
+    {
+      "focus": "Retention × Mastery",
+      "review": "Serious goals need *both* retention (knowledge that stays) and mastery (you can apply, analyze, judge — not only regurgitate). Perfect recall of isolated facts you can't use fails the goal. Aim for deep, usable knowledge that sticks.",
+      "task": {
+        "do": "Pick one concept from your current course. Rate it 1–5 for retention (how well it sticks without notes) and 1–5 for mastery (how well you can apply or judge with it). Write one concrete example of using it — or admit you can't.",
+        "capture": "Concept name; retention score; mastery score; your use-example or 'cannot use yet'.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Using your retention and mastery scores (and whether you could invent a use-example), what does that pattern say about how ready this concept is for a serious goal?",
+          "rubric": "correct: Applies retention × mastery; notes that high recall without use (or use without lasting retention) is incomplete. mostly_correct: Mentions one half only. incorrect: Treats high retention alone as full readiness.",
+          "exemplar": "If retention is high but mastery is low and I can't invent a use-example, I have recall without usable mastery — incomplete for serious goals. If I can apply it but forget within a week, retention is failing. I need both lasting knowledge and the ability to use it."
+        },
+        {
+          "q": "Which half — retention or mastery — is weaker for the concept you rated, and what in your capture shows that?",
+          "rubric": "correct: Picks the weaker half with evidence from scores/use-example. mostly_correct: Picks a half without clear evidence. incorrect: Contradicts their own scores or invents unrelated criteria.",
+          "exemplar": "Mastery is weaker: I scored it low and couldn't write a concrete use-example, even if the definition sticks. That means I can regurgitate without applying or judging. Fixing mastery means practicing use, not more familiarity with the wording."
+        },
+        {
+          "q": "What specific practice would raise the weaker half for this concept next session, and why would that work better than rereading the definition?",
+          "rubric": "correct: Names apply/analyze/judge practice for mastery or spaced retrieval for retention; contrasts with passive reread. mostly_correct: Names a reasonable practice without clear contrast. incorrect: Only more passive familiarity.",
+          "exemplar": "I'd put the concept on a real problem from my course and force a judgment or application — that builds mastery. Rereading the definition only increases familiarity. If retention is the weak half, I'd explain it closed-book after a delay instead of another passive pass."
+        }
+      ]
+    },
+    {
+      "focus": "Spot Isolated Knowledge",
+      "review": "Isolated knowledge sits in a silo — one fact memorized alone. The brain treats it as irrelevant and forgets it fast. Real problems aren't isolated, so siloed facts are hard to use. First skill: notice isolation in your own notes.",
+      "task": {
+        "do": "Scan one page of your own notes or a textbook section. Circle or list 3 facts/definitions that stand alone with almost no links to other ideas. For each, write one missing connection you *could* make.",
+        "capture": "Three isolated items + the connection you would add for each.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Why are the three standalone facts you listed risky for memory and use, according to how isolation works?",
+          "rubric": "correct: Isolated info looks irrelevant, is forgotten quickly, and is hard to use on real (non-isolated) problems; cites their items. mostly_correct: Says isolation is bad without mechanism. incorrect: Claims isolation helps mastery or only length/order matters.",
+          "exemplar": "Those three definitions have almost no links, so the brain treats them as irrelevant and drops them fast. Real problems aren't isolated, so siloed facts stay hard to use. Isolation — not sentence length — is what makes them fragile."
+        },
+        {
+          "q": "Which of your three items looks most isolated, and what missing connection would you add first?",
+          "rubric": "correct: Picks the weakest-linked item and proposes a concrete connection. mostly_correct: Picks an item but vague connection. incorrect: Uses order/length or says no fix needed.",
+          "exemplar": "The loneliest item is the one with no clear link to anything else I know. I'd connect it to a neighboring concept on the page — how it causes, contrasts with, or belongs under that idea — so it stops sitting in a silo."
+        },
+        {
+          "q": "Describe the strongest fix for one isolated fact from today's list, and why rewriting or highlighting alone wouldn't be enough.",
+          "rubric": "correct: Integration/connection to related knowledge; rejects rewrite/highlight as sufficient. mostly_correct: Mentions connecting without rejecting passive fixes. incorrect: Only rewrite, highlight, or delete.",
+          "exemplar": "I'd deliberately link the fact to a related idea I already know or another concept on the page. Rewriting or neon highlighting leaves it isolated. Integration is what makes it relevant and usable."
+        }
+      ]
+    },
+    {
+      "focus": "Build Integrated Links",
+      "review": "Integrated knowledge is connected: you compare ideas, find similarities and differences, and see relationships. Connected info looks relevant, so the brain holds it. Higher-order learning connects information so retention follows.",
+      "task": {
+        "do": "Choose two related concepts from your current topic. Without copying notes, write: (1) how they are similar, (2) how they differ, (3) when you would use one vs the other.",
+        "capture": "The two concepts + similarity + difference + when-to-use-each.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "If your capture had only separate definitions and no compare/contrast, what learning work did you skip — and how would you rewrite one pair to fix it?",
+          "rubric": "correct: Names integration (relating ideas); gives similarity/difference/when-to-use. mostly_correct: Mentions linking vaguely. incorrect: Says definitions alone equal deep learning.",
+          "exemplar": "I skipped integration — the linking that makes knowledge relevant. I'd rewrite: how A and B are similar, how they differ, and when I'd use one versus the other. Separate definitions leave the ideas isolated."
+        },
+        {
+          "q": "Looking at what you wrote for similarity, difference, and when-to-use, what makes that a strong (or weak) integration attempt?",
+          "rubric": "correct: Evaluates whether compare/contrast and decision rule are present and meaningful. mostly_correct: Describes capture without clear quality criteria. incorrect: Praises copied sentences or vague 'related somehow'.",
+          "exemplar": "Strong integration has a clear similarity, a real difference, and a decision rule for when each applies. Copied textbook lines or 'they seem related' are weak. My capture works to the extent those three pieces are specific."
+        },
+        {
+          "q": "After linking these two ideas, what is the best immediate follow-up to grow the network further — and why?",
+          "rubric": "correct: Add another concept and relate it to the pair; justifies schema growth. mostly_correct: Mentions more practice without network growth. incorrect: Passive reread, definition-only cards, or switching subjects to avoid thinking.",
+          "exemplar": "I'd pull in a third concept and ask how it relates to the pair. Growing deliberate relationships builds an integrated schema. Stopping at two isolated definitions or more highlighting doesn't expand the network."
+        }
+      ]
+    },
+    {
+      "focus": "Schemas: Knowledge as a Network",
+      "review": "Your brain stores knowledge in schemas — networks of connected ideas. Experts don't hold ordered lists; they navigate a web from any entry point. That network is what lets them solve complex problems.",
+      "task": {
+        "do": "For one chapter or lecture, sketch a mini-schema: put the core idea in the center, then add 4–6 related ideas as connected nodes (lines between related ones). Use your own material; no linear outline.",
+        "capture": "Describe your center node and list each connected node with one link reason (why it connects).",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "If your sketch was mostly a numbered list with few cross-links, what schema quality is missing — and how would you change the sketch?",
+          "rubric": "correct: Network structure / multiple navigable relationships; proposes cross-links. mostly_correct: Says 'needs more connections' vaguely. incorrect: Focuses on handwriting, more bullets, or a glossary.",
+          "exemplar": "What's missing is network structure — relationships I can enter from more than one point. I'd redraw with a center idea and explicit lines stating why nodes connect, not a linear outline. Schemas are webs, not ordered lists."
+        },
+        {
+          "q": "Can you enter your mini-schema from a side node and still reach the center? What does that (or failure to) show about how usable the schema is?",
+          "rubric": "correct: Multiple entry points = usable integrated schema; failure = list-like or fragile. mostly_correct: Mentions navigation without clear judgment. incorrect: Treats page order memorization as schema quality.",
+          "exemplar": "If I can start from a side node and still explain the path to the center, I have a usable schema with multiple entry points. If I can only recite top-to-bottom, I mostly memorized order. Experts navigate a web, not a list."
+        },
+        {
+          "q": "Pick your weakest node. What repair would strengthen it, and why wouldn't writing the definition again be enough?",
+          "rubric": "correct: Add meaningful link(s) to other nodes; rejects more isolation/definition drills. mostly_correct: Mentions linking weakly. incorrect: More definitions, remove links, or flashcard-only.",
+          "exemplar": "I'd add at least one meaningful link from that weak node to another idea already on the map. Writing the definition again keeps it isolated. Schema strength comes from relevant connections."
+        }
+      ]
+    },
+    {
+      "focus": "Process Builds Schema Quality",
+      "review": "The process you use while studying determines the schema you build — and that schema drives both retention and mastery. Memory is almost a side effect of good schema-building. Audit *how* you study, not only *what*.",
+      "task": {
+        "do": "Replay your last study block on one topic. List the exact activities (e.g., reread, highlight, quiz, map). Mark each as schema-building (connect/compare/organize) or silo-building (copy/isolate/memorize alone). Pick one silo habit to replace next session.",
+        "capture": "Activity list with marks + the one habit you will replace and with what.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "Looking at your activity list, what does the mix of schema-building vs silo-building activities imply about the quality of schema you were building?",
+          "rubric": "correct: Ties process to schema quality; notes that highlight/rewrite-alone likely builds weak isolation. mostly_correct: Lists activities without clear implication. incorrect: Claims any writing builds expert networks or process doesn't matter.",
+          "exemplar": "If most activities were highlight and rewrite definitions, my process likely built weak, isolated schemas. Schema-building means connect, compare, organize. Process determines schema quality — and thus retention and mastery."
+        },
+        {
+          "q": "Explain the habit you chose to replace and what you will do instead. Why does that swap upgrade schema quality?",
+          "rubric": "correct: Names a silo habit and a connect/compare/map replacement with clear rationale. mostly_correct: Names swap without schema rationale. incorrect: More colors, neater same linear notes, or faster passive intake.",
+          "exemplar": "I'll swap one reread for compare/contrast or mapping how ideas fit. That forces relationships during study, which raises schema quality. Neater linear notes or more highlighter colors keep the same silo process."
+        },
+        {
+          "q": "Why prioritize changing process over simply adding more study hours after today's audit?",
+          "rubric": "correct: Better process → better schemas; more hours of weak process still fail. mostly_correct: Mentions process vaguely. incorrect: Hours never matter, or schemas only form in sleep.",
+          "exemplar": "Hours of weak process still produce fragile schemas. Changing how I study builds better networks, which drive retention and mastery. More time doing isolation-friendly habits won't fix the audit."
+        }
+      ]
+    },
+    {
+      "focus": "The Snowball Effect",
+      "review": "The more connected knowledge you have, the easier new learning becomes. Integrated learners accelerate; isolated learners get more overwhelmed. Today's practice uses what you already know as hooks for new material.",
+      "task": {
+        "do": "Open brand-new material from your course (a section you haven't studied yet). Before reading deeply, list 3 things you already know that might connect. After a short read, write how each new idea hooks to one prior idea — or mark 'no hook yet'.",
+        "capture": "Prior hooks (3) + new ideas and their hooks (or 'no hook yet').",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Looking at your prior hooks and 'no hook yet' marks, what does that pattern signal about isolation risk and the snowball effect?",
+          "rubric": "correct: No hooks = isolation/overload risk; easy hooks = existing schema helping (snowball). mostly_correct: Mentions connections without snowball/isolation. incorrect: Says hooks are optional or memorize-first forever.",
+          "exemplar": "If every new idea got 'no hook yet,' I'm at risk of isolation and overload — I need to force connections or simplify the frame. When links come easily, my existing schema is helping: the snowball effect. Integrated learners accelerate; isolated ones get overwhelmed."
+        },
+        {
+          "q": "Describe one successful hook you made today. Why does linking new material to prior knowledge make the next learning easier?",
+          "rubric": "correct: Concrete hook + snowball/schema explanation. mostly_correct: Describes hook without why it helps. incorrect: Linking means skip review forever or prior knowledge blocks learning.",
+          "exemplar": "I hooked the new idea to a related concept I already mapped, which made it feel relevant immediately. Connected prior knowledge gives new ideas places to attach, so learning gets easier over time — the snowball. Without hooks, each piece starts from zero."
+        },
+        {
+          "q": "For one unhooked new idea, what is the strongest next move — and why not put it on a flashcard with no relationships?",
+          "rubric": "correct: Relate to mapped knowledge or place under a bigger purpose; rejects relationship-free cards as primary fix. mostly_correct: Mentions connecting vaguely. incorrect: Ignore until final, or flashcard-only with no links.",
+          "exemplar": "I'd ask how it relates to something already on my map; if nothing fits, I'd place it under a clearer bigger purpose. A relationship-free flashcard keeps it isolated. Deliberate relating turns intake into schema growth."
+        }
+      ]
+    },
+    {
+      "focus": "Neuroplasticity Needs Pressure",
+      "review": "Learning rewires the brain with effortful, repeated practice. Change needs sustained pressure — like the gym. A new method feeling hard after one try isn't failure; it isn't a habit yet. Potential isn't fixed: good memory is mostly trainable process.",
+      "task": {
+        "do": "Choose one harder learning habit from this subject (e.g., closed-book explain, compare/contrast, schema mapping). Do one 5-minute rep on your real material. Then write: (1) what felt hard, (2) whether you'd quit based on that feeling, (3) one reason to continue for another week.",
+        "capture": "Habit chosen + difficulty note + quit-or-not + reason to continue.",
+        "minutes": 8
+      },
+      "check": [
+        {
+          "q": "The new habit felt awkward and slow. What does that difficulty mean for neuroplasticity and habit change — not for whether the method 'failed' today?",
+          "rubric": "correct: Expected rewiring pressure; early difficulty ≠ failure or fixed low capacity. mostly_correct: Says keep going without mechanism. incorrect: Abandon because hard, or only easy methods rewire.",
+          "exemplar": "Awkwardness is expected — rewiring needs sustained effort before a habit feels natural. One hard rep isn't failure or proof of fixed low memory. Potential is trainable through process; difficulty is the pressure that drives change."
+        },
+        {
+          "q": "You may have felt like quitting. What mindset matches the course, and how will you treat that hard feeling in the next week?",
+          "rubric": "correct: Difficulty as training signal; schedule more short reps; process trainable. mostly_correct: Persist vaguely. incorrect: Switch to easiest forever or assume fixed talent.",
+          "exemplar": "I'll treat the hard feeling as a training signal and schedule more short reps this week. Quitting at first friction blocks the wiring. Good memory is mostly trainable process, not fixed talent."
+        },
+        {
+          "q": "After today's single hard rep, what concrete practice plan for the rest of the week best turns the technique into a habit?",
+          "rubric": "correct: Repeated short reps of the same habit on real material across the week. mostly_correct: Vague 'practice more'. incorrect: Never repeat, only easy habits, or read about plasticity instead of practicing.",
+          "exemplar": "I'll repeat the same habit — closed-book explain, compare/contrast, or mapping — on new material several times this week. Sustained repeated effort turns a technique into a habit. One special attempt isn't enough."
+        }
+      ]
+    },
+    {
+      "focus": "Full Application: Session Audit",
+      "review": "Pull the threads together: learning ≠ studying; aim for retention × mastery; replace isolation with integration and schema-building process. Use your own study material for a full mini-session audit.",
+      "task": {
+        "do": "Study one real topic for ~8 minutes using integration on purpose: closed-book dump what you know, add 3 links between ideas, then write one way you could *use* the knowledge. No passive reread-only.",
+        "capture": "Topic; from-memory dump; three links; one use-case.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Your application needed a from-memory dump, links, and a use-case. If any piece was missing or thin, what does that say relative to retention × mastery?",
+          "rubric": "correct: Maps missing dump/links/use to retention vs mastery / studying-vs-learning. mostly_correct: Notes something missing without the goal frame. incorrect: Treats longer neat notes as enough.",
+          "exemplar": "No use-case means missing mastery evidence — can I actually use the knowledge? Thin dump means weak retention in my head. Links without use still fall short of retention × mastery. Learning is usable knowledge that sticks, not just connected notes on the page."
+        },
+        {
+          "q": "What in today's capture best shows that studying converted into learning — or that it didn't yet?",
+          "rubric": "correct: Cites recall of links/use without peeking vs page count/busyness. mostly_correct: Mentions recall vaguely. incorrect: Equates coverage, neatness, or feeling busy with learning.",
+          "exemplar": "Learning showed if I explained links and a use from memory without much peeking. Covering more pages or neater notes only shows studying activity. Busyness isn't evidence that knowledge is in my head and usable."
+        },
+        {
+          "q": "If some links felt forced or shallow, what would you change in the next pass — and why not retreat to memorizing definitions alone?",
+          "rubric": "correct: Rebuild with better compare/contrast and clearer central schema; rejects isolation retreat. mostly_correct: Mentions better links vaguely. incorrect: Abandon connections, more highlighting, or 'can't integrate'.",
+          "exemplar": "I'd rebuild around a clearer center and real compare/contrast, not forced lines. Shallow links mean schema quality is weak, not that integration is impossible. Retreating to definition-only memorizing recreates isolation."
+        }
+      ]
+    },
+    {
+      "focus": "Checkpoint: Hardest Moves",
+      "review": "Checkpoint day: re-test the hardest practice moves — diagnosing studying-without-learning, spotting isolation, and choosing schema-building next steps — on fresh scenarios from your own work.",
+      "task": {
+        "do": "Pick a different topic than day 9. In 8 minutes: (1) closed-book 3-sentence explain, (2) mark one isolated vs one integrated idea in your notes, (3) write one process change for tomorrow. No rereading first.",
+        "capture": "Explain attempt; isolated vs integrated examples; tomorrow's process change.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "Your explain may be thin while notes look dense. Fresh judgment: what does that gap say about notes versus learning?",
+          "rubric": "correct: Notes ≠ learning; need process that puts usable knowledge in head; cites their gap. mostly_correct: Mentions recall gap vaguely. incorrect: Dense notes prove mastery regardless of recall.",
+          "exemplar": "Dense notes with a thin explain means the artifacts of studying aren't the same as learning. I still need a process that puts usable knowledge in my head. Checkpoint: studying-without-learning shows up exactly as this gap."
+        },
+        {
+          "q": "You marked one isolated and one integrated idea. Explain how you told them apart — and what would be wrong about swapping those labels.",
+          "rubric": "correct: Isolation = lone/unlinked; integration = relationships/compare; swapping labels is wrong. mostly_correct: Partial definitions. incorrect: Says labels arbitrary or only diagrams integrate.",
+          "exemplar": "Isolated means a lone definition with no links; integrated means deliberate relationships like compare/contrast. Swapping those labels is wrong — connections integrate; solitary facts isolate. Labels aren't arbitrary."
+        },
+        {
+          "q": "If yesterday was mostly reread and highlight, write the process change you chose for tomorrow and why it improves schema quality.",
+          "rubric": "correct: Replace part of reread with closed-book explain and deliberate linking; process→schema rationale. mostly_correct: Mentions change without rationale. incorrect: Faster highlighting, outsource thinking, or only easy topics.",
+          "exemplar": "I'll replace part of rereading with a closed-book explain and deliberate linking between ideas. That process builds schema instead of silos. Highlighting faster or outsourcing thinking won't raise schema quality."
+        }
+      ]
+    }
+  ]
+}

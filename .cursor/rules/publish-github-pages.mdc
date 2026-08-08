@@ -1,0 +1,30 @@
+---
+description: After site changes, commit and deploy to GitHub Pages by default
+alwaysApply: true
+---
+
+# Publish to GitHub Pages by default
+
+When the user asks for website changes (content, assets, Practice app, quiz, styles, build scripts), treat **deploying to GitHub Pages** as part of finishing the work unless they explicitly say not to publish.
+
+## After changes that affect the live site
+
+1. Keep sources of truth under `content/`, `assets/`, `templates/`, `scripts/` — do not hand-edit `output/`.
+2. Run `py scripts/build_site.py` (and `py scripts/build_curriculum.py` when curriculum JSON changes).
+3. Commit the relevant source changes (not secrets).
+4. Push to `main` so `.github/workflows/deploy-pages.yml` deploys.
+5. Confirm the workflow succeeds when practical.
+6. Report the live URLs:
+   - https://tehghost99.github.io/yt2site/
+   - https://tehghost99.github.io/yt2site/practice.html
+
+## Do not publish when
+
+- The user says not to publish, deploy, push, or commit
+- Changes are local-only experiments they asked to keep uncommitted
+- Files contain secrets (API keys, `.env`, credentials)
+
+## Notes
+
+- GitHub Pages builds from the repo via Actions; pushing `main` is the deploy.
+- Appwrite web platforms must include `tehghost99.github.io` for auth/sync on the live site.

@@ -296,6 +296,21 @@ a:hover { text-decoration: underline; }
 }
 .pa-auth-form { max-width: 380px; }
 .pa-auth-buttons { display: flex; gap: 10px; flex-wrap: wrap; }
+.pa-auth-links { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 10px; }
+.pa-link-btn {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 0.92rem;
+}
+.pa-link-btn:hover { color: var(--text); }
+.pa-link-btn:disabled { opacity: 0.5; cursor: default; }
+.pa-ok { color: #9ad7c4; font-size: 0.92rem; margin: 8px 0 0; }
 
 /* Session */
 .pa-session-head {
@@ -559,15 +574,17 @@ a:hover { text-decoration: underline; }
 }
 .sa-question { line-height: 1.4; margin: 0 0 8px; }
 .sa-choice-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 16px 0 8px; }
+.sa-choice-row.sa-choice-scale { grid-template-columns: 1fr; }
 .sa-choice {
   font: inherit;
-  padding: 16px 14px;
+  padding: 14px 14px;
   border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--surface-2);
   color: var(--text);
   cursor: pointer;
   font-weight: 600;
+  text-align: left;
 }
 .sa-choice:hover { border-color: var(--accent); }
 .sa-choice-on { border-color: var(--accent); background: rgba(79, 157, 140, 0.14); }

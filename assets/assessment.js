@@ -1,10 +1,18 @@
 /* Interactive self-assessment for Getting Started.
-   Scores four habit areas and recommends lessons + Practice subjects. */
+   Scores four habit areas on a 5-point scale and recommends lessons. */
 (function () {
   "use strict";
 
   var root = document.getElementById("self-assessment-app");
   if (!root) return;
+
+  var SCALE = [
+    { value: 2, label: "Completely true" },
+    { value: 1, label: "Somewhat true" },
+    { value: 0, label: "Unsure" },
+    { value: -1, label: "Somewhat false" },
+    { value: -2, label: "Completely false" }
+  ];
 
   var QUESTIONS = [
     { id: 1, group: "A", text: "When I study, I mostly reread notes/textbook or re-watch lectures." },
@@ -61,14 +69,14 @@
     }
   };
 
-  var STORAGE_KEY = "effective-learner-assessment-v1";
-  var answers = {}; // id -> true | false
+  var STORAGE_KEY = "effective-learner-assessment-v2";
+  var answers = {}; // id -> -2..2
   var qIndex = 0;
   var phase = "intro"; // intro | quiz | results
 
   try {
     var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-    if (saved && saved.answers) {
+    if (saved && saved.answers && typeof saved.answers === "object") {
       answers = saved.answers;
       phase = "results";
     }
@@ -88,11 +96,29 @@
     return node;
   }
 
+  function labelForAvg(avg) {
+    if (avg >= 1.5) return "Completely true";
+    if (avg >= 0.5) return "Somewhat true";
+    if (avg > -0.5) return "Unsure";
+    if (avg > -1.5) return "Somewhat false";
+    return "Completely false";
+  }
+
   function scoreGroups() {
-    var scores = { A: { true: 0, total: 0 }, B: { true: 0, total: 0 }, C: { true: 0, total: 0 }, D: { true: 0, total: 0 } };
+    var scores = {};
+    ["A", "B", "C", "D"].forEach(function (g) {
+      scores[g] = { sum: 0, total: 0, avg: 0, leanTrue: 0 };
+    });
     QUESTIONS.forEach(function (q) {
+      var v = answers[q.id];
+      if (typeof v !== "number") return;
+      scores[q.group].sum += v;
       scores[q.group].total++;
-      if (answers[q.id] === true) scores[q.group].true++;
+      if (v > 0) scores[q.group].leanTrue++;
+    });
+    ["A", "B", "C", "D"].forEach(function (g) {
+      var s = scores[g];
+      s.avg = s.total ? s.sum / s.total : 0;
     });
     return scores;
   }
@@ -101,10 +127,10 @@
     return ["A", "B", "C", "D"]
       .map(function (g) {
         var s = scores[g];
-        return { id: g, ratio: s.total ? s.true / s.total : 0, trueCount: s.true, total: s.total };
+        return { id: g, avg: s.avg, leanTrue: s.leanTrue, total: s.total };
       })
-      .filter(function (g) { return g.trueCount > 0; })
-      .sort(function (a, b) { return b.ratio - a.ratio || b.trueCount - a.trueCount; });
+      .filter(function (g) { return g.avg > 0; })
+      .sort(function (a, b) { return b.avg - a.avg || b.leanTrue - a.leanTrue; });
   }
 
   function persist() {
@@ -124,7 +150,10 @@
     root.appendChild(el("div", { class: "sa-card" }, [
       el("div", { class: "sa-kicker", text: "Self-assessment quiz" }),
       el("h2", { text: "How do you study right now?" }),
-      el("p", { class: "sa-muted", text: "Eleven short statements. Answer mostly true or mostly false — honestly. At the end you'll get a ranked list of what to work on, with links into the lessons and the Practice app." }),
+      el("p", {
+        class: "sa-muted",
+        text: "Eleven short statements. Rate each from completely true to completely false — honestly. At the end you'll get a ranked list of what to work on, with links into the lessons and the Practice app."
+      }),
       el("p", { class: "sa-muted sa-small", text: "Takes about 2–3 minutes. No account required." }),
       el("button", {
         class: "sa-btn sa-btn-primary",
@@ -151,6 +180,15 @@
     var q = QUESTIONS[qIndex];
     var answeredCount = Object.keys(answers).length;
     var pct = Math.round((qIndex / QUESTIONS.length) * 100);
+    var current = answers[q.id];
+
+    var choices = SCALE.map(function (opt) {
+      return el("button", {
+        class: "sa-choice" + (current === opt.value ? " sa-choice-on" : ""),
+        text: opt.label,
+        onclick: function () { pick(opt.value); }
+      });
+    });
 
     root.appendChild(el("div", { class: "sa-card" }, [
       el("div", { class: "sa-progress-row" }, [
@@ -160,19 +198,8 @@
       el("div", { class: "sa-bar" }, [el("div", { class: "sa-bar-fill", style: "width:" + pct + "%" })]),
       el("p", { class: "sa-group-tag", text: "Area " + q.group + " · " + GROUPS[q.group].title }),
       el("h3", { class: "sa-question", text: q.text }),
-      el("p", { class: "sa-muted sa-small", text: "Is this mostly true for how you study today?" }),
-      el("div", { class: "sa-choice-row" }, [
-        el("button", {
-          class: "sa-choice" + (answers[q.id] === true ? " sa-choice-on" : ""),
-          text: "Mostly true",
-          onclick: function () { pick(true); }
-        }),
-        el("button", {
-          class: "sa-choice" + (answers[q.id] === false ? " sa-choice-on" : ""),
-          text: "Mostly false",
-          onclick: function () { pick(false); }
-        })
-      ]),
+      el("p", { class: "sa-muted sa-small", text: "How true is this for how you study today?" }),
+      el("div", { class: "sa-choice-row sa-choice-scale" }, choices),
       el("div", { class: "sa-nav-row" }, [
         qIndex > 0
           ? el("button", {
@@ -213,19 +240,18 @@
       el("p", {
         class: "sa-muted",
         text: ranked.length
-          ? "Areas are ranked by how many \"mostly true\" answers you gave. Start with the top item — then use Practice for daily reps."
-          : "You marked almost everything false. Still start with the foundations so the later techniques have somewhere to land."
+          ? "Areas are ranked by how true the statements felt for you. Start with the top item — then use Practice for daily reps."
+          : "You leaned false or unsure on most statements. Still start with the foundations so the later techniques have somewhere to land."
       })
     ];
 
-    // Score overview chips
     var chips = ["A", "B", "C", "D"].map(function (g) {
       var s = scores[g];
-      var hot = s.true >= Math.ceil(s.total / 2);
+      var hot = s.avg >= 0.5;
       return el("div", { class: "sa-score-chip" + (hot ? " sa-score-hot" : "") }, [
         el("strong", { text: g }),
         el("span", { text: GROUPS[g].title }),
-        el("span", { class: "sa-score-num", text: s.true + " / " + s.total + " true" })
+        el("span", { class: "sa-score-num", text: labelForAvg(s.avg) })
       ]);
     });
     kids.push(el("div", { class: "sa-score-grid" }, chips));
@@ -247,7 +273,11 @@
           el("div", { class: "sa-result-rank", text: idx === 0 ? "Priority 1" : "Also work on" }),
           el("h3", { text: g.title }),
           el("p", { text: g.blurb }),
-          el("p", { class: "sa-muted sa-small", text: item.trueCount + " of " + item.total + " statements mostly true in this area." }),
+          el("p", {
+            class: "sa-muted sa-small",
+            text: "Average in this area: " + labelForAvg(item.avg) +
+              " (" + item.leanTrue + " of " + item.total + " answers leaned true)."
+          }),
           el("div", { class: "sa-result-label", text: "Lessons to study" }),
           el("ul", { class: "sa-link-list" }, links),
           el("a", {

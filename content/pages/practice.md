@@ -31,4 +31,4 @@ day shifts your finish date instead of breaking your plan.
 
 <script src="assets/curriculum.js?v=2"></script>
 
-<script src="assets/practice.js?v=3"></script>
+<script src="assets/practice.js?v=5"></script>

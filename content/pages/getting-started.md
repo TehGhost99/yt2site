@@ -27,4 +27,4 @@ days in the **[Practice app](practice.html)**.
 One commitment to make now: decide *how many focused minutes a day* you can
 realistically protect. Even **15** is enough to start.
 
-<script src="assets/assessment.js?v=1"></script>
+<script src="assets/assessment.js?v=2"></script>

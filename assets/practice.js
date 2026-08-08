@@ -109,6 +109,20 @@
   var aw = null;      // { account, tables }
   var user = null;    // Appwrite user object when signed in
   var syncMsg = "";   // short human-readable sync status
+  var authView = "login"; // login | forgot | forgot-sent | reset | reset-done
+  var recoveryUserId = null;
+  var recoverySecret = null;
+
+  try {
+    var recoveryParams = new URLSearchParams(window.location.search);
+    var rid = recoveryParams.get("userId");
+    var rsecret = recoveryParams.get("secret");
+    if (rid && rsecret) {
+      authView = "reset";
+      recoveryUserId = rid;
+      recoverySecret = rsecret;
+    }
+  } catch (e) { /* ignore bad URL */ }
 
   if (cfg && window.Appwrite) {
     var client = new Appwrite.Client().setEndpoint(cfg.endpoint).setProject(cfg.projectId);
@@ -793,6 +807,33 @@
 
   /* ---------------- account panel ---------------- */
 
+  function recoveryRedirectUrl() {
+    return new URL(location.pathname, location.href).href;
+  }
+
+  function clearRecoveryParams() {
+    try {
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState({}, "", location.pathname + (location.hash || ""));
+      }
+    } catch (e) { /* ignore */ }
+    recoveryUserId = null;
+    recoverySecret = null;
+  }
+
+  function authFailMessage(err) {
+    var msg = (err && err.message) || "Something went wrong. Please try again.";
+    // Unknown Appwrite web platform → browser hides the 403 as a NetworkError.
+    if (/networkerror|failed to fetch|load failed|network request failed/i.test(msg)) {
+      msg =
+        "Could not reach Appwrite from " + location.origin +
+        ". In the Appwrite console, add a Web platform for hostname \"" +
+        location.hostname +
+        "\" (Overview → Platforms), then try again.";
+    }
+    return msg;
+  }
+
   function renderAccountPanel() {
     var panel = el("div", { class: "pa-card pa-account" });
     panel.appendChild(el("h2", { class: "pa-section-title", text: "Account & sync" }));
@@ -820,6 +861,7 @@
           aw.account.deleteSession({ sessionId: "current" }).finally(function () {
             user = null;
             syncMsg = "";
+            authView = "login";
             render();
           });
         }
@@ -827,11 +869,8 @@
       return panel;
     }
 
-    panel.appendChild(el("p", { class: "pa-muted", text: "Sign in to sync progress and unlock AI grading on written checks. Until then, progress stays in this browser and checks cannot be graded." }));
-
-    var email = el("input", { class: "pa-input", type: "email", placeholder: "Email", autocomplete: "email" });
-    var password = el("input", { class: "pa-input", type: "password", placeholder: "Password (8+ characters)", autocomplete: "current-password" });
     var errLine = el("p", { class: "pa-error" });
+    var okLine = el("p", { class: "pa-ok" });
 
     function busy(b) {
       panel.querySelectorAll("button, input").forEach(function (n) { n.disabled = b; });
@@ -841,6 +880,7 @@
       return aw.account.get().then(function (u) {
         user = u;
         syncMsg = "Syncing\u2026";
+        authView = "login";
         return pullCloud();
       }).then(function () {
         save(); // push merged state back up
@@ -850,14 +890,147 @@
 
     function fail(err) {
       busy(false);
-      errLine.textContent = (err && err.message) || "Something went wrong. Please try again.";
+      okLine.textContent = "";
+      errLine.textContent = authFailMessage(err);
     }
+
+    if (authView === "forgot" || authView === "forgot-sent") {
+      panel.appendChild(el("p", {
+        class: "pa-muted",
+        text: authView === "forgot-sent"
+          ? "If an account exists for that email, Appwrite sent a reset link. Open it on this device to choose a new password."
+          : "Enter the email for your Practice account. We'll email a reset link that brings you back here."
+      }));
+      var resetEmail = el("input", {
+        class: "pa-input",
+        type: "email",
+        placeholder: "Email",
+        autocomplete: "email"
+      });
+      var sendReset = el("button", {
+        class: "pa-btn pa-btn-primary",
+        text: "Send reset link",
+        onclick: function () {
+          errLine.textContent = "";
+          okLine.textContent = "";
+          var addr = resetEmail.value.trim();
+          if (!addr) {
+            errLine.textContent = "Enter your email address.";
+            return;
+          }
+          busy(true);
+          aw.account.createRecovery({ email: addr, url: recoveryRedirectUrl() })
+            .then(function () {
+              busy(false);
+              authView = "forgot-sent";
+              render();
+            })
+            .catch(fail);
+        }
+      });
+      panel.appendChild(el("div", { class: "pa-auth-form" }, [
+        resetEmail,
+        el("div", { class: "pa-auth-buttons" }, [sendReset]),
+        okLine,
+        errLine,
+        el("div", { class: "pa-auth-links" }, [
+          el("button", {
+            class: "pa-link-btn",
+            text: "Back to sign in",
+            onclick: function () { authView = "login"; render(); }
+          })
+        ])
+      ]));
+      return panel;
+    }
+
+    if (authView === "reset" || authView === "reset-done") {
+      if (authView === "reset-done") {
+        panel.appendChild(el("p", { class: "pa-ok", text: "Password updated. You can sign in with your new password." }));
+        panel.appendChild(el("button", {
+          class: "pa-btn pa-btn-primary",
+          text: "Go to sign in",
+          onclick: function () { authView = "login"; render(); }
+        }));
+        return panel;
+      }
+
+      panel.appendChild(el("p", { class: "pa-muted", text: "Choose a new password for your Practice account (at least 8 characters)." }));
+      var newPass = el("input", {
+        class: "pa-input",
+        type: "password",
+        placeholder: "New password (8+ characters)",
+        autocomplete: "new-password"
+      });
+      var confirmPass = el("input", {
+        class: "pa-input",
+        type: "password",
+        placeholder: "Confirm new password",
+        autocomplete: "new-password"
+      });
+      var savePass = el("button", {
+        class: "pa-btn pa-btn-primary",
+        text: "Update password",
+        onclick: function () {
+          errLine.textContent = "";
+          okLine.textContent = "";
+          if (!newPass.value || newPass.value.length < 8) {
+            errLine.textContent = "Password must be at least 8 characters.";
+            return;
+          }
+          if (newPass.value !== confirmPass.value) {
+            errLine.textContent = "Passwords do not match.";
+            return;
+          }
+          if (!recoveryUserId || !recoverySecret) {
+            errLine.textContent = "This reset link is incomplete. Request a new one from Sign in.";
+            return;
+          }
+          busy(true);
+          aw.account.updateRecovery({
+            userId: recoveryUserId,
+            secret: recoverySecret,
+            password: newPass.value
+          })
+            .then(function () {
+              clearRecoveryParams();
+              authView = "reset-done";
+              render();
+            })
+            .catch(fail);
+        }
+      });
+      panel.appendChild(el("div", { class: "pa-auth-form" }, [
+        newPass,
+        confirmPass,
+        el("div", { class: "pa-auth-buttons" }, [savePass]),
+        errLine,
+        el("div", { class: "pa-auth-links" }, [
+          el("button", {
+            class: "pa-link-btn",
+            text: "Back to sign in",
+            onclick: function () {
+              clearRecoveryParams();
+              authView = "login";
+              render();
+            }
+          })
+        ])
+      ]));
+      return panel;
+    }
+
+    panel.appendChild(el("p", { class: "pa-muted", text: "Sign in to sync progress and unlock AI grading on written checks. Until then, progress stays in this browser and checks cannot be graded." }));
+
+    var email = el("input", { class: "pa-input", type: "email", placeholder: "Email", autocomplete: "email" });
+    var password = el("input", { class: "pa-input", type: "password", placeholder: "Password (8+ characters)", autocomplete: "current-password" });
 
     var signIn = el("button", {
       class: "pa-btn pa-btn-primary",
       text: "Sign in",
       onclick: function () {
         errLine.textContent = "";
+        okLine.textContent = "";
         busy(true);
         aw.account.createEmailPasswordSession({ email: email.value.trim(), password: password.value })
           .then(afterAuth)
@@ -870,6 +1043,7 @@
       text: "Create account",
       onclick: function () {
         errLine.textContent = "";
+        okLine.textContent = "";
         busy(true);
         aw.account.create({ userId: Appwrite.ID.unique(), email: email.value.trim(), password: password.value })
           .then(function () {
@@ -880,7 +1054,20 @@
       }
     });
 
-    panel.appendChild(el("div", { class: "pa-auth-form" }, [email, password, el("div", { class: "pa-auth-buttons" }, [signIn, signUp]), errLine]));
+    panel.appendChild(el("div", { class: "pa-auth-form" }, [
+      email,
+      password,
+      el("div", { class: "pa-auth-buttons" }, [signIn, signUp]),
+      okLine,
+      errLine,
+      el("div", { class: "pa-auth-links" }, [
+        el("button", {
+          class: "pa-link-btn",
+          text: "Forgot password?",
+          onclick: function () { authView = "forgot"; render(); }
+        })
+      ])
+    ]));
     return panel;
   }
 

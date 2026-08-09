@@ -22,8 +22,8 @@ summary: Fifteen to twenty minutes a day — concept cue, Spanish task, then wri
   <noscript><p>JavaScript required. / Se necesita JavaScript.</p></noscript>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/appwrite@16.1.0"></script>
-<script src="assets/appwrite-config.js?v=1"></script>
-<script src="assets/appwrite-client.js?v=1"></script>
-<script src="assets/curriculum.js?v=1"></script>
-<script src="assets/practice.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/appwrite@26.2.0"></script>
+<script src="assets/appwrite-config.js?v=2"></script>
+<script src="assets/appwrite-client.js?v=2"></script>
+<script src="assets/curriculum.js?v=2"></script>
+<script src="assets/practice.js?v=2"></script>

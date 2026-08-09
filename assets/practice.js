@@ -135,17 +135,24 @@
   } catch (e) { /* ignore bad URL */ }
 
   // Prefer the shared client from assets/appwrite-client.js (runs client.ping() on load).
-  if (cfg && window.Appwrite) {
-    var client =
-      (window.APPWRITE && window.APPWRITE.client) ||
-      new Appwrite.Client().setEndpoint(cfg.endpoint).setProject(cfg.projectId);
-    aw = {
-      client: client,
-      account: (window.APPWRITE && window.APPWRITE.account) || new Appwrite.Account(client),
-      tables: new Appwrite.TablesDB(client),
-      functions: new Appwrite.Functions(client),
-      databases: (window.APPWRITE && window.APPWRITE.databases) || new Appwrite.Databases(client)
-    };
+  // Wrapped in try/catch so an incompatible/missing SDK degrades to local-only
+  // mode instead of crashing the whole app before it renders.
+  try {
+    if (cfg && window.Appwrite) {
+      var client =
+        (window.APPWRITE && window.APPWRITE.client) ||
+        new Appwrite.Client().setEndpoint(cfg.endpoint).setProject(cfg.projectId);
+      aw = {
+        client: client,
+        account: (window.APPWRITE && window.APPWRITE.account) || new Appwrite.Account(client),
+        tables: new Appwrite.TablesDB(client),
+        functions: new Appwrite.Functions(client),
+        databases: (window.APPWRITE && window.APPWRITE.databases) || new Appwrite.Databases(client)
+      };
+    }
+  } catch (e) {
+    console.warn("[Practice] Appwrite SDK incompatible — continuing local-only.", e);
+    aw = null;
   }
 
   var pingMsg = "Checking Appwrite… / Verificando Appwrite…";

@@ -1,0 +1,43 @@
+name: Deploy website
+
+# Builds the site and pushes the result to the gh-pages branch.
+# GitHub Pages is configured to serve from gh-pages (Settings -> Pages ->
+# Deploy from a branch), so this gives push-to-main auto-deploys without
+# needing the Pages "GitHub Actions" build type.
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Disable Jekyll processing
+        run: touch output/.nojekyll
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          force_orphan: true

@@ -1,0 +1,7 @@
+{
+  "name": "grade-check",
+  "version": "1.0.0",
+  "description": "Grade open-ended practice checks with Anthropic Claude",
+  "main": "src/main.js",
+  "type": "module"
+}

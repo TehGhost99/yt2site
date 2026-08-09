@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>{{ config.title }}</h1>
+  {% if config.tagline %}<p class="tagline">{{ config.tagline }}</p>{% endif %}
+</section>
+
+<article class="prose">
+  {{ page.html|safe }}
+</article>
+
+{% set explore_pages = all_pages | selectattr('nav') | rejectattr('slug', 'equalto', 'index') | sort(attribute='order') | list %}
+{% if explore_pages %}
+<section class="explore">
+  <h2 class="explore-heading">Explore the site</h2>
+  <div class="card-grid">
+    {% for p in explore_pages %}
+    <a class="card" href="{{ p.output_name }}">
+      <h3>{{ p.title }}</h3>
+      {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

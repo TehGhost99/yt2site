@@ -1,0 +1,9 @@
+# LearnSpanishForAll — site settings
+title: "LearnSpanishForAll"
+tagline: "Friendly daily Spanish for absolute beginners — bilingual, Latin American, 15–20 minutes a day."
+description: "A bilingual Spanish practice site for absolute beginners. Build ~500 high-frequency words first, then go deeper with daily 15–20 minute sessions grounded in comprehensible input, spaced retrieval, and ACTFL-style can-do goals."
+author: ""
+accent_color: "#2f7d6d"   # calm teal — friendly, easy on the eyes
+footer: "LearnSpanishForAll — Latin American Spanish for beginners. Methods informed by ACTFL Can-Do goals, comprehensible input, and spaced retrieval research. Progress sync via Appwrite."
+
+show_sources: true

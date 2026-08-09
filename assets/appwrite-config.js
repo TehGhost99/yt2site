@@ -4,7 +4,7 @@ window.APPWRITE_CONFIG = {
   endpoint: "https://sfo.cloud.appwrite.io/v1",
   projectId: "6a78a8d900090c79eec5",
   projectName: "Learnig Spanish",
-  databaseId: "practice",
+  databaseId: "6a78f1210011f4b9c94e", // TablesDB "Practice"
   tableId: "progress",
   // Deployed Appwrite Function that grades written checks via Groq (Llama).
   functionId: "grade-check"

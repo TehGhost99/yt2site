@@ -1,0 +1,268 @@
+{
+  "id": "numbers-time",
+  "title": "Numbers, Time & Calendar",
+  "order": 3,
+  "lesson": "numbers-time.html",
+  "days": [
+    {
+      "focus": "Numbers 0-10",
+      "review": "Numbers help with age, time, prices, and addresses. Key words: cero, uno, dos, tres, cuatro, cinco, seis, diez. Model: Tengo dos libros. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for counting small objects around you, and read them aloud twice. Use “Tengo dos libros.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle counting small objects around you. Example: Hay cinco estudiantes."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: cero, uno, dos, tres, cuatro.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Hay cinco estudiantes. Necesito tres minutos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Hay cinco estudiantes.\" I would listen for numbers connected to real objects."
+        }
+      ]
+    },
+    {
+      "focus": "Numbers 11-20",
+      "review": "Eleven to twenty are high-frequency for age, dates, and counts. Key words: once, doce, trece, catorce, quince, dieciséis, diecisiete, veinte. Model: Tengo quince años. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying ages, quantities, and small prices, and read them aloud twice. Use “Tengo quince años.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying ages, quantities, and small prices. Example: Hay doce sillas."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: once, doce, trece, catorce, quince.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Hay doce sillas. Necesito veinte pesos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Hay doce sillas.\" I would listen for a number from eleven to twenty."
+        }
+      ]
+    },
+    {
+      "focus": "Tens to 100",
+      "review": "Tens combine for practical counts: treinta y uno, cuarenta y dos. Key words: diez, veinte, treinta, cuarenta, cincuenta, cien. Model: Son treinta y dos dólares. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for counting money, minutes, or addresses, and read them aloud twice. Use “Son treinta y dos dólares.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle counting money, minutes, or addresses. Example: Tengo cuarenta libros en casa."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: diez, veinte, treinta, cuarenta, cincuenta.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Tengo cuarenta libros en casa. La clase tiene cincuenta minutos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Tengo cuarenta libros en casa.\" I would listen for tens and y combinations."
+        }
+      ]
+    },
+    {
+      "focus": "Phone and address numbers",
+      "review": "Say long numbers in small groups so listeners can confirm. Key words: teléfono, número, calle, casa, apartamento, dirección. Model: Mi número es cinco-cero-dos. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for giving contact information slowly, and read them aloud twice. Use “Mi número es cinco-cero-dos.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle giving contact information slowly. Example: Vivo en la calle ocho."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: teléfono, número, calle, casa, apartamento.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vivo en la calle ocho. El apartamento es quince."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vivo en la calle ocho.\" I would listen for digits repeated in chunks."
+        }
+      ]
+    },
+    {
+      "focus": "Days of the week",
+      "review": "Weekdays are lowercase in Spanish and use el for on a day. Key words: lunes, martes, miércoles, jueves, viernes, sábado, domingo. Model: El lunes estudio español. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for talking about a weekly schedule, and read them aloud twice. Use “El lunes estudio español.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle talking about a weekly schedule. Example: Trabajo el viernes."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: lunes, martes, miércoles, jueves, viernes.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Trabajo el viernes. El domingo descanso."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Trabajo el viernes.\" I would listen for a day plus an activity."
+        }
+      ]
+    },
+    {
+      "focus": "Months and dates",
+      "review": "Dates use el + number + de + month. Key words: enero, febrero, marzo, abril, mayo, junio, julio. Model: Hoy es el cinco de mayo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying dates and birthdays, and read them aloud twice. Use “Hoy es el cinco de mayo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying dates and birthdays. Example: Mi cumpleaños es el dos de abril."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: enero, febrero, marzo, abril, mayo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mi cumpleaños es el dos de abril. La clase es en junio."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mi cumpleaños es el dos de abril.\" I would listen for day number and month."
+        }
+      ]
+    },
+    {
+      "focus": "Clock time",
+      "review": "Use es la una for one o'clock and son las for other hours. Key words: hora, una, dos, media, cuarto, minuto. Model: Son las dos y media. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for asking or giving the time, and read them aloud twice. Use “Son las dos y media.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle asking or giving the time. Example: Es la una en punto."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hora, una, dos, media, cuarto.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Es la una en punto. La clase es a las tres."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Es la una en punto.\" I would listen for hour and minute words."
+        }
+      ]
+    },
+    {
+      "focus": "Parts of the day",
+      "review": "Use de la mañana, tarde, noche to clarify time. Key words: mañana, tarde, noche, mediodía, temprano, tarde. Model: Estudio por la mañana. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for placing activities in the day, and read them aloud twice. Use “Estudio por la mañana.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle placing activities in the day. Example: Trabajo en la tarde."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: mañana, tarde, noche, mediodía, temprano.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Trabajo en la tarde. Duermo por la noche."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Trabajo en la tarde.\" I would listen for morning, afternoon, or night."
+        }
+      ]
+    },
+    {
+      "focus": "Today, tomorrow, yesterday",
+      "review": "Time words anchor simple sentences before tense gets complex. Key words: hoy, mañana, ayer, ahora, después, antes. Model: Hoy estudio. Mañana trabajo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for sequencing a simple day, and read them aloud twice. Use “Hoy estudio. Mañana trabajo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle sequencing a simple day. Example: Ahora estoy en casa."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hoy, mañana, ayer, ahora, después.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Ahora estoy en casa. Después hablo con mi amiga."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Ahora estoy en casa.\" I would listen for time markers that show order."
+        }
+      ]
+    },
+    {
+      "focus": "Mini schedule",
+      "review": "A schedule combines days, times, and activities. Key words: clase, trabajo, cita, reunión, a las, el. Model: El martes tengo clase a las cinco. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for writing a three-item weekly plan, and read them aloud twice. Use “El martes tengo clase a las cinco.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle writing a three-item weekly plan. Example: El viernes trabajo por la tarde."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: clase, trabajo, cita, reunión, a las.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "El viernes trabajo por la tarde. El sábado tengo una cita."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"El viernes trabajo por la tarde.\" I would listen for day, time, and event."
+        }
+      ]
+    }
+  ]
+}

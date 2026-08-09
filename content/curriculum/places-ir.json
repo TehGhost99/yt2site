@@ -1,0 +1,268 @@
+{
+  "id": "places-ir",
+  "title": "Places & ir",
+  "order": 8,
+  "lesson": "places-ir.html",
+  "days": [
+    {
+      "focus": "Common places",
+      "review": "Place words prepare you to say where you are and where you go. Key words: escuela, tienda, parque, banco, hospital, iglesia. Model: Voy a la tienda. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for naming places in town, and read them aloud twice. Use “Voy a la tienda.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle naming places in town. Example: La escuela está cerca."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: escuela, tienda, parque, banco, hospital.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "La escuela está cerca. El parque es grande."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"La escuela está cerca.\" I would listen for place names and location."
+        }
+      ]
+    },
+    {
+      "focus": "Ir: voy, vas, va",
+      "review": "Ir is irregular but very frequent: voy, vas, va. Key words: voy, vas, va, vamos, van, ir. Model: Voy al parque. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying where people go, and read them aloud twice. Use “Voy al parque.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying where people go. Example: ¿Vas a la escuela?"
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: voy, vas, va, vamos, van.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Vas a la escuela? Ella va al banco."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Vas a la escuela?\" I would listen for correct ir form."
+        }
+      ]
+    },
+    {
+      "focus": "Al and a la",
+      "review": "Use al before masculine places and a la before feminine places. Key words: al, a la, a los, a las, mercado, biblioteca. Model: Voy al mercado. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for choosing al or a la, and read them aloud twice. Use “Voy al mercado.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle choosing al or a la. Example: Vamos a la biblioteca."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: al, a la, a los, a las, mercado.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vamos a la biblioteca. Van a las tiendas."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vamos a la biblioteca.\" I would listen for place gender and contraction."
+        }
+      ]
+    },
+    {
+      "focus": "Transportation",
+      "review": "Transportation phrases explain how you go. Key words: camino, en bus, en carro, en tren, bicicleta, taxi. Model: Voy en bus al trabajo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing how you travel, and read them aloud twice. Use “Voy en bus al trabajo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing how you travel. Example: Camino a la tienda."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: camino, en bus, en carro, en tren, bicicleta.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Camino a la tienda. Vamos en taxi."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Camino a la tienda.\" I would listen for transport phrase plus place."
+        }
+      ]
+    },
+    {
+      "focus": "¿Adónde vas?",
+      "review": "Adónde asks destination; dónde asks location. Key words: ¿adónde?, ¿dónde?, aquí, allá, cerca, lejos. Model: ¿Adónde vas? Voy al parque. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for asking destination and location, and read them aloud twice. Use “¿Adónde vas? Voy al parque.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle asking destination and location. Example: ¿Dónde estás? Estoy aquí."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: ¿adónde?, ¿dónde?, aquí, allá, cerca.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Dónde estás? Estoy aquí. La tienda está lejos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Dónde estás? Estoy aquí.\" I would listen for difference between dónde and adónde."
+        }
+      ]
+    },
+    {
+      "focus": "Ir a for purpose",
+      "review": "Ir a plus an infinitive tells why you go somewhere. Key words: estudiar, comprar, comer, trabajar, visitar, descansar. Model: Voy a la tienda a comprar pan. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for giving a reason for going, and read them aloud twice. Use “Voy a la tienda a comprar pan.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle giving a reason for going. Example: Vamos al parque a descansar."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: estudiar, comprar, comer, trabajar, visitar.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vamos al parque a descansar. Ella va a la escuela a estudiar."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vamos al parque a descansar.\" I would listen for place plus a purpose verb."
+        }
+      ]
+    },
+    {
+      "focus": "From and to",
+      "review": "De and a make movement clearer. Key words: de, a, desde, hasta, casa, trabajo. Model: Voy de casa al trabajo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing a route, and read them aloud twice. Use “Voy de casa al trabajo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing a route. Example: Camino desde la escuela hasta el parque."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: de, a, desde, hasta, casa.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Camino desde la escuela hasta el parque. Vengo de la tienda."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Camino desde la escuela hasta el parque.\" I would listen for start and end points."
+        }
+      ]
+    },
+    {
+      "focus": "Invitations with vamos",
+      "review": "Vamos can invite someone: let's go. Key words: vamos, conmigo, contigo, hoy, mañana, esta noche. Model: Vamos al parque mañana. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for inviting someone out, and read them aloud twice. Use “Vamos al parque mañana.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle inviting someone out. Example: ¿Vienes conmigo?"
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: vamos, conmigo, contigo, hoy, mañana.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Vienes conmigo? Voy contigo a la tienda."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Vienes conmigo?\" I would listen for invitation and time word."
+        }
+      ]
+    },
+    {
+      "focus": "Basic directions",
+      "review": "Direction words help you navigate simply. Key words: derecha, izquierda, recto, calle, esquina, frente. Model: Siga recto y gire a la derecha. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for giving or following directions, and read them aloud twice. Use “Siga recto y gire a la derecha.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle giving or following directions. Example: La tienda está en la esquina."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: derecha, izquierda, recto, calle, esquina.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "La tienda está en la esquina. El banco está enfrente."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"La tienda está en la esquina.\" I would listen for direction words."
+        }
+      ]
+    },
+    {
+      "focus": "Weekend route",
+      "review": "A weekend route combines places, ir, transport, and purpose. Key words: sábado, domingo, voy, vamos, al, a la. Model: El sábado voy al mercado en bus. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for planning a weekend route, and read them aloud twice. Use “El sábado voy al mercado en bus.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle planning a weekend route. Example: Después vamos al parque a caminar."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: sábado, domingo, voy, vamos, al.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Después vamos al parque a caminar. El domingo voy a la iglesia."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Después vamos al parque a caminar.\" I would listen for days, places, and reasons."
+        }
+      ]
+    }
+  ]
+}

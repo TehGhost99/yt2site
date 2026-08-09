@@ -1,0 +1,268 @@
+{
+  "id": "plans-deeper",
+  "title": "Plans & Going Deeper",
+  "order": 15,
+  "lesson": "plans-deeper.html",
+  "days": [
+    {
+      "focus": "Ir a + infinitive",
+      "review": "Ir a plus an infinitive expresses near future plans. Key words: voy a, vas a, va a, vamos a, estudiar, comer. Model: Voy a estudiar español mañana. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying future plans, and read them aloud twice. Use “Voy a estudiar español mañana.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying future plans. Example: Vamos a comer en casa."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: voy a, vas a, va a, vamos a, estudiar.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vamos a comer en casa. Ella va a trabajar."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vamos a comer en casa.\" I would listen for ir form plus infinitive."
+        }
+      ]
+    },
+    {
+      "focus": "Learning goals",
+      "review": "Goal language helps you steer your next stage in Spanish. Key words: meta, aprender, mejorar, practicar, entender, conversar. Model: Mi meta es conversar más. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing study goals, and read them aloud twice. Use “Mi meta es conversar más.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing study goals. Example: Voy a practicar cada día."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: meta, aprender, mejorar, practicar, entender.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Voy a practicar cada día. Quiero entender videos simples."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Voy a practicar cada día.\" I would listen for goal noun and future action."
+        }
+      ]
+    },
+    {
+      "focus": "Comparisons",
+      "review": "Comparisons help you explain progress and preferences. Key words: más, menos, mejor, peor, que, tan. Model: Hoy hablo más rápido que ayer. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for comparing your Spanish skills, and read them aloud twice. Use “Hoy hablo más rápido que ayer.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle comparing your Spanish skills. Example: Esta lección es mejor para mí."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: más, menos, mejor, peor, que.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Esta lección es mejor para mí. Necesito menos inglés."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Esta lección es mejor para mí.\" I would listen for comparison word."
+        }
+      ]
+    },
+    {
+      "focus": "Connectors",
+      "review": "Connectors make beginner sentences flow. Key words: pero, porque, cuando, entonces, también, aunque. Model: Quiero hablar, pero estoy nervioso. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for linking ideas, and read them aloud twice. Use “Quiero hablar, pero estoy nervioso.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle linking ideas. Example: Practico porque quiero mejorar."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: pero, porque, cuando, entonces, también.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Practico porque quiero mejorar. Cuando escucho, escribo palabras."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Practico porque quiero mejorar.\" I would listen for connector plus two ideas."
+        }
+      ]
+    },
+    {
+      "focus": "Opinions with creo que",
+      "review": "Creo que lets you state opinions without sounding absolute. Key words: creo que, pienso que, para mí, importante, posible, difícil. Model: Creo que practicar es importante. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for sharing opinions about learning, and read them aloud twice. Use “Creo que practicar es importante.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle sharing opinions about learning. Example: Para mí, escuchar es difícil."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: creo que, pienso que, para mí, importante, posible.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Para mí, escuchar es difícil. Pienso que es posible mejorar."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Para mí, escuchar es difícil.\" I would listen for opinion phrase."
+        }
+      ]
+    },
+    {
+      "focus": "Experiences",
+      "review": "Experience language bridges present and past. Key words: experiencia, aprendí, visité, probé, conocí, recordé. Model: Aprendí muchas palabras nuevas. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing what you have experienced, and read them aloud twice. Use “Aprendí muchas palabras nuevas.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing what you have experienced. Example: Probé comida mexicana."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: experiencia, aprendí, visité, probé, conocí.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Probé comida mexicana. Conocí a una persona amable."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Probé comida mexicana.\" I would listen for past verb and detail."
+        }
+      ]
+    },
+    {
+      "focus": "Study strategy in Spanish",
+      "review": "Talk about how you learn using simple Spanish. Key words: repasar, recordar, escribir, escuchar, leer, hablar. Model: Primero escucho; después escribo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for explaining your practice routine, and read them aloud twice. Use “Primero escucho; después escribo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle explaining your practice routine. Example: Repaso palabras y hablo en voz alta."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: repasar, recordar, escribir, escuchar, leer.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Repaso palabras y hablo en voz alta. Quiero recordar frases útiles."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Repaso palabras y hablo en voz alta.\" I would listen for strategy verb."
+        }
+      ]
+    },
+    {
+      "focus": "Conversation repair",
+      "review": "Repair phrases keep a conversation alive. Key words: ¿cómo se dice?, no sé, quiero decir, puede repetir, más lento, entiendo. Model: ¿Cómo se dice receipt en español? Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for fixing confusion in conversation, and read them aloud twice. Use “¿Cómo se dice receipt en español?” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle fixing confusion in conversation. Example: Quiero decir otra cosa."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: ¿cómo se dice?, no sé, quiero decir, puede repetir, más lento.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Quiero decir otra cosa. ¿Puede repetir más lento?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Quiero decir otra cosa.\" I would listen for repair phrase and clarification."
+        }
+      ]
+    },
+    {
+      "focus": "150-day portfolio",
+      "review": "A portfolio proves what you can do and shows gaps honestly. Key words: puedo, todavía, necesito, logro, reto, próximo. Model: Puedo presentarme y pedir comida. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for summarizing your progress, and read them aloud twice. Use “Puedo presentarme y pedir comida.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle summarizing your progress. Example: Todavía necesito practicar el pasado."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: puedo, todavía, necesito, logro, reto.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Todavía necesito practicar el pasado. Mi próximo reto es escuchar más."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Todavía necesito practicar el pasado.\" I would listen for can-do and next challenge."
+        }
+      ]
+    },
+    {
+      "focus": "Next 30-day plan",
+      "review": "Finish by planning continued input, retrieval, and real communication. Key words: plan, cada día, escuchar, hablar, leer, escribir. Model: Voy a escuchar español cada día. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for setting a realistic next plan, and read them aloud twice. Use “Voy a escuchar español cada día.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle setting a realistic next plan. Example: También voy a escribir cinco frases."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: plan, cada día, escuchar, hablar, leer.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "También voy a escribir cinco frases. Mi plan es hablar con una persona."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"También voy a escribir cinco frases.\" I would listen for specific future actions."
+        }
+      ]
+    }
+  ]
+}

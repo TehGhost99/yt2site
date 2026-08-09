@@ -1,0 +1,268 @@
+{
+  "id": "routines-present",
+  "title": "Daily Routines (Present -ar)",
+  "order": 7,
+  "lesson": "routines-present.html",
+  "days": [
+    {
+      "focus": "-ar verbs: yo",
+      "review": "Present -ar verbs often end in -o for yo. Key words: hablar, estudiar, trabajar, caminar, cocinar, limpiar. Model: Yo estudio español. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying what you do, and read them aloud twice. Use “Yo estudio español.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying what you do. Example: Trabajo por la mañana."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hablar, estudiar, trabajar, caminar, cocinar.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Trabajo por la mañana. Camino a la escuela."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Trabajo por la mañana.\" I would listen for yo verbs ending in -o."
+        }
+      ]
+    },
+    {
+      "focus": "-ar verbs: tú",
+      "review": "For tú, present -ar verbs often end in -as. Key words: hablas, estudias, trabajas, caminas, cocinas, limpias. Model: ¿Estudias español? Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for asking a peer about routines, and read them aloud twice. Use “¿Estudias español?” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle asking a peer about routines. Example: Tú trabajas mucho."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hablas, estudias, trabajas, caminas, cocinas.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Tú trabajas mucho. ¿Caminas al parque?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Tú trabajas mucho.\" I would listen for tú verbs ending in -as."
+        }
+      ]
+    },
+    {
+      "focus": "-ar verbs: él/ella/usted",
+      "review": "For él, ella, and usted, present -ar verbs end in -a. Key words: habla, estudia, trabaja, camina, cocina, limpia. Model: Ella estudia en casa. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing another person's routine, and read them aloud twice. Use “Ella estudia en casa.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing another person's routine. Example: Usted habla español."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: habla, estudia, trabaja, camina, cocina.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Usted habla español. Mi padre trabaja hoy."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Usted habla español.\" I would listen for third-person verbs ending in -a."
+        }
+      ]
+    },
+    {
+      "focus": "Morning routine",
+      "review": "Routine language is stronger when tied to a real time of day. Key words: me levanto, desayuno, tomo, preparo, salgo, mañana. Model: Me levanto y desayuno. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing your morning, and read them aloud twice. Use “Me levanto y desayuno.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing your morning. Example: Preparo café por la mañana."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me levanto, desayuno, tomo, preparo, salgo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Preparo café por la mañana. Salgo a las ocho."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Preparo café por la mañana.\" I would listen for time order and routine verbs."
+        }
+      ]
+    },
+    {
+      "focus": "Study and work",
+      "review": "Estudiar and trabajar are core daily-life verbs. Key words: estudio, trabajo, practico, escucho, miro, leo. Model: Estudio español y practico palabras. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing learning habits, and read them aloud twice. Use “Estudio español y practico palabras.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing learning habits. Example: Escucho música en español."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: estudio, trabajo, practico, escucho, miro.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Escucho música en español. Miro un video corto."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Escucho música en español.\" I would listen for study verbs and objects."
+        }
+      ]
+    },
+    {
+      "focus": "Home routine",
+      "review": "Home verbs let you narrate chores and care tasks. Key words: limpio, cocino, lavo, ordeno, ayudo, cuido. Model: Limpio la cocina. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for talking about chores, and read them aloud twice. Use “Limpio la cocina.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle talking about chores. Example: Cocino arroz para mi familia."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: limpio, cocino, lavo, ordeno, ayudo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Cocino arroz para mi familia. Ayudo en casa."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Cocino arroz para mi familia.\" I would listen for verbs plus home nouns."
+        }
+      ]
+    },
+    {
+      "focus": "Frequency words",
+      "review": "Frequency words make routines more precise. Key words: siempre, a veces, nunca, todos los días, mucho, poco. Model: Siempre estudio por la noche. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying how often you do things, and read them aloud twice. Use “Siempre estudio por la noche.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying how often you do things. Example: A veces camino al trabajo."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: siempre, a veces, nunca, todos los días, mucho.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "A veces camino al trabajo. Nunca tomo café tarde."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"A veces camino al trabajo.\" I would listen for frequency word plus action."
+        }
+      ]
+    },
+    {
+      "focus": "Sequence words",
+      "review": "Primero and después organize routines without complex grammar. Key words: primero, después, luego, también, al final, antes. Model: Primero desayuno; después estudio. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for putting actions in order, and read them aloud twice. Use “Primero desayuno; después estudio.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle putting actions in order. Example: Luego camino a la clase."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: primero, después, luego, también, al final.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Luego camino a la clase. Al final descanso."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Luego camino a la clase.\" I would listen for sequence words."
+        }
+      ]
+    },
+    {
+      "focus": "Questions about routines",
+      "review": "Routine questions create useful conversation quickly. Key words: ¿qué?, ¿cuándo?, ¿dónde?, ¿con quién?, trabajas, estudias. Model: ¿Cuándo estudias español? Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for interviewing a partner about a day, and read them aloud twice. Use “¿Cuándo estudias español?” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle interviewing a partner about a day. Example: ¿Dónde trabajas?"
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: ¿qué?, ¿cuándo?, ¿dónde?, ¿con quién?, trabajas.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Dónde trabajas? ¿Con quién caminas?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Dónde trabajas?\" I would listen for question words and verb forms."
+        }
+      ]
+    },
+    {
+      "focus": "Daily routine paragraph",
+      "review": "A clear routine paragraph uses yo forms, time, frequency, and sequence. Key words: me levanto, estudio, trabajo, camino, cocino, descanso. Model: Me levanto temprano y estudio español. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for summarizing a normal day, and read them aloud twice. Use “Me levanto temprano y estudio español.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle summarizing a normal day. Example: Después trabajo y camino a casa."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me levanto, estudio, trabajo, camino, cocino.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Después trabajo y camino a casa. Por la noche cocino y descanso."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Después trabajo y camino a casa.\" I would listen for ordered present-tense actions."
+        }
+      ]
+    }
+  ]
+}

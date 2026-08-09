@@ -1,0 +1,268 @@
+{
+  "id": "weather-clothes",
+  "title": "Weather & Clothes",
+  "order": 9,
+  "lesson": "weather-clothes.html",
+  "days": [
+    {
+      "focus": "Basic weather",
+      "review": "Weather phrases often use hace for conditions. Key words: hace calor, hace frío, hace sol, llueve, nieva, viento. Model: Hace calor hoy. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing today's weather, and read them aloud twice. Use “Hace calor hoy.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing today's weather. Example: Llueve en la tarde."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hace calor, hace frío, hace sol, llueve, nieva.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Llueve en la tarde. Hace viento en mi ciudad."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Llueve en la tarde.\" I would listen for weather phrase and time."
+        }
+      ]
+    },
+    {
+      "focus": "Seasons",
+      "review": "Seasons help you talk about patterns, clothes, and plans. Key words: primavera, verano, otoño, invierno, temporada, clima. Model: En verano hace calor. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing seasons where you live, and read them aloud twice. Use “En verano hace calor.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing seasons where you live. Example: El invierno es frío."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: primavera, verano, otoño, invierno, temporada.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "El invierno es frío. Me gusta la primavera."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"El invierno es frío.\" I would listen for season and weather."
+        }
+      ]
+    },
+    {
+      "focus": "Clothes basics",
+      "review": "Clothing words connect to weather and shopping. Key words: camisa, pantalón, vestido, zapatos, chaqueta, sombrero. Model: Uso una chaqueta hoy. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing what you wear, and read them aloud twice. Use “Uso una chaqueta hoy.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing what you wear. Example: Mis zapatos son negros."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: camisa, pantalón, vestido, zapatos, chaqueta.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mis zapatos son negros. La camisa es blanca."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mis zapatos son negros.\" I would listen for clothing noun and color."
+        }
+      ]
+    },
+    {
+      "focus": "More colors",
+      "review": "Colors after nouns make descriptions flexible. Key words: gris, marrón, rosado, morado, naranja, claro. Model: Tengo una camisa gris. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing clothes by color, and read them aloud twice. Use “Tengo una camisa gris.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing clothes by color. Example: La chaqueta morada es bonita."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: gris, marrón, rosado, morado, naranja.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "La chaqueta morada es bonita. Uso zapatos marrones."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"La chaqueta morada es bonita.\" I would listen for noun-color agreement."
+        }
+      ]
+    },
+    {
+      "focus": "Llevar / usar",
+      "review": "In Latin America, usar is common for wearing; llevar also works. Key words: uso, usas, usa, llevo, llevas, lleva. Model: Uso una chaqueta azul. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying what someone is wearing, and read them aloud twice. Use “Uso una chaqueta azul.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying what someone is wearing. Example: Ella lleva un vestido rojo."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: uso, usas, usa, llevo, llevas.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Ella lleva un vestido rojo. ¿Usas sombrero?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Ella lleva un vestido rojo.\" I would listen for wearing verb plus clothing."
+        }
+      ]
+    },
+    {
+      "focus": "Clothes for weather",
+      "review": "Choose clothes with para when explaining purpose. Key words: para, frío, calor, lluvia, sol, cómodo. Model: Uso chaqueta para el frío. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for matching clothes to weather, and read them aloud twice. Use “Uso chaqueta para el frío.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle matching clothes to weather. Example: Necesito sombrero para el sol."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: para, frío, calor, lluvia, sol.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Necesito sombrero para el sol. Estos zapatos son cómodos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Necesito sombrero para el sol.\" I would listen for reason words like para."
+        }
+      ]
+    },
+    {
+      "focus": "Weather opinions",
+      "review": "Opinion phrases make weather talk conversational. Key words: me gusta, no me gusta, prefiero, porque, bonito, feo. Model: Me gusta el sol porque es bonito. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for sharing a weather preference, and read them aloud twice. Use “Me gusta el sol porque es bonito.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle sharing a weather preference. Example: No me gusta la lluvia."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me gusta, no me gusta, prefiero, porque, bonito.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "No me gusta la lluvia. Prefiero el clima frío."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"No me gusta la lluvia.\" I would listen for opinion plus reason."
+        }
+      ]
+    },
+    {
+      "focus": "Sizes",
+      "review": "Sizes are important for clothes shopping. Key words: talla, pequeña, mediana, grande, corto, largo. Model: Necesito una talla mediana. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for asking for size, and read them aloud twice. Use “Necesito una talla mediana.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle asking for size. Example: El pantalón es largo."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: talla, pequeña, mediana, grande, corto.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "El pantalón es largo. La camisa es pequeña."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"El pantalón es largo.\" I would listen for size adjective."
+        }
+      ]
+    },
+    {
+      "focus": "Packing clothes",
+      "review": "Packing verbs prepare travel and daily plans. Key words: empacar, lavar, poner, necesitar, maleta, ropa. Model: Necesito empacar ropa. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for preparing clothes for a day or trip, and read them aloud twice. Use “Necesito empacar ropa.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle preparing clothes for a day or trip. Example: Lavo mi camisa blanca."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: empacar, lavar, poner, necesitar, maleta.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Lavo mi camisa blanca. Pongo zapatos en la maleta."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Lavo mi camisa blanca.\" I would listen for verb plus clothing."
+        }
+      ]
+    },
+    {
+      "focus": "Mini forecast",
+      "review": "A forecast combines weather, season, clothing, and advice. Key words: hoy, mañana, clima, usa, necesitas, chaqueta. Model: Hoy hace frío; necesitas chaqueta. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for giving a simple forecast, and read them aloud twice. Use “Hoy hace frío; necesitas chaqueta.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle giving a simple forecast. Example: Mañana llueve en la mañana."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hoy, mañana, clima, usa, necesitas.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mañana llueve en la mañana. Usa zapatos cómodos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mañana llueve en la mañana.\" I would listen for weather and clothing advice."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "likes-hobbies",
+  "title": "Likes & Hobbies (gustar)",
+  "order": 10,
+  "lesson": "likes-hobbies.html",
+  "days": [
+    {
+      "focus": "Gustar singular",
+      "review": "Me gusta often means one thing pleases me. Key words: me gusta, te gusta, le gusta, el libro, la música, la comida. Model: Me gusta la música. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying one preference, and read them aloud twice. Use “Me gusta la música.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying one preference. Example: ¿Te gusta el libro?"
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me gusta, te gusta, le gusta, el libro, la música.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Te gusta el libro? A ella le gusta la comida."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Te gusta el libro?\" I would listen for gustar plus singular noun."
+        }
+      ]
+    },
+    {
+      "focus": "Gustar plural",
+      "review": "Use gustan when plural things are pleasing. Key words: me gustan, te gustan, le gustan, los libros, las películas, los tacos. Model: Me gustan los libros. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for talking about several liked things, and read them aloud twice. Use “Me gustan los libros.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle talking about several liked things. Example: ¿Te gustan las películas?"
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me gustan, te gustan, le gustan, los libros, las películas.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "¿Te gustan las películas? A él le gustan los tacos."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"¿Te gustan las películas?\" I would listen for gustan plus plural noun."
+        }
+      ]
+    },
+    {
+      "focus": "Encantar and interesar",
+      "review": "Encantar is stronger than gustar; interesar shows interest. Key words: me encanta, me interesa, te encanta, le interesa, mucho, poco. Model: Me encanta la música. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for ranking interests, and read them aloud twice. Use “Me encanta la música.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle ranking interests. Example: Me interesa la historia."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me encanta, me interesa, te encanta, le interesa, mucho.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Me interesa la historia. ¿Te encanta bailar?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Me interesa la historia.\" I would listen for strong or mild preference."
+        }
+      ]
+    },
+    {
+      "focus": "Music and dance",
+      "review": "Hobby nouns and verbs make preferences personal. Key words: música, canción, bailar, cantar, guitarra, ritmo. Model: Me gusta bailar salsa. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for talking about music hobbies, and read them aloud twice. Use “Me gusta bailar salsa.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle talking about music hobbies. Example: Canto una canción en español."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: música, canción, bailar, cantar, guitarra.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Canto una canción en español. Me interesa la guitarra."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Canto una canción en español.\" I would listen for hobby word plus preference."
+        }
+      ]
+    },
+    {
+      "focus": "Sports",
+      "review": "Sports often use jugar a or practicar. Key words: fútbol, béisbol, baloncesto, correr, nadar, equipo. Model: Me gusta jugar al fútbol. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for talking about sports, and read them aloud twice. Use “Me gusta jugar al fútbol.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle talking about sports. Example: Practico natación los sábados."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: fútbol, béisbol, baloncesto, correr, nadar.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Practico natación los sábados. Mi equipo es bueno."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Practico natación los sábados.\" I would listen for sport and activity verb."
+        }
+      ]
+    },
+    {
+      "focus": "Free time",
+      "review": "Tiempo libre phrases help you talk about normal life. Key words: tiempo libre, leer, ver, caminar, descansar, salir. Model: En mi tiempo libre leo. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing free-time habits, and read them aloud twice. Use “En mi tiempo libre leo.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing free-time habits. Example: Me gusta salir con amigos."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: tiempo libre, leer, ver, caminar, descansar.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Me gusta salir con amigos. A veces descanso en casa."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Me gusta salir con amigos.\" I would listen for free-time verb."
+        }
+      ]
+    },
+    {
+      "focus": "También / tampoco",
+      "review": "También agrees with a positive idea; tampoco agrees with a negative idea. Key words: también, tampoco, sí, no, igual, diferente. Model: Me gusta el café también. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for agreeing or disagreeing about likes, and read them aloud twice. Use “Me gusta el café también.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle agreeing or disagreeing about likes. Example: No me gusta correr tampoco."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: también, tampoco, sí, no, igual.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "No me gusta correr tampoco. Mi gusto es diferente."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"No me gusta correr tampoco.\" I would listen for también or tampoco."
+        }
+      ]
+    },
+    {
+      "focus": "Reasons with porque",
+      "review": "Porque gives a simple reason for a preference. Key words: porque, divertido, aburrido, fácil, difícil, relajante. Model: Me gusta nadar porque es relajante. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for giving reasons for likes, and read them aloud twice. Use “Me gusta nadar porque es relajante.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle giving reasons for likes. Example: No me gusta correr porque es difícil."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: porque, divertido, aburrido, fácil, difícil.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "No me gusta correr porque es difícil. La música es divertida."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"No me gusta correr porque es difícil.\" I would listen for porque plus adjective."
+        }
+      ]
+    },
+    {
+      "focus": "Invitations and hobbies",
+      "review": "Hobby invitations combine querer, ir, and activity verbs. Key words: ¿quieres?, vamos, jugar, bailar, ver, conmigo. Model: ¿Quieres bailar conmigo? Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for inviting someone to do a hobby, and read them aloud twice. Use “¿Quieres bailar conmigo?” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle inviting someone to do a hobby. Example: Vamos a ver una película."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: ¿quieres?, vamos, jugar, bailar, ver.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vamos a ver una película. Quiero jugar fútbol hoy."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vamos a ver una película.\" I would listen for invitation and activity."
+        }
+      ]
+    },
+    {
+      "focus": "Preference summary",
+      "review": "A preference summary compares likes, dislikes, hobbies, and reasons. Key words: me gusta, me gustan, no me gusta, prefiero, porque, tiempo libre. Model: Me gustan los deportes, pero prefiero música. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for summarizing personal hobbies, and read them aloud twice. Use “Me gustan los deportes, pero prefiero música.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle summarizing personal hobbies. Example: No me gusta correr porque es difícil."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me gusta, me gustan, no me gusta, prefiero, porque.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "No me gusta correr porque es difícil. En mi tiempo libre leo."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"No me gusta correr porque es difícil.\" I would listen for several preferences with reasons."
+        }
+      ]
+    }
+  ]
+}

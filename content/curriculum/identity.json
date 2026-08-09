@@ -1,0 +1,268 @@
+{
+  "id": "identity",
+  "title": "Who I Am",
+  "order": 2,
+  "lesson": "identity.html",
+  "days": [
+    {
+      "focus": "Soy / I am",
+      "review": "Soy identifies you in a stable way: name, role, origin, or description. Key words: soy, no soy, persona, estudiante, amigo, amiga. Model: Soy estudiante. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying two facts about yourself, and read them aloud twice. Use “Soy estudiante.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying two facts about yourself. Example: Soy Ana. No soy maestra."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: soy, no soy, persona, estudiante, amigo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Soy Ana. No soy maestra. Soy una persona tranquila."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Soy Ana. No soy maestra.\" I would listen for identity words such as estudiante or amiga."
+        }
+      ]
+    },
+    {
+      "focus": "Ser: eres / es",
+      "review": "Ser changes with the person: soy, eres, es. Key words: soy, eres, es, alto, bajo, interesante. Model: Tú eres amable. Ella es alta. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing yourself and another person, and read them aloud twice. Use “Tú eres amable. Ella es alta.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing yourself and another person. Example: Yo soy bajo y amable."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: soy, eres, es, alto, bajo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Yo soy bajo y amable. El libro es interesante."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Yo soy bajo y amable.\" I would listen for the verb form that matches the person."
+        }
+      ]
+    },
+    {
+      "focus": "Nationalities",
+      "review": "Nationalities are adjectives and often change for gender. Key words: mexicano, mexicana, colombiano, peruana, chileno, estadounidense. Model: Soy mexicana. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for saying where people are from broadly, and read them aloud twice. Use “Soy mexicana.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle saying where people are from broadly. Example: Mi amigo es colombiano."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: mexicano, mexicana, colombiano, peruana, chileno.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mi amigo es colombiano. Ella es estadounidense."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mi amigo es colombiano.\" I would listen for country or nationality words."
+        }
+      ]
+    },
+    {
+      "focus": "Languages",
+      "review": "Hablo names languages you speak; estudio names what you are learning. Key words: hablo, inglés, español, estudio, aprendo, idioma. Model: Hablo inglés y estudio español. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for explaining your language background, and read them aloud twice. Use “Hablo inglés y estudio español.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle explaining your language background. Example: Aprendo español todos los días."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: hablo, inglés, español, estudio, aprendo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Aprendo español todos los días. Ella habla dos idiomas."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Aprendo español todos los días.\" I would listen for language names and verbs like hablo."
+        }
+      ]
+    },
+    {
+      "focus": "Professions and roles",
+      "review": "Use soy with jobs and roles, usually without un/una for professions. Key words: maestro, maestra, doctor, doctora, trabajador, artista. Model: Soy doctora. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for naming jobs in your family or community, and read them aloud twice. Use “Soy doctora.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle naming jobs in your family or community. Example: Mi hermano es maestro."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: maestro, maestra, doctor, doctora, trabajador.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mi hermano es maestro. Ella es artista."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mi hermano es maestro.\" I would listen for a role or profession."
+        }
+      ]
+    },
+    {
+      "focus": "Age with tener",
+      "review": "Spanish uses tener for age: tengo veinte años. Key words: tengo, tienes, años, joven, mayor, veinte. Model: Tengo veinte años. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for sharing or asking age politely, and read them aloud twice. Use “Tengo veinte años.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle sharing or asking age politely. Example: Mi amigo tiene veintiún años."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: tengo, tienes, años, joven, mayor.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mi amigo tiene veintiún años. ¿Cuántos años tienes?"
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mi amigo tiene veintiún años.\" I would listen for a number plus años."
+        }
+      ]
+    },
+    {
+      "focus": "Origin and home",
+      "review": "Soy de gives origin; vivo en gives current home. Key words: soy de, vivo en, ciudad, país, barrio, cerca. Model: Soy de México y vivo en Chicago. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for introducing where you are from and live, and read them aloud twice. Use “Soy de México y vivo en Chicago.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle introducing where you are from and live. Example: Vivo cerca de mi familia."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: soy de, vivo en, ciudad, país, barrio.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Vivo cerca de mi familia. Mi ciudad es grande."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Vivo cerca de mi familia.\" I would listen for a place name or location phrase."
+        }
+      ]
+    },
+    {
+      "focus": "Personal adjectives",
+      "review": "Adjectives describe people and usually match gender and number. Key words: simpático, simpática, serio, seria, inteligente, paciente. Model: Soy una persona paciente. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for describing personality, and read them aloud twice. Use “Soy una persona paciente.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 12
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle describing personality. Example: Mi amiga es simpática."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: simpático, simpática, serio, seria, inteligente.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Mi amiga es simpática. Él es serio e inteligente."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Mi amiga es simpática.\" I would listen for adjective endings and clear meaning."
+        }
+      ]
+    },
+    {
+      "focus": "Gender and number",
+      "review": "Many adjectives change: amigo alto, amigas altas. Key words: alto, alta, altos, altas, pequeño, grandes. Model: Las amigas son altas. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for making nouns and adjectives agree, and read them aloud twice. Use “Las amigas son altas.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 14
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle making nouns and adjectives agree. Example: El perro es pequeño."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: alto, alta, altos, altas, pequeño.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "El perro es pequeño. Mis hermanos son grandes."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"El perro es pequeño.\" I would listen for matching singular/plural and masculine/feminine."
+        }
+      ]
+    },
+    {
+      "focus": "Identity paragraph",
+      "review": "A short identity paragraph combines name, origin, language, role, and adjective. Key words: me llamo, soy, vivo, hablo, tengo, persona. Model: Me llamo Ana. Soy estudiante y vivo en Lima. Latin American Spanish uses tú/usted; no vosotros. Use comprehensible input first, then retrieval: understand, cover, and rebuild from memory.",
+      "task": {
+        "do": "Take one quick look, then cover the list. Say the target words aloud from memory, write 6 Spanish lines for writing a simple profile, and read them aloud twice. Use “Me llamo Ana. Soy estudiante y vivo en Lima.” at least twice; keep it simple and Latin American.",
+        "capture": "Write your 6 lines, mark the hardest word, and add one English note about what you could say faster tomorrow.",
+        "minutes": 10
+      },
+      "check": [
+        {
+          "q": "In English, what can today's model help you do? Include one Spanish example.",
+          "rubric": "correct: clearly explains the communication goal and gives a relevant Spanish example; mostly_correct: goal is clear but the Spanish has minor errors; incorrect: no clear goal, no Spanish example, or meaning is unrelated.",
+          "exemplar": "It helps me handle writing a simple profile. Example: Hablo inglés y aprendo español."
+        },
+        {
+          "q": "Write two new Spanish lines using at least three of these target words: me llamo, soy, vivo, hablo, tengo.",
+          "rubric": "correct: two understandable Spanish lines use at least three target words; mostly_correct: one line is strong or minor agreement/spelling errors remain; incorrect: mostly English, copied only, or target words are missing.",
+          "exemplar": "Hablo inglés y aprendo español. Soy una persona amable."
+        },
+        {
+          "q": "For a real conversation, what would you say first, and what would you listen for in the reply?",
+          "rubric": "correct: gives a practical Spanish first line and a realistic listening target; mostly_correct: one part is specific and the other is vague; incorrect: answer does not prepare for an actual exchange.",
+          "exemplar": "I would say: \"Hablo inglés y aprendo español.\" I would listen for several identity facts in order."
+        }
+      ]
+    }
+  ]
+}

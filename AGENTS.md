@@ -78,3 +78,39 @@ files in `output/` (they're overwritten on every build).
 - If `inputs/videos.txt` is empty or `website-spec.md` is still the template,
 prompt the user to fill them in before building.
 
+## Cursor Cloud specific instructions
+
+This repo is a deterministic Python static-site generator (Python 3.12 here). The
+README/scripts say `py`, which is the Windows launcher and does **not** exist on
+Linux — use `python3` instead.
+
+### Build & run the site (local dev)
+
+Run from the repo root, in order:
+
+- `python3 scripts/build_curriculum.py` — regenerates `assets/curriculum.js` from
+  `content/curriculum/*.json`. Only needed when curriculum JSON changes, but it's
+  cheap and safe to always run before a build.
+- `python3 scripts/build_site.py` — renders `content/pages/*.md` + `config/site.config.yaml`
+  into `output/`. Never hand-edit `output/` (it's wiped and regenerated each build).
+- `python3 scripts/serve_site.py --port 8123` — serves `output/` on `0.0.0.0:8123`
+  (long-running; start it in a background/tmux session). It requires `output/` to
+  already exist, so build first. `http://127.0.0.1:8123/` is the local URL.
+
+There is no lint/test suite in this repo; "checking" a change means rebuilding and
+loading the pages. `output/` and `content/transcripts/` are gitignored generated
+artifacts; `assets/curriculum.js` is generated but committed.
+
+### Practice app + external services (usually out of scope for local dev)
+
+`practice.html` (the "Practice" app) runs fully client-side and saves progress to
+`localStorage`, so the daily-session flow (concept cue → task → checks) works
+locally without any backend. The final **"Submit for AI grading"** step calls an
+Appwrite Cloud function (config in `assets/appwrite-config.js`) and requires
+sign-in, so grading will not work from `localhost` without a live Appwrite project
+whose allowed web platforms include this origin. These require external
+credentials/network and are not needed to develop or preview the site:
+
+- `scripts/fetch_transcripts.py` — hits YouTube (network) to populate `content/transcripts/`.
+- `scripts/deploy_grade_function.py`, `scripts/add_appwrite_platforms.py`, `functions/grade-check/` — Appwrite/Groq deployment; need `APPWRITE_*` / Groq secrets.
+

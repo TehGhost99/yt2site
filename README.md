@@ -42,6 +42,31 @@ python3 scripts/build_site.py
 python3 scripts/serve_site.py
 ```
 
+## Update the live site (LearnSpanishForAll)
+
+The public site is **https://tehghost99.github.io/LearnSpanishForAll/**  
+(Pages builds from that repo’s `main` → `gh-pages` via Actions.)
+
+From this repo on your PC (logged into GitHub as TehGhost99):
+
+```powershell
+.\scripts\publish-to-learn-spanish.ps1
+```
+
+Or double-click `publish-learn-spanish.bat`. That cherry-picks the Practice updates onto `LearnSpanishForAll` `main` and pushes (Actions redeploys).
+
+### Redeploy the Appwrite AI function
+
+After changing `functions/grade-check` (or rotating `GROQ_API_KEY`):
+
+```powershell
+$env:APPWRITE_API_KEY = "standard_..."
+$env:GROQ_API_KEY = "gsk_..."
+py scripts/deploy_grade_function.py
+```
+
+Run that from a checkout that has the latest function code (LearnSpanishForAll after publish, or this branch).
+
 ## Practice features
 
 - 15 subjects × 10 days = **150** sessions

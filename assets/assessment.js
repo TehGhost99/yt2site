@@ -259,7 +259,7 @@
     if (!ranked.length) {
       kids.push(el("div", { class: "sa-result" }, [
         el("h3", { text: "Recommended starting point" }),
-        el("p", { text: "Begin with How Learning Really Works, then continue through Learning Materials in order." }),
+        el("p", { text: "Begin with How Learning Really Works if you want a default path — or jump to any lesson or Practice session." }),
         el("a", { class: "sa-btn sa-btn-primary", href: "the-science.html", text: "Start the first lesson →" }),
         el("a", { class: "sa-btn sa-btn-ghost", href: "practice.html", text: "Open Practice" })
       ]));
@@ -282,8 +282,8 @@
           el("ul", { class: "sa-link-list" }, links),
           el("a", {
             class: "sa-btn " + (idx === 0 ? "sa-btn-primary" : "sa-btn-ghost"),
-            href: "practice.html",
-            text: idx === 0 ? "Practice this area daily →" : "Open Practice"
+            href: "practice.html#subject-" + g.practice,
+            text: idx === 0 ? "Practice this area →" : "Open these sessions"
           })
         ]));
       });

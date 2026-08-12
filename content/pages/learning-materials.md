@@ -9,8 +9,14 @@ summary: The core of the course — twelve lessons in chronological order, from 
 # Learning Materials
 
 This is the heart of the course: a step-by-step path distilled from Dr. Justin
-Sung's videos (see [Sources](sources.html)). The lessons are in **chronological
-learning order** — each builds on the last. Work through them in sequence.
+Sung's videos (see [Sources](sources.html)). Lessons are listed in a
+**suggested chronological order** — each builds on the last if you want a
+default path. You can open any lesson at any time; you are not stuck on one
+concept before the next.
+
+When you are ready to practice, the **[Practice app](practice.html)** lets you
+start any session in any subject and shows a calendar of the days you actually
+spent learning.
 
 ## Part 1 — Get the foundations right
 
@@ -55,4 +61,5 @@ learning order** — each builds on the last. Work through them in sequence.
 ---
 
 New here? Start with **[Getting Started](getting-started.html)** to find where you
-are now. When you finish, check the **[Sources](sources.html)**.
+are now. Jump into **[Practice](practice.html)** for any session, any day. When
+you finish, check the **[Sources](sources.html)**.

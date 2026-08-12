@@ -58,7 +58,7 @@
   /* ---------------- state ---------------- */
 
   function newState() {
-    return { startedAt: null, completedDays: [], log: {}, updatedAt: 0 };
+    return { startedAt: null, completedDays: [], log: {}, dates: {}, updatedAt: 0 };
   }
 
   function loadLocal() {
@@ -71,6 +71,7 @@
   }
 
   var state = loadLocal() || newState();
+  backfillPracticeDates();
 
   function mergeStates(a, b) {
     var days = {};
@@ -91,6 +92,21 @@
     merged.log = {};
     Object.keys(older.log || {}).forEach(function (k) { merged.log[k] = older.log[k]; });
     Object.keys(newer.log || {}).forEach(function (k) { merged.log[k] = newer.log[k]; });
+    merged.dates = {};
+    [older, newer].forEach(function (src) {
+      Object.keys(src.dates || {}).forEach(function (key) {
+        if (!merged.dates[key]) merged.dates[key] = [];
+        var seen = {};
+        merged.dates[key].forEach(function (n) { seen[n] = true; });
+        (src.dates[key] || []).forEach(function (n) {
+          n = Number(n);
+          if (isFinite(n) && !seen[n]) {
+            seen[n] = true;
+            merged.dates[key].push(n);
+          }
+        });
+      });
+    });
     merged.updatedAt = Math.max(a.updatedAt || 0, b.updatedAt || 0);
     return merged;
   }
@@ -142,6 +158,7 @@
         try { remote = JSON.parse(row.data); } catch (e) { remote = null; }
         if (remote) {
           state = mergeStates(state, remote);
+          backfillPracticeDates();
           try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
         }
         syncMsg = "Progress synced.";
@@ -215,13 +232,66 @@
   }
 
   function currentDay() {
-    // First incomplete day in plan order (handles gaps if any).
+    // Suggested next: first incomplete day in plan order (gaps allowed).
     var done = {};
     (state.completedDays || []).forEach(function (d) { done[d] = true; });
     for (var i = 1; i <= GOAL; i++) {
       if (!done[i]) return i;
     }
     return GOAL + 1;
+  }
+
+  function backfillPracticeDates() {
+    if (!state.dates) state.dates = {};
+    Object.keys(state.log || {}).forEach(function (k) {
+      var entry = state.log[k];
+      if (!entry || !entry.date) return;
+      var n = Number(k);
+      if (!isFinite(n)) return;
+      recordPracticeDate(entry.date, n, true);
+    });
+  }
+
+  function recordPracticeDate(dateKey, dayNumber, skipSort) {
+    if (!dateKey || !isFinite(dayNumber)) return;
+    if (!state.dates) state.dates = {};
+    var list = state.dates[dateKey] || [];
+    if (list.indexOf(dayNumber) === -1) list.push(dayNumber);
+    if (!skipSort) list.sort(function (a, b) { return a - b; });
+    state.dates[dateKey] = list;
+  }
+
+  function practicedDateSet() {
+    var set = {};
+    Object.keys(state.dates || {}).forEach(function (k) {
+      if ((state.dates[k] || []).length) set[k] = true;
+    });
+    Object.keys(state.log || {}).forEach(function (k) {
+      var d = state.log[k] && state.log[k].date;
+      if (d) set[d] = true;
+    });
+    return set;
+  }
+
+  function daysPracticedCount() {
+    return Object.keys(practicedDateSet()).length;
+  }
+
+  function sessionsOnDate(dateKey) {
+    var seen = {};
+    var out = [];
+    function add(n) {
+      n = Number(n);
+      if (!isFinite(n) || seen[n]) return;
+      seen[n] = true;
+      out.push(n);
+    }
+    ((state.dates && state.dates[dateKey]) || []).forEach(add);
+    Object.keys(state.log || {}).forEach(function (k) {
+      if (state.log[k] && state.log[k].date === dateKey) add(k);
+    });
+    out.sort(function (a, b) { return a - b; });
+    return out;
   }
 
   function isDayCompleted(n) {
@@ -305,6 +375,12 @@
   /* ---------------- views ---------------- */
 
   var session = null; // active session data, null when on dashboard
+  var calView = (function () {
+    var now = new Date();
+    return { year: now.getFullYear(), month: now.getMonth() };
+  })();
+  var calSelected = null; // YYYY-MM-DD or null
+  var hashApplied = false;
 
   function render() {
     root.innerHTML = "";
@@ -326,11 +402,12 @@
     var header = el("div", { class: "pa-card pa-dash" }, [
       el("div", { class: "pa-dash-top" }, [
         el("div", {}, [
-          el("div", { class: "pa-kicker", text: done >= GOAL ? "Plan complete" : "Day " + day + " of " + GOAL }),
+          el("div", { class: "pa-kicker", text: done >= GOAL ? "Plan complete" : "Suggested next · Day " + day + " of " + GOAL }),
           el("div", { class: "pa-big", text: done >= GOAL ? "You did it." : (dayEntry(day) ? dayEntry(day).subject.title : "") })
         ]),
         el("div", { class: "pa-stats" }, [
           stat(done, "sessions done"),
+          stat(daysPracticedCount(), "days practiced"),
           stat(streak(), "day streak")
         ])
       ]),
@@ -342,29 +419,31 @@
 
     if (done >= GOAL) {
       root.appendChild(el("div", { class: "pa-card pa-notice" }, [
-        el("p", { text: "All " + GOAL + " sessions are complete — every concept in the course, practiced. Keep the habit alive: open any subject below and hit Retry on a day you want to practice again." })
+        el("p", { text: "All " + GOAL + " sessions are complete — every concept in the course, practiced. Open any subject below and start or retry any day you want." })
       ]));
     } else {
       var entry = dayEntry(day);
       var alreadyToday = sessionDoneToday();
       var cta = el("div", { class: "pa-card pa-today" }, [
-        el("div", { class: "pa-kicker", text: "Today's session - about 15 minutes" }),
+        el("div", { class: "pa-kicker", text: "Suggested session · about 15 minutes" }),
         el("h3", { text: entry.day.focus }),
         el("p", { class: "pa-muted", text: entry.subject.title + " - day " + entry.subjectDay + " of " + entry.subject.days.length }),
-        el("p", { class: "pa-small pa-muted", text: "Today: do a practice task, then check what you did. Completed days can be retried from the subject list below." }),
+        el("p", { class: "pa-small pa-muted", text: "This is a suggested next step, not a lock. Jump to any subject or day below — you can mix concepts instead of finishing one at a time." }),
         el("button", {
           class: "pa-btn pa-btn-primary",
           text: alreadyToday ? "Start another session (Day " + day + ")" : "Start Day " + day,
-          onclick: function () { startSession(); }
+          onclick: function () { startSession(day); }
         }),
         alreadyToday
-          ? el("p", { class: "pa-muted pa-small", text: "You already finished a session today. Doing another advances the plan; or retry an earlier day below without advancing." })
+          ? el("p", { class: "pa-muted pa-small", text: "You already practiced today. Another session still counts on the calendar; completed days can be retried anytime." })
           : null
       ]);
       root.appendChild(cta);
     }
 
+    root.appendChild(renderCalendar());
     root.appendChild(renderSubjectGrid());
+    applyLocationHash();
   }
 
   function stat(value, label) {
@@ -381,6 +460,175 @@
     });
   }
 
+  function monthLabel(year, month) {
+    return new Date(year, month, 1).toLocaleString(undefined, { month: "long", year: "numeric" });
+  }
+
+  function dateKeyFromParts(year, month, day) {
+    return year + "-" + String(month + 1).padStart(2, "0") + "-" + String(day).padStart(2, "0");
+  }
+
+  function renderCalendar() {
+    var practiced = practicedDateSet();
+    var year = calView.year;
+    var month = calView.month;
+    var first = new Date(year, month, 1);
+    var startWeekday = first.getDay(); // 0 = Sunday
+    var daysInMonth = new Date(year, month + 1, 0).getDate();
+    var today = todayKey();
+    var countThisMonth = 0;
+    var cells = [];
+    var i;
+    for (i = 0; i < startWeekday; i++) {
+      cells.push(el("div", { class: "pa-cal-cell pa-cal-empty", "aria-hidden": "true" }));
+    }
+    for (i = 1; i <= daysInMonth; i++) {
+      var key = dateKeyFromParts(year, month, i);
+      var did = !!practiced[key];
+      if (did) countThisMonth++;
+      var isToday = key === today;
+      var isSelected = calSelected === key;
+      var label = (did ? "Practiced on " : "No practice on ") + key;
+      var classes = "pa-cal-cell pa-cal-day";
+      if (did) classes += " pa-cal-practiced";
+      if (isToday) classes += " pa-cal-today";
+      if (isSelected) classes += " pa-cal-selected";
+      cells.push(el("button", {
+        class: classes,
+        type: "button",
+        "aria-label": label,
+        "aria-pressed": isSelected ? "true" : "false",
+        onclick: (function (dateKey) {
+          return function () {
+            calSelected = calSelected === dateKey ? null : dateKey;
+            render();
+          };
+        })(key)
+      }, [
+        el("span", { class: "pa-cal-num", text: String(i) }),
+        did ? el("span", { class: "pa-cal-dot", "aria-hidden": "true" }) : null
+      ]));
+    }
+
+    var weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map(function (d) {
+      return el("div", { class: "pa-cal-dow", text: d });
+    });
+
+    var detail = null;
+    if (calSelected) {
+      var onDay = sessionsOnDate(calSelected);
+      if (onDay.length) {
+        var items = onDay.map(function (n) {
+          var e = dayEntry(n);
+          var title = e ? (e.subject.title + " · " + (e.day.focus || ("Day " + e.subjectDay))) : ("Day " + n);
+          return el("li", {}, [
+            el("button", {
+              class: "pa-link-btn",
+              type: "button",
+              text: "Day " + n + " — " + title,
+              onclick: (function (dayN) {
+                return function () { startSession(dayN); };
+              })(n)
+            })
+          ]);
+        });
+        detail = el("div", { class: "pa-cal-detail" }, [
+          el("p", { class: "pa-cal-detail-head", text: "You practiced on " + calSelected + ":" }),
+          el("ul", { class: "pa-cal-detail-list" }, items)
+        ]);
+      } else {
+        detail = el("div", { class: "pa-cal-detail" }, [
+          el("p", { class: "pa-muted pa-small", text: "No practice recorded on " + calSelected + "." })
+        ]);
+      }
+    }
+
+    return el("div", { class: "pa-card pa-cal" }, [
+      el("div", { class: "pa-cal-head" }, [
+        el("div", {}, [
+          el("div", { class: "pa-kicker", text: "Learning calendar" }),
+          el("h2", { class: "pa-section-title", text: "Days you actually practiced" })
+        ]),
+        el("div", { class: "pa-cal-nav" }, [
+          el("button", {
+            class: "pa-btn pa-btn-ghost pa-btn-small",
+            type: "button",
+            text: "Previous",
+            "aria-label": "Previous month",
+            onclick: function () {
+              calView.month -= 1;
+              if (calView.month < 0) { calView.month = 11; calView.year -= 1; }
+              render();
+            }
+          }),
+          el("div", { class: "pa-cal-month", text: monthLabel(year, month) }),
+          el("button", {
+            class: "pa-btn pa-btn-ghost pa-btn-small",
+            type: "button",
+            text: "Next",
+            "aria-label": "Next month",
+            onclick: function () {
+              calView.month += 1;
+              if (calView.month > 11) { calView.month = 0; calView.year += 1; }
+              render();
+            }
+          })
+        ])
+      ]),
+      el("p", {
+        class: "pa-muted pa-small",
+        text: daysPracticedCount()
+          ? ("Highlighted days are calendar dates you completed a session. " +
+             countThisMonth + " day" + (countThisMonth === 1 ? "" : "s") + " this month.")
+          : "Complete any session and that calendar day lights up here — so you can see when you actually showed up."
+      }),
+      el("div", { class: "pa-cal-weekdays" }, weekdays),
+      el("div", { class: "pa-cal-grid" }, cells),
+      el("div", { class: "pa-cal-legend" }, [
+        el("span", { class: "pa-cal-legend-item" }, [
+          el("span", { class: "pa-cal-swatch pa-cal-practiced" }),
+          el("span", { text: "Practiced" })
+        ]),
+        el("span", { class: "pa-cal-legend-item" }, [
+          el("span", { class: "pa-cal-swatch pa-cal-today" }),
+          el("span", { text: "Today" })
+        ])
+      ]),
+      detail
+    ]);
+  }
+
+  function applyLocationHash() {
+    if (hashApplied) return;
+    var h = (location.hash || "").replace(/^#/, "");
+    if (!h) {
+      hashApplied = true;
+      return;
+    }
+    var dayMatch = /^day-(\d+)$/.exec(h);
+    if (dayMatch) {
+      var n = Number(dayMatch[1]);
+      var row = document.getElementById("pa-day-" + n);
+      if (row) {
+        var details = row.closest("details");
+        if (details) details.open = true;
+        row.classList.add("pa-day-jump");
+        row.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      hashApplied = true;
+      return;
+    }
+    var subMatch = /^subject-(.+)$/.exec(h);
+    if (subMatch) {
+      var panel = document.getElementById("pa-subject-" + subMatch[1]);
+      if (panel) {
+        panel.open = true;
+        panel.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+    hashApplied = true;
+  }
+
   function renderSubjectGrid() {
     var offset = 0;
     var next = currentDay();
@@ -392,7 +640,7 @@
       }).length;
       var isCurrent = next >= startDay && next <= endDay && next <= GOAL;
       var isComplete = doneInSubject === s.days.length;
-      var statusLabel = isComplete ? "Complete" : (isCurrent ? "Current" : (doneInSubject ? "In progress" : "Upcoming"));
+      var statusLabel = isComplete ? "Complete" : (isCurrent ? "Suggested" : (doneInSubject ? "In progress" : "Open"));
       var statusClass = isComplete ? "pa-status-done" : (isCurrent ? "pa-status-current" : (doneInSubject ? "pa-status-progress" : "pa-status-upcoming"));
 
       var dayRows = [];
@@ -404,28 +652,20 @@
         var statusPill = completed
           ? el("span", { class: "pa-pill pa-pill-done", text: "Done" })
           : (isNext
-            ? el("span", { class: "pa-pill pa-pill-next", text: "Up next" })
-            : el("span", { class: "pa-pill pa-pill-locked", text: "Locked" }));
+            ? el("span", { class: "pa-pill pa-pill-next", text: "Suggested" })
+            : el("span", { class: "pa-pill pa-pill-open", text: "Open" }));
 
-        var action = null;
-        if (completed) {
-          action = el("button", {
-            class: "pa-btn pa-btn-ghost pa-btn-small",
-            text: "Retry day",
-            onclick: (function (d) {
-              return function () { startSession(d, { retry: true }); };
-            })(globalDay)
-          });
-        } else if (isNext) {
-          action = el("button", {
-            class: "pa-btn pa-btn-primary pa-btn-small",
-            text: "Start day",
-            onclick: function () { startSession(); }
-          });
-        }
+        var action = el("button", {
+          class: "pa-btn " + (isNext && !completed ? "pa-btn-primary" : "pa-btn-ghost") + " pa-btn-small",
+          text: completed ? "Retry day" : "Start day",
+          onclick: (function (d, doneAlready) {
+            return function () { startSession(d, { retry: doneAlready }); };
+          })(globalDay, completed)
+        });
 
         dayRows.push(el("div", {
-          class: "pa-day-row" + (completed ? " pa-day-done" : "") + (isNext ? " pa-day-next" : "")
+          class: "pa-day-row" + (completed ? " pa-day-done" : "") + (isNext ? " pa-day-next" : ""),
+          id: "pa-day-" + globalDay
         }, [
           el("div", { class: "pa-day-index", text: String(i + 1).padStart(2, "0") }),
           el("div", { class: "pa-day-meta" }, [
@@ -433,7 +673,7 @@
             el("div", { class: "pa-day-sub", text: "Plan day " + globalDay + " of " + GOAL })
           ]),
           statusPill,
-          action || el("span", { class: "pa-day-spacer" })
+          action
         ]));
       }
 
@@ -463,17 +703,14 @@
           class: "pa-muted pa-small pa-accordion-hint",
           text: isComplete
             ? "All days in this subject are done. Retry any day below for spaced practice."
-            : (isCurrent
-              ? "This is your current subject. Start the highlighted day, or retry anything you've already finished."
-              : (doneInSubject
-                ? "You've started this subject. Completed days can be retried; later days unlock as you progress."
-                : "These days unlock when your plan reaches this subject."))
+            : "Every day here is open. Start any session — you do not have to finish this subject first."
         }),
         el("div", { class: "pa-day-list" }, dayRows)
       ]);
 
       var details = el("details", {
-        class: "pa-accordion" + (isCurrent ? " pa-accordion-current" : "")
+        class: "pa-accordion" + (isCurrent ? " pa-accordion-current" : ""),
+        id: "pa-subject-" + s.id
       }, [summary, body]);
       if (isCurrent) details.open = true;
 
@@ -483,8 +720,8 @@
 
     return el("div", { class: "pa-subject-panel" }, [
       el("div", { class: "pa-subject-panel-head" }, [
-        el("h2", { class: "pa-section-title", text: "Subjects & retry" }),
-        el("p", { class: "pa-muted pa-small", text: "Expand a subject to see its 10 practice days. Retry finished days anytime — your plan position stays put." })
+        el("h2", { class: "pa-section-title", text: "All sessions" }),
+        el("p", { class: "pa-muted pa-small", text: "Open any subject and start any day. Mix concepts freely — a suggested next step is highlighted if you want a default path." })
       ]),
       el("div", { class: "pa-accordion-list" }, panels)
     ]);
@@ -502,13 +739,6 @@
     var entry = dayEntry(dayNumber);
     if (!entry) return;
     var isRetry = !!opts.retry || isDayCompleted(dayNumber);
-    if (!isRetry && dayNumber !== currentDay()) {
-      // Don't allow skipping ahead.
-      dayNumber = currentDay();
-      entry = dayEntry(dayNumber);
-      isRetry = false;
-      if (!entry) return;
-    }
     var questions = (entry.day.check || []).map(function (q) { return { q: q, from: null }; })
       .concat(reviewQuestions(dayNumber));
     session = {
@@ -768,6 +998,7 @@
       retryCount: (prev.retryCount || 0) + (wasAlreadyDone || s.isRetry ? 1 : 0),
       lastWasRetry: !!(wasAlreadyDone || s.isRetry)
     };
+    recordPracticeDate(todayKey(), s.dayNumber);
     save();
     s.phase = "done";
     render();
@@ -781,13 +1012,13 @@
     var summary = tallies.correct + " correct · " + tallies.mostly_correct + " mostly · " + tallies.incorrect + " not correct";
     var msg;
     if (s.isRetry) {
-      msg = "Retry complete. Your plan is still on Day " + Math.min(next, GOAL) + " — this practice didn't change your progress.";
+      msg = "Retry complete. That calendar day is marked. Jump to any other session whenever you like.";
     } else if (next > GOAL) {
-      msg = "That was the final session of the plan. Extraordinary work. You can retry any day from the subject list.";
+      msg = "Every session in the plan is complete. Extraordinary work. You can still open any day from the subject list.";
     } else if (tallies.incorrect === 0) {
-      msg = "Solid checks. See you tomorrow for Day " + next + ".";
+      msg = "Solid checks. Suggested next is Day " + next + " — or pick any other session.";
     } else {
-      msg = "Session complete — use the feedback on the weaker answers tomorrow. Day " + next + " is next.";
+      msg = "Session complete — use the feedback on the weaker answers. Suggested next is Day " + next + ", or jump to any concept.";
     }
     root.appendChild(el("div", { class: "pa-card pa-done" }, [
       el("div", { class: "pa-done-mark", text: "\u2713" }),
@@ -796,6 +1027,13 @@
       el("p", { class: "pa-muted pa-small", text: "Current streak: " + streak() + " day" + (streak() === 1 ? "" : "s") + "." }),
       el("div", { class: "pa-auth-buttons" }, [
         el("button", { class: "pa-btn pa-btn-primary", text: "Back to overview", onclick: function () { session = null; render(); } }),
+        next <= GOAL && !s.isRetry
+          ? el("button", {
+              class: "pa-btn pa-btn-ghost",
+              text: "Start suggested Day " + next,
+              onclick: function () { startSession(next); }
+            })
+          : null,
         el("button", {
           class: "pa-btn pa-btn-ghost",
           text: "Retry this day again",
@@ -1089,4 +1327,8 @@
   }
 
   boot();
+  window.addEventListener("hashchange", function () {
+    hashApplied = false;
+    if (!session) render();
+  });
 })();

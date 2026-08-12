@@ -212,7 +212,7 @@ a:hover { text-decoration: underline; }
 /* Dashboard */
 .pa-dash-top { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-start; }
 .pa-big { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; }
-.pa-stats { display: flex; gap: 20px; }
+.pa-stats { display: flex; gap: 20px; flex-wrap: wrap; }
 .pa-stat { text-align: center; }
 .pa-stat-num { font-size: 1.6rem; font-weight: 700; color: var(--accent); line-height: 1.1; }
 .pa-stat-label { font-size: 0.78rem; color: var(--muted); }
@@ -500,9 +500,112 @@ a:hover { text-decoration: underline; }
 }
 .pa-pill-done { color: #4fc08d; border-color: rgba(79, 192, 141, 0.45); }
 .pa-pill-next { color: #0d1310; background: var(--accent); border-color: var(--accent); }
-.pa-pill-locked { opacity: 0.75; }
+.pa-pill-open { color: var(--accent); border-color: rgba(79, 157, 140, 0.45); }
 .pa-day-spacer { width: 88px; }
 .pa-btn-small { padding: 6px 12px; font-size: 0.82rem; margin-top: 0; flex-shrink: 0; min-width: 88px; }
+.pa-day-jump { box-shadow: 0 0 0 2px var(--accent); }
+
+/* Learning calendar */
+.pa-cal { margin: 8px 0 18px; }
+.pa-cal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.pa-cal .pa-section-title { margin: 4px 0 0; }
+.pa-cal-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pa-cal-month {
+  font-weight: 650;
+  min-width: 10.5rem;
+  text-align: center;
+}
+.pa-cal-weekdays,
+.pa-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+.pa-cal-weekdays { margin: 14px 0 6px; }
+.pa-cal-dow {
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 4px 0;
+}
+.pa-cal-cell {
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.pa-cal-empty { min-height: 0; }
+.pa-cal-day {
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 0;
+  background: var(--surface-2);
+  border-color: var(--border);
+}
+.pa-cal-day:hover { border-color: var(--accent); }
+.pa-cal-num { font-variant-numeric: tabular-nums; font-weight: 600; line-height: 1; }
+.pa-cal-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.pa-cal-practiced {
+  background: rgba(79, 157, 140, 0.16);
+  border-color: rgba(79, 157, 140, 0.45);
+}
+.pa-cal-today { box-shadow: 0 0 0 1px var(--accent); }
+.pa-cal-selected { border-color: var(--accent); background: rgba(79, 157, 140, 0.28); }
+.pa-cal-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.pa-cal-legend-item { display: flex; align-items: center; gap: 8px; }
+.pa-cal-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.pa-cal-swatch.pa-cal-practiced {
+  background: rgba(79, 157, 140, 0.16);
+  border-color: rgba(79, 157, 140, 0.45);
+}
+.pa-cal-swatch.pa-cal-today { box-shadow: 0 0 0 1px var(--accent); }
+.pa-cal-detail {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.pa-cal-detail-head { margin: 0 0 8px; font-weight: 600; }
+.pa-cal-detail-list { margin: 0; padding-left: 1.1rem; }
+.pa-cal-detail-list li { margin: 4px 0; }
 
 @media (max-width: 640px) {
   .pa-accordion-summary { flex-direction: column; align-items: flex-start; }
@@ -518,6 +621,8 @@ a:hover { text-decoration: underline; }
   .pa-pill { grid-area: pills; justify-self: start; }
   .pa-day-row .pa-btn, .pa-day-spacer { grid-area: action; justify-self: start; }
   .pa-day-spacer { display: none; }
+  .pa-cal-month { min-width: 0; }
+  .pa-cal-nav { width: 100%; justify-content: space-between; }
 }
 
 .pa-account { margin-top: 26px; }

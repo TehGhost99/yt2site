@@ -31,14 +31,15 @@ You don't need to be a genius. In fact, that's a core message of this course:
 ## How to use this site
 
 1. **Start with [Getting Started](getting-started.html)** — a short self-check to
-   find where you are now and what to focus on first.
-2. **Work through the [Learning Materials](learning-materials.html) in order** —
-   twelve lessons, from *how memory works* to *a study system you can keep.*
-3. **Practice daily with the [Practice app](practice.html)** — one guided
-   15-minute session a day carries you through every concept in the course in
-   about four months.
-4. **Apply one thing at a time.** Don't overhaul everything at once. Pick the next
-   technique, use it this week, then add the next.
+   find where you are now and which habits to work on.
+2. **Open any [Learning Materials](learning-materials.html) lesson** — twelve
+   lessons, from *how memory works* to *a study system you can keep.* Chronological
+   order is a suggested path, not a gate: jump to the topic you need today.
+3. **Practice in the [Practice app](practice.html)** — start any 15-minute
+   session, mix subjects, and use the calendar to see which days you actually
+   showed up.
+4. **Mix concepts when it helps.** You do not have to finish one idea before
+   touching another. Interleaving topics is part of how durable learning works.
 
 > The single biggest reason smart people study ineffectively for years: the
 > methods that *work* feel harder and slower than the ones that don't — so people

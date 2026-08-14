@@ -890,7 +890,7 @@
     kids.push(
       el("div", { class: "pa-quiz-meta", text: "Check " + (s.qIndex + 1) + " of " + s.questions.length + (item.from ? " · spaced review from " + item.from : "") }),
       el("h3", { class: "pa-question", text: q.q }),
-      el("p", { class: "pa-muted pa-small", text: "Write your answer in your own words. An open-source model (Llama via Groq) will grade it as correct, mostly correct, or not correct." })
+      el("p", { class: "pa-muted pa-small", text: "Write your answer in your own words. An open-source model (GPT-OSS via Groq) will grade it as correct, mostly correct, or not correct." })
     );
 
     var area = el("textarea", {
@@ -952,7 +952,7 @@
           return;
         }
         statusLine.className = "pa-muted pa-small";
-        statusLine.textContent = "Grading with Llama (Groq)…";
+        statusLine.textContent = "Grading with GPT-OSS (Groq)…";
         setBusy(true);
         callGradeFunction({
           question: q.q,
@@ -1089,7 +1089,7 @@
       panel.appendChild(el("p", {}, [
         document.createTextNode("Signed in as "),
         el("strong", { text: user.email || user.name || user.$id }),
-        document.createTextNode(". Progress syncs to the cloud, and written checks are graded by an open-source model (Llama via Groq).")
+        document.createTextNode(". Progress syncs to the cloud, and written checks are graded by an open-source model (GPT-OSS via Groq).")
       ]));
       panel.appendChild(el("p", { class: "pa-muted pa-small", id: "pa-sync-line", text: syncMsg }));
       panel.appendChild(el("button", {

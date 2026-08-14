@@ -1,7 +1,7 @@
 {
   "name": "grade-check",
   "version": "1.0.0",
-  "description": "Grade open-ended practice checks with Anthropic Claude",
+  "description": "Grade open-ended practice checks with an open-source model via Groq",
   "main": "src/main.js",
   "type": "module"
 }

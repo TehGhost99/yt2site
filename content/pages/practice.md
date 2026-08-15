@@ -17,7 +17,7 @@ behind earlier days.
 
 Each session has three short steps: a brief concept cue, a **real practice
 task** you perform on your own study material, then **written checks** you
-answer in your own words. An open-source model (Llama via Groq) grades each
+answer in your own words. An open-source model (GPT-OSS via Groq) grades each
 answer as correct, mostly correct, or not correct — with feedback — and you
 choose whether to retry or continue. Sign in so grading can run securely
 through Appwrite.
@@ -36,4 +36,4 @@ you can see when you actually showed up — not just which plan days are done.
 
 <script src="assets/curriculum.js?v=2"></script>
 
-<script src="assets/practice.js?v=6"></script>
+<script src="assets/practice.js?v=7"></script>
